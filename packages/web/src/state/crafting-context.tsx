@@ -33,6 +33,13 @@ import {
   initialState,
 } from "./types";
 import { createReducer, generateId } from "./reducer";
+import {
+  canApplyCurrency as canApplyCurrencyHelper,
+  getDisabledReason as getDisabledReasonHelper,
+  getModDisplayName as getModDisplayNameHelper,
+  getCurrencyName as getCurrencyNameHelper,
+  getApplicableOmens as getApplicableOmensHelper,
+} from "./helpers";
 
 // Re-export types for backwards compatibility
 export type { Position, ItemNode, CraftEdge, OutcomeOption, OutcomeModalState, GraphState } from "./types";
@@ -104,57 +111,24 @@ export function CraftingProvider({ children }: { children: ReactNode }) {
   const canApplyCurrency = (currencyId: string): boolean => {
     const selectedItem = getSelectedItem();
     if (!selectedItem) return false;
-
-    const action = actions.get(currencyId);
-    if (!action) return false;
-
-    const craftingState = new CraftingState(selectedItem.item);
-    return action.canApply(craftingState);
+    return canApplyCurrencyHelper(selectedItem.item, currencyId, actions);
   };
 
   const getDisabledReason = (currencyId: string): string | null => {
     const selectedItem = getSelectedItem();
-    if (!selectedItem) return "No item selected";
-
-    const currency = SAMPLE_CURRENCY.find((c) => c.id === currencyId);
-    if (!currency) return "Unknown currency";
-
-    const item = selectedItem.item;
-
-    if (!currency.applicableToRarity.includes(item.rarity)) {
-      const expected = currency.applicableToRarity.join(" or ");
-      return `Requires ${expected} item (current: ${item.rarity})`;
-    }
-
-    if (item.corrupted) return "Item is corrupted";
-
-    if (currency.effect === "add_affix") {
-      const prefixFull = item.prefixes.length >= item.base.affixSlots.maxPrefixes;
-      const suffixFull = item.suffixes.length >= item.base.affixSlots.maxSuffixes;
-      if (prefixFull && suffixFull) return "Item has max affixes";
-    }
-
-    if (currency.effect === "remove_affix") {
-      if (item.prefixes.length === 0 && item.suffixes.length === 0) {
-        return "Item has no affixes to remove";
-      }
-    }
-
-    return null;
+    return getDisabledReasonHelper(selectedItem?.item ?? null, currencyId, SAMPLE_CURRENCY);
   };
 
   const getModDisplayName = (modId: string): string => {
-    const mod = SAMPLE_MODIFIERS.find((m) => m.id === modId);
-    return mod?.displayName ?? modId;
+    return getModDisplayNameHelper(modId, SAMPLE_MODIFIERS);
   };
 
   const getCurrencyName = (currencyId: string): string => {
-    const currency = SAMPLE_CURRENCY.find((c) => c.id === currencyId);
-    return currency?.name ?? currencyId;
+    return getCurrencyNameHelper(currencyId, SAMPLE_CURRENCY);
   };
 
   const getApplicableOmens = (currencyId: string): Omen[] => {
-    return SAMPLE_OMENS.filter((o) => o.appliesTo.includes(currencyId));
+    return getApplicableOmensHelper(currencyId, SAMPLE_OMENS);
   };
 
   const openOutcomeModal = (itemId: string) => {
