@@ -28,20 +28,18 @@ export class ChaosOrb extends BaseCurrencyAction {
     // Group by: removed mod -> added mod type
     for (let i = 0; i < state.prefixCount; i++) {
       const afterRemoval = state.withoutPrefix(i);
-      const removedMod = state.item.prefixes[i];
       const removalProb = 1 / totalAffixes;
 
       // Get outcomes for adding a new mod after this removal
-      const addOutcomes = this.getAddOutcomesAfterRemoval(afterRemoval, removalProb, removedMod.modifierId);
+      const addOutcomes = this.getAddOutcomesAfterRemoval(afterRemoval, removalProb);
       outcomes.push(...addOutcomes);
     }
 
     for (let i = 0; i < state.suffixCount; i++) {
       const afterRemoval = state.withoutSuffix(i);
-      const removedMod = state.item.suffixes[i];
       const removalProb = 1 / totalAffixes;
 
-      const addOutcomes = this.getAddOutcomesAfterRemoval(afterRemoval, removalProb, removedMod.modifierId);
+      const addOutcomes = this.getAddOutcomesAfterRemoval(afterRemoval, removalProb);
       outcomes.push(...addOutcomes);
     }
 
@@ -50,8 +48,7 @@ export class ChaosOrb extends BaseCurrencyAction {
 
   private getAddOutcomesAfterRemoval(
     stateAfterRemoval: CraftingState,
-    removalProb: number,
-    _removedModId: string
+    removalProb: number
   ): CraftingOutcome[] {
     // Get available mods for the state after removal
     const prefixes = stateAfterRemoval.canAddPrefix

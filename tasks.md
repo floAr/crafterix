@@ -420,7 +420,7 @@ export function useGameData(): GameData;
 - [x] Task 2: Add lookup maps to ModPool
 - [x] Task 3: Fix private member access in essence
 - [x] Task 4: Remove debug logging
-- [ ] Task 5: Remove unused parameter
+- [x] Task 5: Remove unused parameter
 - [ ] Task 6: Split CraftingContext types
 - [ ] Task 7: Extract reducer
 - [ ] Task 8: Extract context helpers
