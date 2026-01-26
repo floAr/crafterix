@@ -49,9 +49,7 @@ export class UpgradingEssence extends BaseCurrencyAction {
     if (!guaranteedMod) return false;
 
     // Check if item already has this mod group
-    if (state.hasModifierGroup(guaranteedMod.group, new Map(
-      this.modPool["modifiers"].map(m => [m.id, { group: m.group }])
-    ))) {
+    if (this.modPool.hasGroupConflict(state, guaranteedMod.group)) {
       return false;
     }
 
@@ -114,9 +112,7 @@ export class PerfectEssence extends BaseCurrencyAction {
     if (!guaranteedMod) return false;
 
     // Already has this mod group
-    if (state.hasModifierGroup(guaranteedMod.group, new Map(
-      this.modPool["modifiers"].map(m => [m.id, { group: m.group }])
-    ))) {
+    if (this.modPool.hasGroupConflict(state, guaranteedMod.group)) {
       return false;
     }
 

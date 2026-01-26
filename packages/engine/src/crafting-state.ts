@@ -55,14 +55,6 @@ export class CraftingState {
     );
   }
 
-  hasModifierGroup(group: string, modifiers: Map<string, { group: string }>): boolean {
-    const allMods = [...this.item.prefixes, ...this.item.suffixes];
-    return allMods.some((m) => {
-      const mod = modifiers.get(m.modifierId);
-      return mod?.group === group;
-    });
-  }
-
   withRarity(rarity: Rarity): CraftingState {
     return new CraftingState({ ...this.item, rarity });
   }

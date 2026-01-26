@@ -418,7 +418,7 @@ export function useGameData(): GameData;
 
 - [x] Task 1: Extract mod grouping utility
 - [x] Task 2: Add lookup maps to ModPool
-- [ ] Task 3: Fix private member access in essence
+- [x] Task 3: Fix private member access in essence
 - [x] Task 4: Remove debug logging
 - [ ] Task 5: Remove unused parameter
 - [ ] Task 6: Split CraftingContext types

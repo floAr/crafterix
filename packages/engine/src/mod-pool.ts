@@ -32,6 +32,18 @@ export class ModPool {
   }
 
   /**
+   * Check if the item already has a modifier from the specified group.
+   * Useful for checking if a guaranteed mod can be added.
+   */
+  hasGroupConflict(state: CraftingState, group: string): boolean {
+    const allMods = [...state.item.prefixes, ...state.item.suffixes];
+    return allMods.some((m) => {
+      const mod = this.modifierById.get(m.modifierId);
+      return mod?.group === group;
+    });
+  }
+
+  /**
    * Get available mods for an item, filtered by type and existing mods.
    */
   getAvailableMods(
