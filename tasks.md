@@ -425,7 +425,7 @@ export function useGameData(): GameData;
 - [x] Task 7: Extract reducer
 - [x] Task 8: Extract context helpers
 - [x] Task 9: Move outcome calculation to engine
-- [ ] Task 10: Extract CurrencyButton
+- [x] Task 10: Extract CurrencyButton
 - [ ] Task 11: Extract OmenToggle
 - [ ] Task 12: Add engine tests - core
 - [ ] Task 13: Add engine tests - actions
