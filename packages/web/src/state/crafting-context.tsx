@@ -7,7 +7,7 @@ import {
   type ReactNode,
   useMemo,
 } from "react";
-import type { Currency, ItemBase, CraftedItem, Modifier, RolledModifier, Omen } from "@crafterix/data";
+import type { Omen, RolledModifier } from "@crafterix/data";
 import { ANY_PREFIX, ANY_SUFFIX } from "@crafterix/data";
 import {
   CraftingState,
@@ -17,7 +17,6 @@ import {
   SAMPLE_CURRENCY,
   SAMPLE_CORRUPTED_IMPLICITS,
   SAMPLE_OMENS,
-  type CraftingAction,
 } from "@crafterix/engine";
 import {
   saveToLocalStorage,
@@ -27,77 +26,19 @@ import {
   generateShareableUrl,
   getProjectFromUrl,
 } from "./storage";
+import {
+  type Position,
+  type ItemNode,
+  type CraftEdge,
+  type OutcomeOption,
+  type GraphState,
+  type GraphAction,
+  type CraftingContextValue,
+  initialState,
+} from "./types";
 
-// ============ Types ============
-
-export interface Position {
-  x: number;
-  y: number;
-}
-
-export interface ItemNode {
-  id: string;
-  item: CraftedItem;
-  position: Position;
-}
-
-export interface CraftEdge {
-  id: string;
-  sourceId: string;
-  targetId: string;
-  currencyId: string;
-  probability: number;
-  modAdded: RolledModifier | null;
-  modRemoved: RolledModifier | null;
-}
-
-export interface OutcomeOption {
-  id: string;
-  modAdded: RolledModifier | null;
-  modRemoved: RolledModifier | null;
-  probability: number;
-  resultingItem: CraftedItem;
-}
-
-export interface OutcomeModalState {
-  sourceItemId: string;
-  currencyId: string;
-  outcomes: OutcomeOption[];
-}
-
-export interface GraphState {
-  base: ItemBase | null;
-  items: ItemNode[];
-  edges: CraftEdge[];
-  selectedItemId: string | null;
-  selectedCurrencyId: string | null;
-  selectedOmenIds: string[];
-  outcomeModal: OutcomeModalState | null;
-}
-
-const initialState: GraphState = {
-  base: null,
-  items: [],
-  edges: [],
-  selectedItemId: null,
-  selectedCurrencyId: null,
-  selectedOmenIds: [],
-  outcomeModal: null,
-};
-
-// ============ Actions ============
-
-type GraphAction =
-  | { type: "SELECT_BASE"; base: ItemBase }
-  | { type: "SELECT_CURRENCY"; currencyId: string | null }
-  | { type: "SELECT_ITEM"; itemId: string }
-  | { type: "TOGGLE_OMEN"; omenId: string }
-  | { type: "OPEN_OUTCOME_MODAL"; outcomes: OutcomeOption[]; currencyId: string; sourceItemId: string }
-  | { type: "CLOSE_OUTCOME_MODAL" }
-  | { type: "SELECT_OUTCOME"; outcomeIndex: number }
-  | { type: "UPDATE_NODE_POSITION"; itemId: string; position: Position }
-  | { type: "RESET" }
-  | { type: "LOAD_STATE"; state: Partial<GraphState> };
+// Re-export types for backwards compatibility
+export type { Position, ItemNode, CraftEdge, OutcomeOption, OutcomeModalState, GraphState } from "./types";
 
 // ============ Helpers ============
 
@@ -245,37 +186,6 @@ function reducer(state: GraphState, action: GraphAction): GraphState {
 }
 
 // ============ Context ============
-
-interface CraftingContextValue {
-  state: GraphState;
-  items: ItemBase[];
-  currencies: Currency[];
-  modifiers: Modifier[];
-  omens: Omen[];
-  actions: Map<string, CraftingAction>;
-
-  selectBase: (base: ItemBase) => void;
-  selectCurrency: (currencyId: string | null) => void;
-  selectItem: (itemId: string) => void;
-  toggleOmen: (omenId: string) => void;
-  openOutcomeModal: (itemId: string) => void;
-  closeOutcomeModal: () => void;
-  selectOutcome: (outcomeIndex: number) => void;
-  updateNodePosition: (itemId: string, position: Position) => void;
-  reset: () => void;
-
-  // Persistence
-  exportProject: () => void;
-  importProject: (file: File) => Promise<boolean>;
-  getShareableUrl: () => string;
-
-  getSelectedItem: () => ItemNode | null;
-  canApplyCurrency: (currencyId: string) => boolean;
-  getDisabledReason: (currencyId: string) => string | null;
-  getModDisplayName: (modId: string) => string;
-  getCurrencyName: (currencyId: string) => string;
-  getApplicableOmens: (currencyId: string) => Omen[];
-}
 
 const CraftingContext = createContext<CraftingContextValue | null>(null);
 

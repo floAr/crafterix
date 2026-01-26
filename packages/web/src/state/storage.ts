@@ -1,4 +1,4 @@
-import type { GraphState, ItemNode, CraftEdge } from "./crafting-context";
+import type { GraphState, ItemNode, CraftEdge } from "./types";
 import { SAMPLE_ITEMS } from "@crafterix/engine";
 
 const STORAGE_KEY = "crafterix_project";
