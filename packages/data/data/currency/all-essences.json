@@ -1,0 +1,812 @@
+[
+  {
+    "id": "lesser_essence_of_the_body",
+    "name": "Lesser Essence of the Body",
+    "tier": "lesser",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds +Life",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_maximum_life_lesser",
+    "essenceType": "body"
+  },
+  {
+    "id": "essence_of_the_body",
+    "name": "Essence of the Body",
+    "tier": "normal",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds +Life",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_maximum_life",
+    "essenceType": "body"
+  },
+  {
+    "id": "greater_essence_of_the_body",
+    "name": "Greater Essence of the Body",
+    "tier": "greater",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds +Life",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_maximum_life_greater",
+    "essenceType": "body"
+  },
+  {
+    "id": "perfect_essence_of_the_body",
+    "name": "Perfect Essence of the Body",
+    "tier": "perfect",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds % increased maximum Life",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_increased_maximum_life",
+    "essenceType": "body"
+  },
+  {
+    "id": "lesser_essence_of_the_mind",
+    "name": "Lesser Essence of the Mind",
+    "tier": "lesser",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds +Mana",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_maximum_mana_lesser",
+    "essenceType": "mind"
+  },
+  {
+    "id": "essence_of_the_mind",
+    "name": "Essence of the Mind",
+    "tier": "normal",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds +Mana",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_maximum_mana",
+    "essenceType": "mind"
+  },
+  {
+    "id": "greater_essence_of_the_mind",
+    "name": "Greater Essence of the Mind",
+    "tier": "greater",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds +Mana",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_maximum_mana_greater",
+    "essenceType": "mind"
+  },
+  {
+    "id": "perfect_essence_of_the_mind",
+    "name": "Perfect Essence of the Mind",
+    "tier": "perfect",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds % increased maximum Mana",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_increased_maximum_mana",
+    "essenceType": "mind"
+  },
+  {
+    "id": "lesser_essence_of_enhancement",
+    "name": "Lesser Essence of Enhancement",
+    "tier": "lesser",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds % increased Defences",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_defences_lesser",
+    "essenceType": "enhancement"
+  },
+  {
+    "id": "essence_of_enhancement",
+    "name": "Essence of Enhancement",
+    "tier": "normal",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds % increased Defences",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_defences",
+    "essenceType": "enhancement"
+  },
+  {
+    "id": "greater_essence_of_enhancement",
+    "name": "Greater Essence of Enhancement",
+    "tier": "greater",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds % increased Defences",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_defences_greater",
+    "essenceType": "enhancement"
+  },
+  {
+    "id": "perfect_essence_of_enhancement",
+    "name": "Perfect Essence of Enhancement",
+    "tier": "perfect",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds % increased Defences",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_increased_defences",
+    "essenceType": "enhancement"
+  },
+  {
+    "id": "lesser_essence_of_abrasion",
+    "name": "Lesser Essence of Abrasion",
+    "tier": "lesser",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Physical Damage",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_physical_lesser",
+    "essenceType": "abrasion"
+  },
+  {
+    "id": "essence_of_abrasion",
+    "name": "Essence of Abrasion",
+    "tier": "normal",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Physical Damage",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_physical",
+    "essenceType": "abrasion"
+  },
+  {
+    "id": "greater_essence_of_abrasion",
+    "name": "Greater Essence of Abrasion",
+    "tier": "greater",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Physical Damage",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_physical_greater",
+    "essenceType": "abrasion"
+  },
+  {
+    "id": "perfect_essence_of_abrasion",
+    "name": "Perfect Essence of Abrasion",
+    "tier": "perfect",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds Physical Damage",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_physical_damage",
+    "essenceType": "abrasion"
+  },
+  {
+    "id": "lesser_essence_of_flames",
+    "name": "Lesser Essence of Flames",
+    "tier": "lesser",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Fire Damage",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_fire_lesser",
+    "essenceType": "flames"
+  },
+  {
+    "id": "essence_of_flames",
+    "name": "Essence of Flames",
+    "tier": "normal",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Fire Damage",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_fire",
+    "essenceType": "flames"
+  },
+  {
+    "id": "greater_essence_of_flames",
+    "name": "Greater Essence of Flames",
+    "tier": "greater",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Fire Damage",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_fire_greater",
+    "essenceType": "flames"
+  },
+  {
+    "id": "perfect_essence_of_flames",
+    "name": "Perfect Essence of Flames",
+    "tier": "perfect",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds Fire Damage",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_fire_damage",
+    "essenceType": "flames"
+  },
+  {
+    "id": "lesser_essence_of_ice",
+    "name": "Lesser Essence of Ice",
+    "tier": "lesser",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Cold Damage",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_cold_lesser",
+    "essenceType": "ice"
+  },
+  {
+    "id": "essence_of_ice",
+    "name": "Essence of Ice",
+    "tier": "normal",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Cold Damage",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_cold",
+    "essenceType": "ice"
+  },
+  {
+    "id": "greater_essence_of_ice",
+    "name": "Greater Essence of Ice",
+    "tier": "greater",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Cold Damage",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_cold_greater",
+    "essenceType": "ice"
+  },
+  {
+    "id": "perfect_essence_of_ice",
+    "name": "Perfect Essence of Ice",
+    "tier": "perfect",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds Cold Damage",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_cold_damage",
+    "essenceType": "ice"
+  },
+  {
+    "id": "lesser_essence_of_electricity",
+    "name": "Lesser Essence of Electricity",
+    "tier": "lesser",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Lightning Damage",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_lightning_lesser",
+    "essenceType": "electricity"
+  },
+  {
+    "id": "essence_of_electricity",
+    "name": "Essence of Electricity",
+    "tier": "normal",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Lightning Damage",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_lightning",
+    "essenceType": "electricity"
+  },
+  {
+    "id": "greater_essence_of_electricity",
+    "name": "Greater Essence of Electricity",
+    "tier": "greater",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Lightning Damage",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_lightning_greater",
+    "essenceType": "electricity"
+  },
+  {
+    "id": "perfect_essence_of_electricity",
+    "name": "Perfect Essence of Electricity",
+    "tier": "perfect",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds Lightning Damage",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_lightning_damage",
+    "essenceType": "electricity"
+  },
+  {
+    "id": "lesser_essence_of_ruin",
+    "name": "Lesser Essence of Ruin",
+    "tier": "lesser",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Chaos Damage",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_chaos_lesser",
+    "essenceType": "ruin"
+  },
+  {
+    "id": "essence_of_ruin",
+    "name": "Essence of Ruin",
+    "tier": "normal",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Chaos Damage",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_chaos",
+    "essenceType": "ruin"
+  },
+  {
+    "id": "greater_essence_of_ruin",
+    "name": "Greater Essence of Ruin",
+    "tier": "greater",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Chaos Damage",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_chaos_greater",
+    "essenceType": "ruin"
+  },
+  {
+    "id": "perfect_essence_of_ruin",
+    "name": "Perfect Essence of Ruin",
+    "tier": "perfect",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds Chaos Damage",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_chaos_damage",
+    "essenceType": "ruin"
+  },
+  {
+    "id": "lesser_essence_of_battle",
+    "name": "Lesser Essence of Battle",
+    "tier": "lesser",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Attack Skill Levels",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_attack_lesser",
+    "essenceType": "battle"
+  },
+  {
+    "id": "essence_of_battle",
+    "name": "Essence of Battle",
+    "tier": "normal",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Attack Skill Levels",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_attack",
+    "essenceType": "battle"
+  },
+  {
+    "id": "greater_essence_of_battle",
+    "name": "Greater Essence of Battle",
+    "tier": "greater",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Attack Skill Levels",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_attack_greater",
+    "essenceType": "battle"
+  },
+  {
+    "id": "perfect_essence_of_battle",
+    "name": "Perfect Essence of Battle",
+    "tier": "perfect",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds Attack Skill Levels",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_attack_skill_levels",
+    "essenceType": "battle"
+  },
+  {
+    "id": "lesser_essence_of_sorcery",
+    "name": "Lesser Essence of Sorcery",
+    "tier": "lesser",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Spell Skill Levels",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_spell_lesser",
+    "essenceType": "sorcery"
+  },
+  {
+    "id": "essence_of_sorcery",
+    "name": "Essence of Sorcery",
+    "tier": "normal",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Spell Skill Levels",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_spell",
+    "essenceType": "sorcery"
+  },
+  {
+    "id": "greater_essence_of_sorcery",
+    "name": "Greater Essence of Sorcery",
+    "tier": "greater",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Spell Skill Levels",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_spell_greater",
+    "essenceType": "sorcery"
+  },
+  {
+    "id": "perfect_essence_of_sorcery",
+    "name": "Perfect Essence of Sorcery",
+    "tier": "perfect",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds Spell Skill Levels",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_spell_skill_levels",
+    "essenceType": "sorcery"
+  },
+  {
+    "id": "lesser_essence_of_haste",
+    "name": "Lesser Essence of Haste",
+    "tier": "lesser",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Movement Speed",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_movement_lesser",
+    "essenceType": "haste"
+  },
+  {
+    "id": "essence_of_haste",
+    "name": "Essence of Haste",
+    "tier": "normal",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Movement Speed",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_movement",
+    "essenceType": "haste"
+  },
+  {
+    "id": "greater_essence_of_haste",
+    "name": "Greater Essence of Haste",
+    "tier": "greater",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Movement Speed",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_movement_greater",
+    "essenceType": "haste"
+  },
+  {
+    "id": "perfect_essence_of_haste",
+    "name": "Perfect Essence of Haste",
+    "tier": "perfect",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds Movement Speed",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_movement_speed",
+    "essenceType": "haste"
+  },
+  {
+    "id": "lesser_essence_of_the_infinite",
+    "name": "Lesser Essence of the Infinite",
+    "tier": "lesser",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds All Attributes",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_attributes_lesser",
+    "essenceType": "infinite"
+  },
+  {
+    "id": "essence_of_the_infinite",
+    "name": "Essence of the Infinite",
+    "tier": "normal",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds All Attributes",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_attributes",
+    "essenceType": "infinite"
+  },
+  {
+    "id": "greater_essence_of_the_infinite",
+    "name": "Greater Essence of the Infinite",
+    "tier": "greater",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds All Attributes",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_attributes_greater",
+    "essenceType": "infinite"
+  },
+  {
+    "id": "perfect_essence_of_the_infinite",
+    "name": "Perfect Essence of the Infinite",
+    "tier": "perfect",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds All Attributes",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_all_attributes",
+    "essenceType": "infinite"
+  },
+  {
+    "id": "lesser_essence_of_seeking",
+    "name": "Lesser Essence of Seeking",
+    "tier": "lesser",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Critical Strike Chance",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_crit_lesser",
+    "essenceType": "seeking"
+  },
+  {
+    "id": "essence_of_seeking",
+    "name": "Essence of Seeking",
+    "tier": "normal",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Critical Strike Chance",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_crit",
+    "essenceType": "seeking"
+  },
+  {
+    "id": "greater_essence_of_seeking",
+    "name": "Greater Essence of Seeking",
+    "tier": "greater",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Critical Strike Chance",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_crit_greater",
+    "essenceType": "seeking"
+  },
+  {
+    "id": "perfect_essence_of_seeking",
+    "name": "Perfect Essence of Seeking",
+    "tier": "perfect",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds Critical Strike Chance",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_critical_strike_chance",
+    "essenceType": "seeking"
+  },
+  {
+    "id": "lesser_essence_of_insulation",
+    "name": "Lesser Essence of Insulation",
+    "tier": "lesser",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Fire Resistance",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_fire_res_lesser",
+    "essenceType": "insulation"
+  },
+  {
+    "id": "essence_of_insulation",
+    "name": "Essence of Insulation",
+    "tier": "normal",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Fire Resistance",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_fire_res",
+    "essenceType": "insulation"
+  },
+  {
+    "id": "greater_essence_of_insulation",
+    "name": "Greater Essence of Insulation",
+    "tier": "greater",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Fire Resistance",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_fire_res_greater",
+    "essenceType": "insulation"
+  },
+  {
+    "id": "perfect_essence_of_insulation",
+    "name": "Perfect Essence of Insulation",
+    "tier": "perfect",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds Fire Resistance",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_fire_resistance",
+    "essenceType": "insulation"
+  },
+  {
+    "id": "lesser_essence_of_thawing",
+    "name": "Lesser Essence of Thawing",
+    "tier": "lesser",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Cold Resistance",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_cold_res_lesser",
+    "essenceType": "thawing"
+  },
+  {
+    "id": "essence_of_thawing",
+    "name": "Essence of Thawing",
+    "tier": "normal",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Cold Resistance",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_cold_res",
+    "essenceType": "thawing"
+  },
+  {
+    "id": "greater_essence_of_thawing",
+    "name": "Greater Essence of Thawing",
+    "tier": "greater",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Cold Resistance",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_cold_res_greater",
+    "essenceType": "thawing"
+  },
+  {
+    "id": "perfect_essence_of_thawing",
+    "name": "Perfect Essence of Thawing",
+    "tier": "perfect",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds Cold Resistance",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_cold_resistance",
+    "essenceType": "thawing"
+  },
+  {
+    "id": "lesser_essence_of_grounding",
+    "name": "Lesser Essence of Grounding",
+    "tier": "lesser",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Lightning Resistance",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_lightning_res_lesser",
+    "essenceType": "grounding"
+  },
+  {
+    "id": "essence_of_grounding",
+    "name": "Essence of Grounding",
+    "tier": "normal",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Lightning Resistance",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_lightning_res",
+    "essenceType": "grounding"
+  },
+  {
+    "id": "greater_essence_of_grounding",
+    "name": "Greater Essence of Grounding",
+    "tier": "greater",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Lightning Resistance",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_lightning_res_greater",
+    "essenceType": "grounding"
+  },
+  {
+    "id": "perfect_essence_of_grounding",
+    "name": "Perfect Essence of Grounding",
+    "tier": "perfect",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds Lightning Resistance",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_lightning_resistance",
+    "essenceType": "grounding"
+  },
+  {
+    "id": "lesser_essence_of_alacrity",
+    "name": "Lesser Essence of Alacrity",
+    "tier": "lesser",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Cast Speed",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_cast_lesser",
+    "essenceType": "alacrity"
+  },
+  {
+    "id": "essence_of_alacrity",
+    "name": "Essence of Alacrity",
+    "tier": "normal",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Cast Speed",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_cast",
+    "essenceType": "alacrity"
+  },
+  {
+    "id": "greater_essence_of_alacrity",
+    "name": "Greater Essence of Alacrity",
+    "tier": "greater",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Cast Speed",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_cast_greater",
+    "essenceType": "alacrity"
+  },
+  {
+    "id": "perfect_essence_of_alacrity",
+    "name": "Perfect Essence of Alacrity",
+    "tier": "perfect",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds Cast Speed",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_cast_speed",
+    "essenceType": "alacrity"
+  },
+  {
+    "id": "lesser_essence_of_opulence",
+    "name": "Lesser Essence of Opulence",
+    "tier": "lesser",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Item Rarity",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_rarity_lesser",
+    "essenceType": "opulence"
+  },
+  {
+    "id": "essence_of_opulence",
+    "name": "Essence of Opulence",
+    "tier": "normal",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Item Rarity",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_rarity",
+    "essenceType": "opulence"
+  },
+  {
+    "id": "greater_essence_of_opulence",
+    "name": "Greater Essence of Opulence",
+    "tier": "greater",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Item Rarity",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_rarity_greater",
+    "essenceType": "opulence"
+  },
+  {
+    "id": "perfect_essence_of_opulence",
+    "name": "Perfect Essence of Opulence",
+    "tier": "perfect",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds Item Rarity",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_item_rarity",
+    "essenceType": "opulence"
+  },
+  {
+    "id": "lesser_essence_of_command",
+    "name": "Lesser Essence of Command",
+    "tier": "lesser",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Minion bonuses",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_minion_lesser",
+    "essenceType": "command"
+  },
+  {
+    "id": "essence_of_command",
+    "name": "Essence of Command",
+    "tier": "normal",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Minion bonuses",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_minion",
+    "essenceType": "command"
+  },
+  {
+    "id": "greater_essence_of_command",
+    "name": "Greater Essence of Command",
+    "tier": "greater",
+    "effect": "upgrade_magic_to_rare_guaranteed",
+    "description": "Upgrades a Magic item to Rare and adds Minion bonuses",
+    "applicableToRarity": ["magic"],
+    "guaranteedModId": "essence_minion_greater",
+    "essenceType": "command"
+  },
+  {
+    "id": "perfect_essence_of_command",
+    "name": "Perfect Essence of Command",
+    "tier": "perfect",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds Minion bonuses",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_minion_damage",
+    "essenceType": "command"
+  },
+  {
+    "id": "essence_of_hysteria",
+    "name": "Essence of Hysteria",
+    "tier": "corrupted",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds a unique Hysteria modifier",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_hysteria",
+    "essenceType": "hysteria"
+  },
+  {
+    "id": "essence_of_delirium",
+    "name": "Essence of Delirium",
+    "tier": "corrupted",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds a unique Delirium modifier",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_delirium",
+    "essenceType": "delirium"
+  },
+  {
+    "id": "essence_of_horror",
+    "name": "Essence of Horror",
+    "tier": "corrupted",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds a unique Horror modifier",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_horror",
+    "essenceType": "horror"
+  },
+  {
+    "id": "essence_of_insanity",
+    "name": "Essence of Insanity",
+    "tier": "corrupted",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds a unique Insanity modifier",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_insanity",
+    "essenceType": "insanity"
+  },
+  {
+    "id": "essence_of_the_abyss",
+    "name": "Essence of the Abyss",
+    "tier": "corrupted",
+    "effect": "guaranteed_mod",
+    "description": "Removes a random modifier and adds a unique Abyss modifier",
+    "applicableToRarity": ["rare"],
+    "guaranteedModId": "essence_abyss",
+    "essenceType": "abyss"
+  }
+]

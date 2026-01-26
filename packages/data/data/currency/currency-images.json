@@ -1,0 +1,764 @@
+[
+  {
+    "id": "orb_of_transmutation",
+    "name": "Orb of Transmutation",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyUpgradeToMagic.webp",
+    "localImage": "assets/currency/orb_of_transmutation.webp"
+  },
+  {
+    "id": "greater_orb_of_transmutation",
+    "name": "Greater Orb of Transmutation",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyUpgradeToMagic.webp",
+    "localImage": "assets/currency/greater_orb_of_transmutation.webp"
+  },
+  {
+    "id": "perfect_orb_of_transmutation",
+    "name": "Perfect Orb of Transmutation",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyUpgradeToMagic.webp",
+    "localImage": "assets/currency/perfect_orb_of_transmutation.webp"
+  },
+  {
+    "id": "orb_of_augmentation",
+    "name": "Orb of Augmentation",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyAddModToMagic.webp",
+    "localImage": "assets/currency/orb_of_augmentation.webp"
+  },
+  {
+    "id": "greater_orb_of_augmentation",
+    "name": "Greater Orb of Augmentation",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyAddModToMagic.webp",
+    "localImage": "assets/currency/greater_orb_of_augmentation.webp"
+  },
+  {
+    "id": "perfect_orb_of_augmentation",
+    "name": "Perfect Orb of Augmentation",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyAddModToMagic.webp",
+    "localImage": "assets/currency/perfect_orb_of_augmentation.webp"
+  },
+  {
+    "id": "orb_of_alchemy",
+    "name": "Orb of Alchemy",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyUpgradeToRare.webp",
+    "localImage": "assets/currency/orb_of_alchemy.webp"
+  },
+  {
+    "id": "orb_of_chance",
+    "name": "Orb of Chance",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyUpgradeToUnique.webp",
+    "localImage": "assets/currency/orb_of_chance.webp"
+  },
+  {
+    "id": "regal_orb",
+    "name": "Regal Orb",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyUpgradeMagicToRare.webp",
+    "localImage": "assets/currency/regal_orb.webp"
+  },
+  {
+    "id": "greater_regal_orb",
+    "name": "Greater Regal Orb",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyUpgradeMagicToRare.webp",
+    "localImage": "assets/currency/greater_regal_orb.webp"
+  },
+  {
+    "id": "perfect_regal_orb",
+    "name": "Perfect Regal Orb",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyUpgradeMagicToRare.webp",
+    "localImage": "assets/currency/perfect_regal_orb.webp"
+  },
+  {
+    "id": "exalted_orb",
+    "name": "Exalted Orb",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyAddModToRare.webp",
+    "localImage": "assets/currency/exalted_orb.webp"
+  },
+  {
+    "id": "greater_exalted_orb",
+    "name": "Greater Exalted Orb",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyAddModToRare.webp",
+    "localImage": "assets/currency/greater_exalted_orb.webp"
+  },
+  {
+    "id": "perfect_exalted_orb",
+    "name": "Perfect Exalted Orb",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyAddModToRare.webp",
+    "localImage": "assets/currency/perfect_exalted_orb.webp"
+  },
+  {
+    "id": "orb_of_annulment",
+    "name": "Orb of Annulment",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/AnnullOrb.webp",
+    "localImage": "assets/currency/orb_of_annulment.webp"
+  },
+  {
+    "id": "chaos_orb",
+    "name": "Chaos Orb",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyRerollRare.webp",
+    "localImage": "assets/currency/chaos_orb.webp"
+  },
+  {
+    "id": "greater_chaos_orb",
+    "name": "Greater Chaos Orb",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyRerollRare.webp",
+    "localImage": "assets/currency/greater_chaos_orb.webp"
+  },
+  {
+    "id": "perfect_chaos_orb",
+    "name": "Perfect Chaos Orb",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyRerollRare.webp",
+    "localImage": "assets/currency/perfect_chaos_orb.webp"
+  },
+  {
+    "id": "divine_orb",
+    "name": "Divine Orb",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyModValues.webp",
+    "localImage": "assets/currency/divine_orb.webp"
+  },
+  {
+    "id": "vaal_orb",
+    "name": "Vaal Orb",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyVaal.webp",
+    "localImage": "assets/currency/vaal_orb.webp"
+  },
+  {
+    "id": "orb_of_alteration",
+    "name": "Orb of Alteration",
+    "imageUrl": null,
+    "localImage": null
+  },
+  {
+    "id": "blessed_orb",
+    "name": "Blessed Orb",
+    "imageUrl": null,
+    "localImage": null
+  },
+  {
+    "id": "gemcutter_s_prism",
+    "name": "Gemcutter's Prism",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyGemQuality.webp",
+    "localImage": "assets/currency/gemcutter_s_prism.webp"
+  },
+  {
+    "id": "glassblower_s_bauble",
+    "name": "Glassblower's Bauble",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyFlaskQuality.webp",
+    "localImage": "assets/currency/glassblower_s_bauble.webp"
+  },
+  {
+    "id": "armourer_s_scrap",
+    "name": "Armourer's Scrap",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyArmourQuality.webp",
+    "localImage": "assets/currency/armourer_s_scrap.webp"
+  },
+  {
+    "id": "blacksmith_s_whetstone",
+    "name": "Blacksmith's Whetstone",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyWeaponQuality.webp",
+    "localImage": null
+  },
+  {
+    "id": "jeweller_s_orb",
+    "name": "Jeweller's Orb",
+    "imageUrl": null,
+    "localImage": null
+  },
+  {
+    "id": "orb_of_binding",
+    "name": "Orb of Binding",
+    "imageUrl": null,
+    "localImage": null
+  },
+  {
+    "id": "orb_of_horizons",
+    "name": "Orb of Horizons",
+    "imageUrl": null,
+    "localImage": null
+  },
+  {
+    "id": "orb_of_scouring",
+    "name": "Orb of Scouring",
+    "imageUrl": null,
+    "localImage": null
+  },
+  {
+    "id": "lesser_essence_of_the_body",
+    "name": "Lesser Essence of the Body",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/LifeEssenceLesser.webp",
+    "localImage": "assets/currency/lesser_essence_of_the_body.webp"
+  },
+  {
+    "id": "lesser_essence_of_the_mind",
+    "name": "Lesser Essence of the Mind",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/ManaEssenceLesser.webp",
+    "localImage": "assets/currency/lesser_essence_of_the_mind.webp"
+  },
+  {
+    "id": "lesser_essence_of_enhancement",
+    "name": "Lesser Essence of Enhancement",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/DefencesEssenceLesser.webp",
+    "localImage": "assets/currency/lesser_essence_of_enhancement.webp"
+  },
+  {
+    "id": "lesser_essence_of_abrasion",
+    "name": "Lesser Essence of Abrasion",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/PhysicalEssenceLesser.webp",
+    "localImage": "assets/currency/lesser_essence_of_abrasion.webp"
+  },
+  {
+    "id": "lesser_essence_of_flames",
+    "name": "Lesser Essence of Flames",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/FireEssenceLesser.webp",
+    "localImage": "assets/currency/lesser_essence_of_flames.webp"
+  },
+  {
+    "id": "lesser_essence_of_ice",
+    "name": "Lesser Essence of Ice",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/ColdEssenceLesser.webp",
+    "localImage": "assets/currency/lesser_essence_of_ice.webp"
+  },
+  {
+    "id": "lesser_essence_of_electricity",
+    "name": "Lesser Essence of Electricity",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/LightningEssenceLesser.webp",
+    "localImage": "assets/currency/lesser_essence_of_electricity.webp"
+  },
+  {
+    "id": "lesser_essence_of_ruin",
+    "name": "Lesser Essence of Ruin",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/ChaosEssenceLesser.webp",
+    "localImage": "assets/currency/lesser_essence_of_ruin.webp"
+  },
+  {
+    "id": "lesser_essence_of_battle",
+    "name": "Lesser Essence of Battle",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/AttackEssenceLesser.webp",
+    "localImage": "assets/currency/lesser_essence_of_battle.webp"
+  },
+  {
+    "id": "lesser_essence_of_sorcery",
+    "name": "Lesser Essence of Sorcery",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/CasterEssenceLesser.webp",
+    "localImage": "assets/currency/lesser_essence_of_sorcery.webp"
+  },
+  {
+    "id": "lesser_essence_of_haste",
+    "name": "Lesser Essence of Haste",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/SpeedEssenceLesser.webp",
+    "localImage": "assets/currency/lesser_essence_of_haste.webp"
+  },
+  {
+    "id": "lesser_essence_of_the_infinite",
+    "name": "Lesser Essence of the Infinite",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/AttributeEssenceLesser.webp",
+    "localImage": "assets/currency/lesser_essence_of_the_infinite.webp"
+  },
+  {
+    "id": "lesser_essence_of_seeking",
+    "name": "Lesser Essence of Seeking",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/CriticalEssenceLesser.webp",
+    "localImage": "assets/currency/lesser_essence_of_seeking.webp"
+  },
+  {
+    "id": "lesser_essence_of_insulation",
+    "name": "Lesser Essence of Insulation",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/FireResistanceEssenceLesser.webp",
+    "localImage": "assets/currency/lesser_essence_of_insulation.webp"
+  },
+  {
+    "id": "lesser_essence_of_thawing",
+    "name": "Lesser Essence of Thawing",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/ColdResistanceEssenceLesser.webp",
+    "localImage": "assets/currency/lesser_essence_of_thawing.webp"
+  },
+  {
+    "id": "lesser_essence_of_grounding",
+    "name": "Lesser Essence of Grounding",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/LightningResistanceEssenceLesser.webp",
+    "localImage": "assets/currency/lesser_essence_of_grounding.webp"
+  },
+  {
+    "id": "lesser_essence_of_alacrity",
+    "name": "Lesser Essence of Alacrity",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/SpeedCasterEssenceLesser.webp",
+    "localImage": "assets/currency/lesser_essence_of_alacrity.webp"
+  },
+  {
+    "id": "lesser_essence_of_opulence",
+    "name": "Lesser Essence of Opulence",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/RarityResistanceEssenceLesser.webp",
+    "localImage": "assets/currency/lesser_essence_of_opulence.webp"
+  },
+  {
+    "id": "lesser_essence_of_command",
+    "name": "Lesser Essence of Command",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/AllyEssenceLesser.webp",
+    "localImage": "assets/currency/lesser_essence_of_command.webp"
+  },
+  {
+    "id": "essence_of_the_body",
+    "name": "Essence of the Body",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/LifeEssence.webp",
+    "localImage": "assets/currency/essence_of_the_body.webp"
+  },
+  {
+    "id": "essence_of_the_mind",
+    "name": "Essence of the Mind",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/ManaEssence.webp",
+    "localImage": "assets/currency/essence_of_the_mind.webp"
+  },
+  {
+    "id": "essence_of_enhancement",
+    "name": "Essence of Enhancement",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/DefencesEssence.webp",
+    "localImage": "assets/currency/essence_of_enhancement.webp"
+  },
+  {
+    "id": "essence_of_abrasion",
+    "name": "Essence of Abrasion",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/PhysicalEssence.webp",
+    "localImage": "assets/currency/essence_of_abrasion.webp"
+  },
+  {
+    "id": "essence_of_flames",
+    "name": "Essence of Flames",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/FireEssence.webp",
+    "localImage": "assets/currency/essence_of_flames.webp"
+  },
+  {
+    "id": "essence_of_ice",
+    "name": "Essence of Ice",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/ColdEssence.webp",
+    "localImage": "assets/currency/essence_of_ice.webp"
+  },
+  {
+    "id": "essence_of_electricity",
+    "name": "Essence of Electricity",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/LightningEssence.webp",
+    "localImage": "assets/currency/essence_of_electricity.webp"
+  },
+  {
+    "id": "essence_of_ruin",
+    "name": "Essence of Ruin",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/ChaosEssence.webp",
+    "localImage": "assets/currency/essence_of_ruin.webp"
+  },
+  {
+    "id": "essence_of_battle",
+    "name": "Essence of Battle",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/AttackEssence.webp",
+    "localImage": "assets/currency/essence_of_battle.webp"
+  },
+  {
+    "id": "essence_of_sorcery",
+    "name": "Essence of Sorcery",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/CasterEssence.webp",
+    "localImage": "assets/currency/essence_of_sorcery.webp"
+  },
+  {
+    "id": "essence_of_haste",
+    "name": "Essence of Haste",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/SpeedEssence.webp",
+    "localImage": "assets/currency/essence_of_haste.webp"
+  },
+  {
+    "id": "essence_of_the_infinite",
+    "name": "Essence of the Infinite",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/AttributeEssence.webp",
+    "localImage": "assets/currency/essence_of_the_infinite.webp"
+  },
+  {
+    "id": "essence_of_seeking",
+    "name": "Essence of Seeking",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/CriticalEssence.webp",
+    "localImage": "assets/currency/essence_of_seeking.webp"
+  },
+  {
+    "id": "essence_of_insulation",
+    "name": "Essence of Insulation",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/FireResistanceEssence.webp",
+    "localImage": "assets/currency/essence_of_insulation.webp"
+  },
+  {
+    "id": "essence_of_thawing",
+    "name": "Essence of Thawing",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/ColdResistanceEssence.webp",
+    "localImage": "assets/currency/essence_of_thawing.webp"
+  },
+  {
+    "id": "essence_of_grounding",
+    "name": "Essence of Grounding",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/LightningResistanceEssence.webp",
+    "localImage": "assets/currency/essence_of_grounding.webp"
+  },
+  {
+    "id": "essence_of_alacrity",
+    "name": "Essence of Alacrity",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/SpeedCasterEssence.webp",
+    "localImage": "assets/currency/essence_of_alacrity.webp"
+  },
+  {
+    "id": "essence_of_opulence",
+    "name": "Essence of Opulence",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/RarityResistanceEssence.webp",
+    "localImage": "assets/currency/essence_of_opulence.webp"
+  },
+  {
+    "id": "essence_of_command",
+    "name": "Essence of Command",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/AllyEssence.webp",
+    "localImage": "assets/currency/essence_of_command.webp"
+  },
+  {
+    "id": "greater_essence_of_the_body",
+    "name": "Greater Essence of the Body",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterLifeEssence.webp",
+    "localImage": "assets/currency/greater_essence_of_the_body.webp"
+  },
+  {
+    "id": "greater_essence_of_the_mind",
+    "name": "Greater Essence of the Mind",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterManaEssence.webp",
+    "localImage": "assets/currency/greater_essence_of_the_mind.webp"
+  },
+  {
+    "id": "greater_essence_of_enhancement",
+    "name": "Greater Essence of Enhancement",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterDefencesEssence.webp",
+    "localImage": "assets/currency/greater_essence_of_enhancement.webp"
+  },
+  {
+    "id": "greater_essence_of_abrasion",
+    "name": "Greater Essence of Abrasion",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterPhysicalEssence.webp",
+    "localImage": "assets/currency/greater_essence_of_abrasion.webp"
+  },
+  {
+    "id": "greater_essence_of_flames",
+    "name": "Greater Essence of Flames",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterFireEssence.webp",
+    "localImage": "assets/currency/greater_essence_of_flames.webp"
+  },
+  {
+    "id": "greater_essence_of_ice",
+    "name": "Greater Essence of Ice",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterColdEssence.webp",
+    "localImage": "assets/currency/greater_essence_of_ice.webp"
+  },
+  {
+    "id": "greater_essence_of_electricity",
+    "name": "Greater Essence of Electricity",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterLightningEssence.webp",
+    "localImage": "assets/currency/greater_essence_of_electricity.webp"
+  },
+  {
+    "id": "greater_essence_of_ruin",
+    "name": "Greater Essence of Ruin",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterChaosEssence.webp",
+    "localImage": "assets/currency/greater_essence_of_ruin.webp"
+  },
+  {
+    "id": "greater_essence_of_battle",
+    "name": "Greater Essence of Battle",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterAttackEssence.webp",
+    "localImage": "assets/currency/greater_essence_of_battle.webp"
+  },
+  {
+    "id": "greater_essence_of_sorcery",
+    "name": "Greater Essence of Sorcery",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterCasterEssence.webp",
+    "localImage": "assets/currency/greater_essence_of_sorcery.webp"
+  },
+  {
+    "id": "greater_essence_of_haste",
+    "name": "Greater Essence of Haste",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterSpeedEssence.webp",
+    "localImage": "assets/currency/greater_essence_of_haste.webp"
+  },
+  {
+    "id": "greater_essence_of_the_infinite",
+    "name": "Greater Essence of the Infinite",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterAttributeEssence.webp",
+    "localImage": "assets/currency/greater_essence_of_the_infinite.webp"
+  },
+  {
+    "id": "greater_essence_of_seeking",
+    "name": "Greater Essence of Seeking",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterCriticalEssence.webp",
+    "localImage": "assets/currency/greater_essence_of_seeking.webp"
+  },
+  {
+    "id": "greater_essence_of_insulation",
+    "name": "Greater Essence of Insulation",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterFireResistanceEssence.webp",
+    "localImage": "assets/currency/greater_essence_of_insulation.webp"
+  },
+  {
+    "id": "greater_essence_of_thawing",
+    "name": "Greater Essence of Thawing",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterColdResistanceEssence.webp",
+    "localImage": "assets/currency/greater_essence_of_thawing.webp"
+  },
+  {
+    "id": "greater_essence_of_grounding",
+    "name": "Greater Essence of Grounding",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterLightningResistanceEssence.webp",
+    "localImage": "assets/currency/greater_essence_of_grounding.webp"
+  },
+  {
+    "id": "greater_essence_of_alacrity",
+    "name": "Greater Essence of Alacrity",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterSpeedCasterEssence.webp",
+    "localImage": "assets/currency/greater_essence_of_alacrity.webp"
+  },
+  {
+    "id": "greater_essence_of_opulence",
+    "name": "Greater Essence of Opulence",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterRarityResistanceEssence.webp",
+    "localImage": "assets/currency/greater_essence_of_opulence.webp"
+  },
+  {
+    "id": "greater_essence_of_command",
+    "name": "Greater Essence of Command",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterAllyEssence.webp",
+    "localImage": "assets/currency/greater_essence_of_command.webp"
+  },
+  {
+    "id": "perfect_essence_of_the_body",
+    "name": "Perfect Essence of the Body",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/LifeEssencePerfect.webp",
+    "localImage": "assets/currency/perfect_essence_of_the_body.webp"
+  },
+  {
+    "id": "perfect_essence_of_the_mind",
+    "name": "Perfect Essence of the Mind",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/ManaEssencePerfect.webp",
+    "localImage": "assets/currency/perfect_essence_of_the_mind.webp"
+  },
+  {
+    "id": "perfect_essence_of_enhancement",
+    "name": "Perfect Essence of Enhancement",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/DefencesEssencePerfect.webp",
+    "localImage": "assets/currency/perfect_essence_of_enhancement.webp"
+  },
+  {
+    "id": "perfect_essence_of_abrasion",
+    "name": "Perfect Essence of Abrasion",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/PhysicalEssencePerfect.webp",
+    "localImage": "assets/currency/perfect_essence_of_abrasion.webp"
+  },
+  {
+    "id": "perfect_essence_of_flames",
+    "name": "Perfect Essence of Flames",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/FireEssencePerfect.webp",
+    "localImage": "assets/currency/perfect_essence_of_flames.webp"
+  },
+  {
+    "id": "perfect_essence_of_ice",
+    "name": "Perfect Essence of Ice",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/ColdEssencePerfect.webp",
+    "localImage": "assets/currency/perfect_essence_of_ice.webp"
+  },
+  {
+    "id": "perfect_essence_of_electricity",
+    "name": "Perfect Essence of Electricity",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/LightningEssencePerfect.webp",
+    "localImage": "assets/currency/perfect_essence_of_electricity.webp"
+  },
+  {
+    "id": "perfect_essence_of_ruin",
+    "name": "Perfect Essence of Ruin",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/ChaosEssencePerfect.webp",
+    "localImage": "assets/currency/perfect_essence_of_ruin.webp"
+  },
+  {
+    "id": "perfect_essence_of_battle",
+    "name": "Perfect Essence of Battle",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/AttackEssencePerfect.webp",
+    "localImage": "assets/currency/perfect_essence_of_battle.webp"
+  },
+  {
+    "id": "perfect_essence_of_sorcery",
+    "name": "Perfect Essence of Sorcery",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/CasterEssencePerfect.webp",
+    "localImage": "assets/currency/perfect_essence_of_sorcery.webp"
+  },
+  {
+    "id": "perfect_essence_of_haste",
+    "name": "Perfect Essence of Haste",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/SpeedEssencePerfect.webp",
+    "localImage": "assets/currency/perfect_essence_of_haste.webp"
+  },
+  {
+    "id": "perfect_essence_of_the_infinite",
+    "name": "Perfect Essence of the Infinite",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/AttributeEssencePerfect.webp",
+    "localImage": "assets/currency/perfect_essence_of_the_infinite.webp"
+  },
+  {
+    "id": "perfect_essence_of_seeking",
+    "name": "Perfect Essence of Seeking",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/CriticalEssencePerfect.webp",
+    "localImage": "assets/currency/perfect_essence_of_seeking.webp"
+  },
+  {
+    "id": "perfect_essence_of_insulation",
+    "name": "Perfect Essence of Insulation",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/FireResistanceEssencePerfect.webp",
+    "localImage": "assets/currency/perfect_essence_of_insulation.webp"
+  },
+  {
+    "id": "perfect_essence_of_thawing",
+    "name": "Perfect Essence of Thawing",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/ColdResistanceEssencePerfect.webp",
+    "localImage": "assets/currency/perfect_essence_of_thawing.webp"
+  },
+  {
+    "id": "perfect_essence_of_grounding",
+    "name": "Perfect Essence of Grounding",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/LightningResistanceEssencePerfect.webp",
+    "localImage": "assets/currency/perfect_essence_of_grounding.webp"
+  },
+  {
+    "id": "perfect_essence_of_alacrity",
+    "name": "Perfect Essence of Alacrity",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/SpeedCasterEssencePerfect.webp",
+    "localImage": "assets/currency/perfect_essence_of_alacrity.webp"
+  },
+  {
+    "id": "perfect_essence_of_opulence",
+    "name": "Perfect Essence of Opulence",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/RarityResistanceEssencePerfect.webp",
+    "localImage": "assets/currency/perfect_essence_of_opulence.webp"
+  },
+  {
+    "id": "perfect_essence_of_command",
+    "name": "Perfect Essence of Command",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/AllyEssencePerfect.webp",
+    "localImage": "assets/currency/perfect_essence_of_command.webp"
+  },
+  {
+    "id": "essence_of_hysteria",
+    "name": "Essence of Hysteria",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/CorruptedEssenceHysteria.webp",
+    "localImage": "assets/currency/essence_of_hysteria.webp"
+  },
+  {
+    "id": "essence_of_delirium",
+    "name": "Essence of Delirium",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/CorruptedEssenceDelirium.webp",
+    "localImage": "assets/currency/essence_of_delirium.webp"
+  },
+  {
+    "id": "essence_of_horror",
+    "name": "Essence of Horror",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/CorruptedEssenceHorror.webp",
+    "localImage": "assets/currency/essence_of_horror.webp"
+  },
+  {
+    "id": "essence_of_insanity",
+    "name": "Essence of Insanity",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/CorruptedEssenceInsanity.webp",
+    "localImage": "assets/currency/essence_of_insanity.webp"
+  },
+  {
+    "id": "essence_of_the_abyss",
+    "name": "Essence of the Abyss",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/AbyssalEssence.webp",
+    "localImage": "assets/currency/essence_of_the_abyss.webp"
+  },
+  {
+    "id": "omen_of_sinistral_alchemy",
+    "name": "Omen of Sinistral Alchemy",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Omens/VoodooOmens1Green.webp",
+    "localImage": "assets/currency/omen_of_sinistral_alchemy.webp"
+  },
+  {
+    "id": "omen_of_dextral_alchemy",
+    "name": "Omen of Dextral Alchemy",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Omens/VoodooOmens2Green.webp",
+    "localImage": "assets/currency/omen_of_dextral_alchemy.webp"
+  },
+  {
+    "id": "omen_of_amelioration",
+    "name": "Omen of Amelioration",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Omens/VoodooOmens3Blue.webp",
+    "localImage": "assets/currency/omen_of_amelioration.webp"
+  },
+  {
+    "id": "omen_of_whittling",
+    "name": "Omen of Whittling",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Omens/VoodooOmens1Dark.webp",
+    "localImage": "assets/currency/omen_of_whittling.webp"
+  },
+  {
+    "id": "omen_of_resurgence",
+    "name": "Omen of Resurgence",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Omens/VoodooOmens2Blue.webp",
+    "localImage": "assets/currency/omen_of_resurgence.webp"
+  },
+  {
+    "id": "omen_of_greater_exaltation",
+    "name": "Omen of Greater Exaltation",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Omens/VoodooOmens1Yellow.webp",
+    "localImage": "assets/currency/omen_of_greater_exaltation.webp"
+  },
+  {
+    "id": "omen_of_the_ancients",
+    "name": "Omen of the Ancients",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Omens/OmenOnChanceAncientOrb.webp",
+    "localImage": "assets/currency/omen_of_the_ancients.webp"
+  },
+  {
+    "id": "omen_of_refreshment",
+    "name": "Omen of Refreshment",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Omens/VoodooOmens1Blue.webp",
+    "localImage": "assets/currency/omen_of_refreshment.webp"
+  },
+  {
+    "id": "omen_of_connections",
+    "name": "Omen of Connections",
+    "imageUrl": null,
+    "localImage": null
+  },
+  {
+    "id": "omen_of_jewellery",
+    "name": "Omen of Jewellery",
+    "imageUrl": null,
+    "localImage": null
+  },
+  {
+    "id": "omen_of_abyssal_echoes",
+    "name": "Omen of Abyssal Echoes",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Omens/OmenOnAbyssRerollOptions.webp",
+    "localImage": "assets/currency/omen_of_abyssal_echoes.webp"
+  },
+  {
+    "id": "omen_of_blanching",
+    "name": "Omen of Blanching",
+    "imageUrl": null,
+    "localImage": null
+  },
+  {
+    "id": "omen_of_fortune",
+    "name": "Omen of Fortune",
+    "imageUrl": null,
+    "localImage": null
+  },
+  {
+    "id": "omen_of_corruption",
+    "name": "Omen of Corruption",
+    "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Omens/VoodooOmens3Red.webp",
+    "localImage": "assets/currency/omen_of_corruption.webp"
+  },
+  {
+    "id": "omen_of_soul_rending",
+    "name": "Omen of Soul Rending",
+    "imageUrl": null,
+    "localImage": null
+  },
+  {
+    "id": "omen_of_annihilation",
+    "name": "Omen of Annihilation",
+    "imageUrl": null,
+    "localImage": null
+  }
+]

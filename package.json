@@ -1,0 +1,27 @@
+{
+  "name": "crafterix",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Path of Exile 2 crafting simulator and recipe explorer",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm --filter @crafterix/web dev",
+    "lint": "eslint packages --ext .ts,.tsx",
+    "lint:fix": "eslint packages --ext .ts,.tsx --fix",
+    "format": "prettier --write \"packages/**/*.{ts,tsx,json}\"",
+    "test": "pnpm -r test",
+    "scrape": "pnpm --filter @crafterix/scraper scrape"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "prettier": "^3.4.0",
+    "typescript-eslint": "^8.18.0"
+  }
+}

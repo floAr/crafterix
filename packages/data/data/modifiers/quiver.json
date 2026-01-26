@@ -1,0 +1,1694 @@
+[
+  {
+    "id": "of_the_phantom_dexterity",
+    "name": "of the Phantom",
+    "displayName": "+(#) to Dexterity",
+    "type": "suffix",
+    "domain": "item",
+    "group": "Dexterity",
+    "tags": [
+      "attribute"
+    ],
+    "applicableTo": [
+      "one_hand_weapon",
+      "two_hand_weapon",
+      "body_armour",
+      "helmet",
+      "gloves",
+      "boots",
+      "shield",
+      "quiver",
+      "amulet",
+      "ring"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 74,
+        "weight": 1,
+        "values": [
+          {
+            "min": 31,
+            "max": 33
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 66,
+        "weight": 1,
+        "values": [
+          {
+            "min": 28,
+            "max": 30
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 55,
+        "weight": 1,
+        "values": [
+          {
+            "min": 25,
+            "max": 27
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 44,
+        "weight": 1,
+        "values": [
+          {
+            "min": 21,
+            "max": 24
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 33,
+        "weight": 1,
+        "values": [
+          {
+            "min": 17,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 22,
+        "weight": 1,
+        "values": [
+          {
+            "min": 13,
+            "max": 16
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 11,
+        "weight": 1,
+        "values": [
+          {
+            "min": 9,
+            "max": 12
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 5,
+            "max": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_legend_lifegainedfromenemydeath",
+    "name": "of Legend",
+    "displayName": "Gain (#) Life per enemy killed",
+    "type": "suffix",
+    "domain": "item",
+    "group": "LifeGainedFromEnemyDeath",
+    "tags": [
+      "life"
+    ],
+    "applicableTo": [
+      "one_hand_weapon",
+      "two_hand_weapon",
+      "gloves",
+      "quiver",
+      "ring"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 77,
+        "weight": 1,
+        "values": [
+          {
+            "min": 69,
+            "max": 84
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 66,
+        "weight": 1,
+        "values": [
+          {
+            "min": 54,
+            "max": 68
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 55,
+        "weight": 1,
+        "values": [
+          {
+            "min": 41,
+            "max": 53
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 44,
+        "weight": 1,
+        "values": [
+          {
+            "min": 29,
+            "max": 40
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 33,
+        "weight": 1,
+        "values": [
+          {
+            "min": 19,
+            "max": 28
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 22,
+        "weight": 1,
+        "values": [
+          {
+            "min": 10,
+            "max": 18
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 11,
+        "weight": 1,
+        "values": [
+          {
+            "min": 7,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 4,
+            "max": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_assimilation_managainedfromenemydeath",
+    "name": "of Assimilation",
+    "displayName": "Gain (#) Mana per enemy killed",
+    "type": "suffix",
+    "domain": "item",
+    "group": "ManaGainedFromEnemyDeath",
+    "tags": [
+      "mana"
+    ],
+    "applicableTo": [
+      "one_hand_weapon",
+      "two_hand_weapon",
+      "gloves",
+      "quiver",
+      "ring"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 78,
+        "weight": 1,
+        "values": [
+          {
+            "min": 36,
+            "max": 45
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 67,
+        "weight": 1,
+        "values": [
+          {
+            "min": 28,
+            "max": 35
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 56,
+        "weight": 1,
+        "values": [
+          {
+            "min": 21,
+            "max": 27
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 45,
+        "weight": 1,
+        "values": [
+          {
+            "min": 15,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 34,
+        "weight": 1,
+        "values": [
+          {
+            "min": 10,
+            "max": 14
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 23,
+        "weight": 1,
+        "values": [
+          {
+            "min": 6,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 12,
+        "weight": 1,
+        "values": [
+          {
+            "min": 4,
+            "max": 5
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 2,
+            "max": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_celebration_increasedattackspeed",
+    "name": "of Celebration",
+    "displayName": "(#)% increased Attack Speed",
+    "type": "suffix",
+    "domain": "item",
+    "group": "IncreasedAttackSpeed",
+    "tags": [
+      "attack",
+      "speed"
+    ],
+    "applicableTo": [
+      "one_hand_weapon",
+      "two_hand_weapon",
+      "gloves",
+      "quiver"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 77,
+        "weight": 1,
+        "values": [
+          {
+            "min": 26,
+            "max": 28
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 60,
+        "weight": 1,
+        "values": [
+          {
+            "min": 23,
+            "max": 25
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 45,
+        "weight": 1,
+        "values": [
+          {
+            "min": 20,
+            "max": 22
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 37,
+        "weight": 1,
+        "values": [
+          {
+            "min": 17,
+            "max": 19
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 30,
+        "weight": 1,
+        "values": [
+          {
+            "min": 14,
+            "max": 16
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 22,
+        "weight": 1,
+        "values": [
+          {
+            "min": 11,
+            "max": 13
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 11,
+        "weight": 1,
+        "values": [
+          {
+            "min": 8,
+            "max": 10
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 5,
+            "max": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "amazon_s_increasedaccuracy",
+    "name": "Amazon's",
+    "displayName": "+(#) to Accuracy Rating",
+    "type": "prefix",
+    "domain": "item",
+    "group": "IncreasedAccuracy",
+    "tags": [
+      "attack"
+    ],
+    "applicableTo": [
+      "one_hand_weapon",
+      "two_hand_weapon",
+      "helmet",
+      "gloves",
+      "quiver",
+      "amulet",
+      "ring"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 76,
+        "weight": 1,
+        "values": [
+          {
+            "min": 451,
+            "max": 550
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 67,
+        "weight": 1,
+        "values": [
+          {
+            "min": 347,
+            "max": 450
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 58,
+        "weight": 1,
+        "values": [
+          {
+            "min": 237,
+            "max": 346
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 48,
+        "weight": 1,
+        "values": [
+          {
+            "min": 168,
+            "max": 236
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 36,
+        "weight": 1,
+        "values": [
+          {
+            "min": 124,
+            "max": 167
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 26,
+        "weight": 1,
+        "values": [
+          {
+            "min": 85,
+            "max": 123
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 18,
+        "weight": 1,
+        "values": [
+          {
+            "min": 61,
+            "max": 84
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 11,
+        "weight": 1,
+        "values": [
+          {
+            "min": 33,
+            "max": 60
+          }
+        ]
+      },
+      {
+        "tier": 9,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 11,
+            "max": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_the_sniper_increasesocketedgemlevel",
+    "name": "of the Sniper",
+    "displayName": "+# to Level of all Projectile Skills",
+    "type": "suffix",
+    "domain": "item",
+    "group": "IncreaseSocketedGemLevel",
+    "tags": [],
+    "applicableTo": [
+      "one_hand_weapon",
+      "two_hand_weapon",
+      "quiver",
+      "amulet"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 50,
+        "values": [
+          {
+            "min": 5,
+            "max": 5
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 55,
+        "weight": 125,
+        "values": [
+          {
+            "min": 4,
+            "max": 4
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 36,
+        "weight": 250,
+        "values": [
+          {
+            "min": 3,
+            "max": 3
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 18,
+        "weight": 375,
+        "values": [
+          {
+            "min": 2,
+            "max": 2
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 2,
+        "weight": 500,
+        "values": [
+          {
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "glinting_physicaldamage",
+    "name": "Glinting",
+    "displayName": "Adds (#) to 3 Physical Damage to Attacks",
+    "type": "prefix",
+    "domain": "item",
+    "group": "PhysicalDamage",
+    "tags": [
+      "damage",
+      "physical",
+      "attack"
+    ],
+    "applicableTo": [
+      "gloves",
+      "quiver",
+      "ring"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 1,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 1,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "flaring_physicaldamage",
+    "name": "Flaring",
+    "displayName": "Adds (#) to (#) Physical Damage to Attacks",
+    "type": "prefix",
+    "domain": "item",
+    "group": "PhysicalDamage",
+    "tags": [
+      "damage",
+      "physical",
+      "attack"
+    ],
+    "applicableTo": [
+      "gloves",
+      "quiver",
+      "ring"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 75,
+        "weight": 400,
+        "values": [
+          {
+            "min": 12,
+            "max": 19
+          },
+          {
+            "min": 22,
+            "max": 32
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 65,
+        "weight": 600,
+        "values": [
+          {
+            "min": 10,
+            "max": 15
+          },
+          {
+            "min": 18,
+            "max": 26
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 60,
+        "weight": 800,
+        "values": [
+          {
+            "min": 7,
+            "max": 11
+          },
+          {
+            "min": 14,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 54,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 6,
+            "max": 10
+          },
+          {
+            "min": 12,
+            "max": 17
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 46,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 5,
+            "max": 7
+          },
+          {
+            "min": 9,
+            "max": 13
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 33,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 4,
+            "max": 6
+          },
+          {
+            "min": 8,
+            "max": 11
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 16,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 2,
+            "max": 4
+          },
+          {
+            "min": 5,
+            "max": 8
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 8,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 2,
+            "max": 3
+          },
+          {
+            "min": 4,
+            "max": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "heated_firedamage",
+    "name": "Heated",
+    "displayName": "Adds (#) to 3 Fire damage to Attacks",
+    "type": "prefix",
+    "domain": "item",
+    "group": "FireDamage",
+    "tags": [
+      "damage",
+      "elemental",
+      "fire",
+      "attack"
+    ],
+    "applicableTo": [
+      "gloves",
+      "quiver",
+      "ring"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 1,
+        "weight": 500,
+        "values": [
+          {
+            "min": 1,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cremating_firedamage",
+    "name": "Cremating",
+    "displayName": "Adds (#) to (#) Fire damage to Attacks",
+    "type": "prefix",
+    "domain": "item",
+    "group": "FireDamage",
+    "tags": [
+      "damage",
+      "elemental",
+      "fire",
+      "attack"
+    ],
+    "applicableTo": [
+      "gloves",
+      "quiver",
+      "ring"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 75,
+        "weight": 200,
+        "values": [
+          {
+            "min": 25,
+            "max": 29
+          },
+          {
+            "min": 37,
+            "max": 45
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 65,
+        "weight": 300,
+        "values": [
+          {
+            "min": 20,
+            "max": 24
+          },
+          {
+            "min": 33,
+            "max": 36
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 60,
+        "weight": 400,
+        "values": [
+          {
+            "min": 13,
+            "max": 19
+          },
+          {
+            "min": 27,
+            "max": 32
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 54,
+        "weight": 500,
+        "values": [
+          {
+            "min": 11,
+            "max": 16
+          },
+          {
+            "min": 21,
+            "max": 26
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 46,
+        "weight": 500,
+        "values": [
+          {
+            "min": 12,
+            "max": 13
+          },
+          {
+            "min": 18,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 33,
+        "weight": 500,
+        "values": [
+          {
+            "min": 9,
+            "max": 11
+          },
+          {
+            "min": 14,
+            "max": 17
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 16,
+        "weight": 500,
+        "values": [
+          {
+            "min": 6,
+            "max": 8
+          },
+          {
+            "min": 10,
+            "max": 13
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 8,
+        "weight": 500,
+        "values": [
+          {
+            "min": 3,
+            "max": 5
+          },
+          {
+            "min": 6,
+            "max": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "frosted_colddamage",
+    "name": "Frosted",
+    "displayName": "Adds 1 to (#) Cold damage to Attacks",
+    "type": "prefix",
+    "domain": "item",
+    "group": "ColdDamage",
+    "tags": [
+      "damage",
+      "elemental",
+      "cold",
+      "attack"
+    ],
+    "applicableTo": [
+      "gloves",
+      "quiver",
+      "ring"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 1,
+        "weight": 500,
+        "values": [
+          {
+            "min": 2,
+            "max": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "entombing_colddamage",
+    "name": "Entombing",
+    "displayName": "Adds (#) to (#) Cold damage to Attacks",
+    "type": "prefix",
+    "domain": "item",
+    "group": "ColdDamage",
+    "tags": [
+      "damage",
+      "elemental",
+      "cold",
+      "attack"
+    ],
+    "applicableTo": [
+      "gloves",
+      "quiver",
+      "ring"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 75,
+        "weight": 200,
+        "values": [
+          {
+            "min": 21,
+            "max": 24
+          },
+          {
+            "min": 32,
+            "max": 37
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 65,
+        "weight": 300,
+        "values": [
+          {
+            "min": 16,
+            "max": 20
+          },
+          {
+            "min": 25,
+            "max": 31
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 60,
+        "weight": 400,
+        "values": [
+          {
+            "min": 14,
+            "max": 15
+          },
+          {
+            "min": 22,
+            "max": 24
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 54,
+        "weight": 500,
+        "values": [
+          {
+            "min": 11,
+            "max": 13
+          },
+          {
+            "min": 18,
+            "max": 21
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 46,
+        "weight": 500,
+        "values": [
+          {
+            "min": 9,
+            "max": 10
+          },
+          {
+            "min": 15,
+            "max": 17
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 33,
+        "weight": 500,
+        "values": [
+          {
+            "min": 7,
+            "max": 8
+          },
+          {
+            "min": 12,
+            "max": 14
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 16,
+        "weight": 500,
+        "values": [
+          {
+            "min": 5,
+            "max": 6
+          },
+          {
+            "min": 9,
+            "max": 11
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 8,
+        "weight": 500,
+        "values": [
+          {
+            "min": 3,
+            "max": 4
+          },
+          {
+            "min": 5,
+            "max": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sparking_lightningdamage",
+    "name": "Sparking",
+    "displayName": "Adds 1 to (#) Lightning damage to Attacks",
+    "type": "prefix",
+    "domain": "item",
+    "group": "LightningDamage",
+    "tags": [
+      "damage",
+      "elemental",
+      "lightning",
+      "attack"
+    ],
+    "applicableTo": [
+      "gloves",
+      "quiver",
+      "ring"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 46,
+        "weight": 500,
+        "values": [
+          {
+            "min": 28,
+            "max": 32
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 33,
+        "weight": 500,
+        "values": [
+          {
+            "min": 23,
+            "max": 27
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 16,
+        "weight": 500,
+        "values": [
+          {
+            "min": 16,
+            "max": 22
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 8,
+        "weight": 500,
+        "values": [
+          {
+            "min": 10,
+            "max": 15
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 1,
+        "weight": 500,
+        "values": [
+          {
+            "min": 4,
+            "max": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "electrocuting_lightningdamage",
+    "name": "Electrocuting",
+    "displayName": "Adds (#) to (#) Lightning damage to Attacks",
+    "type": "prefix",
+    "domain": "item",
+    "group": "LightningDamage",
+    "tags": [
+      "damage",
+      "elemental",
+      "lightning",
+      "attack"
+    ],
+    "applicableTo": [
+      "gloves",
+      "quiver",
+      "ring"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 75,
+        "weight": 200,
+        "values": [
+          {
+            "min": 1,
+            "max": 4
+          },
+          {
+            "min": 60,
+            "max": 71
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 65,
+        "weight": 300,
+        "values": [
+          {
+            "min": 1,
+            "max": 3
+          },
+          {
+            "min": 48,
+            "max": 59
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 60,
+        "weight": 400,
+        "values": [
+          {
+            "min": 1,
+            "max": 2
+          },
+          {
+            "min": 41,
+            "max": 47
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 54,
+        "weight": 500,
+        "values": [
+          {
+            "min": 1,
+            "max": 2
+          },
+          {
+            "min": 33,
+            "max": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_unmaking_criticalstrikechanceincrease",
+    "name": "of Unmaking",
+    "displayName": "(#)% increased Critical Hit Chance for Attacks",
+    "type": "suffix",
+    "domain": "item",
+    "group": "CriticalStrikeChanceIncrease",
+    "tags": [
+      "attack",
+      "critical"
+    ],
+    "applicableTo": [
+      "quiver"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 72,
+        "weight": 125,
+        "values": [
+          {
+            "min": 35,
+            "max": 38
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 58,
+        "weight": 250,
+        "values": [
+          {
+            "min": 30,
+            "max": 34
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 44,
+        "weight": 500,
+        "values": [
+          {
+            "min": 25,
+            "max": 29
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 30,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 20,
+            "max": 24
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 20,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 15,
+            "max": 19
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 5,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 10,
+            "max": 14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_destruction_criticalstrikemultiplier",
+    "name": "of Destruction",
+    "displayName": "(#)% increased Critical Damage Bonus for Attack Damage",
+    "type": "suffix",
+    "domain": "item",
+    "group": "CriticalStrikeMultiplier",
+    "tags": [
+      "attack",
+      "critical"
+    ],
+    "applicableTo": [
+      "quiver"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 74,
+        "weight": 125,
+        "values": [
+          {
+            "min": 35,
+            "max": 39
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 59,
+        "weight": 250,
+        "values": [
+          {
+            "min": 30,
+            "max": 34
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 45,
+        "weight": 500,
+        "values": [
+          {
+            "min": 25,
+            "max": 29
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 31,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 20,
+            "max": 24
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 21,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 15,
+            "max": 19
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 8,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 10,
+            "max": 14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_penetrating_chancetopierce",
+    "name": "of Penetrating",
+    "displayName": "(#)% chance to Pierce an Enemy",
+    "type": "suffix",
+    "domain": "item",
+    "group": "ChanceToPierce",
+    "tags": [],
+    "applicableTo": [
+      "quiver"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 77,
+        "weight": 500,
+        "values": [
+          {
+            "min": 24,
+            "max": 26
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 61,
+        "weight": 500,
+        "values": [
+          {
+            "min": 21,
+            "max": 23
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 44,
+        "weight": 500,
+        "values": [
+          {
+            "min": 18,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 26,
+        "weight": 500,
+        "values": [
+          {
+            "min": 15,
+            "max": 17
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 11,
+        "weight": 500,
+        "values": [
+          {
+            "min": 12,
+            "max": 14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nimble_projectilespeed",
+    "name": "Nimble",
+    "displayName": "(#)% increased Projectile Speed",
+    "type": "prefix",
+    "domain": "item",
+    "group": "ProjectileSpeed",
+    "tags": [
+      "speed"
+    ],
+    "applicableTo": [
+      "quiver"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 82,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 42,
+            "max": 46
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 55,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 34,
+            "max": 41
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 41,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 26,
+            "max": 33
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 27,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 18,
+            "max": 25
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 14,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 10,
+            "max": 17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "impaling_damagewithweapontypeskill",
+    "name": "Impaling",
+    "displayName": "(#)% increased Damage with Bow Skills",
+    "type": "prefix",
+    "domain": "item",
+    "group": "DamageWithWeaponTypeSkill",
+    "tags": [
+      "damage"
+    ],
+    "applicableTo": [
+      "quiver"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 500,
+        "values": [
+          {
+            "min": 51,
+            "max": 59
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 60,
+        "weight": 500,
+        "values": [
+          {
+            "min": 43,
+            "max": 50
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 46,
+        "weight": 500,
+        "values": [
+          {
+            "min": 37,
+            "max": 42
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 33,
+        "weight": 500,
+        "values": [
+          {
+            "min": 31,
+            "max": 36
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 16,
+        "weight": 500,
+        "values": [
+          {
+            "min": 21,
+            "max": 30
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 1,
+        "weight": 500,
+        "values": [
+          {
+            "min": 11,
+            "max": 20
+          }
+        ]
+      }
+    ]
+  }
+]

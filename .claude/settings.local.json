@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:poe2db.tw)",
+      "WebFetch(domain:maxroll.gg)",
+      "Bash(pnpm install:*)",
+      "Bash(pnpm --filter @crafterix/data build:*)",
+      "Bash(pnpm:*)",
+      "Bash(timeout:*)",
+      "Bash(del \"C:\\\\Projects\\\\crafterix\\\\packages\\\\web\\\\src\\\\components\\\\CraftNode.tsx\")",
+      "Bash(del \"C:\\\\Projects\\\\crafterix\\\\packages\\\\web\\\\src\\\\components\\\\OutcomeGroup.tsx\")",
+      "WebSearch",
+      "Bash(npx tsx:*)",
+      "Bash(npx puppeteer:*)",
+      "Bash(ls:*)",
+      "Bash(grep:*)",
+      "Bash(node -e:*)",
+      "Bash(wc:*)",
+      "Bash(du:*)"
+    ]
+  }
+}

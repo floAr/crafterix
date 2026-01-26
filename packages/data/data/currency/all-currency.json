@@ -1,0 +1,173 @@
+[
+  {
+    "id": "orb_of_transmutation",
+    "name": "Orb of Transmutation",
+    "tier": "normal",
+    "effect": "upgrade_rarity",
+    "description": "Upgrades a Normal item to a Magic item with 1 modifier",
+    "applicableToRarity": ["normal"],
+    "minItemLevel": null
+  },
+  {
+    "id": "greater_orb_of_transmutation",
+    "name": "Greater Orb of Transmutation",
+    "tier": "greater",
+    "effect": "upgrade_rarity",
+    "description": "Upgrades a Normal item to a Magic item with 1 modifier (min mod level 35)",
+    "applicableToRarity": ["normal"],
+    "minItemLevel": 35
+  },
+  {
+    "id": "perfect_orb_of_transmutation",
+    "name": "Perfect Orb of Transmutation",
+    "tier": "perfect",
+    "effect": "upgrade_rarity",
+    "description": "Upgrades a Normal item to a Magic item with 1 modifier (min mod level 70)",
+    "applicableToRarity": ["normal"],
+    "minItemLevel": 70
+  },
+  {
+    "id": "orb_of_augmentation",
+    "name": "Orb of Augmentation",
+    "tier": "normal",
+    "effect": "add_affix",
+    "description": "Adds a random modifier to a Magic item",
+    "applicableToRarity": ["magic"],
+    "minItemLevel": null
+  },
+  {
+    "id": "greater_orb_of_augmentation",
+    "name": "Greater Orb of Augmentation",
+    "tier": "greater",
+    "effect": "add_affix",
+    "description": "Adds a random modifier to a Magic item (min mod level 35)",
+    "applicableToRarity": ["magic"],
+    "minItemLevel": 35
+  },
+  {
+    "id": "perfect_orb_of_augmentation",
+    "name": "Perfect Orb of Augmentation",
+    "tier": "perfect",
+    "effect": "add_affix",
+    "description": "Adds a random modifier to a Magic item (min mod level 70)",
+    "applicableToRarity": ["magic"],
+    "minItemLevel": 70
+  },
+  {
+    "id": "regal_orb",
+    "name": "Regal Orb",
+    "tier": "normal",
+    "effect": "upgrade_magic_to_rare",
+    "description": "Upgrades a Magic item to a Rare item, adding 1 modifier",
+    "applicableToRarity": ["magic"],
+    "minItemLevel": null
+  },
+  {
+    "id": "greater_regal_orb",
+    "name": "Greater Regal Orb",
+    "tier": "greater",
+    "effect": "upgrade_magic_to_rare",
+    "description": "Upgrades a Magic item to a Rare item, adding 1 modifier (min mod level 35)",
+    "applicableToRarity": ["magic"],
+    "minItemLevel": 35
+  },
+  {
+    "id": "perfect_regal_orb",
+    "name": "Perfect Regal Orb",
+    "tier": "perfect",
+    "effect": "upgrade_magic_to_rare",
+    "description": "Upgrades a Magic item to a Rare item, adding 1 modifier (min mod level 70)",
+    "applicableToRarity": ["magic"],
+    "minItemLevel": 70
+  },
+  {
+    "id": "orb_of_alchemy",
+    "name": "Orb of Alchemy",
+    "tier": "normal",
+    "effect": "upgrade_rarity",
+    "description": "Upgrades a Normal item to a Rare item with 4 random modifiers",
+    "applicableToRarity": ["normal"],
+    "minItemLevel": null
+  },
+  {
+    "id": "exalted_orb",
+    "name": "Exalted Orb",
+    "tier": "normal",
+    "effect": "add_affix",
+    "description": "Augments a Rare item with a new random modifier",
+    "applicableToRarity": ["rare"],
+    "minItemLevel": null
+  },
+  {
+    "id": "greater_exalted_orb",
+    "name": "Greater Exalted Orb",
+    "tier": "greater",
+    "effect": "add_affix",
+    "description": "Augments a Rare item with a new random modifier (min mod level 35)",
+    "applicableToRarity": ["rare"],
+    "minItemLevel": 35
+  },
+  {
+    "id": "perfect_exalted_orb",
+    "name": "Perfect Exalted Orb",
+    "tier": "perfect",
+    "effect": "add_affix",
+    "description": "Augments a Rare item with a new random modifier (min mod level 50)",
+    "applicableToRarity": ["rare"],
+    "minItemLevel": 50
+  },
+  {
+    "id": "orb_of_annulment",
+    "name": "Orb of Annulment",
+    "tier": "normal",
+    "effect": "remove_affix",
+    "description": "Removes a random modifier from a Magic or Rare item",
+    "applicableToRarity": ["magic", "rare"],
+    "minItemLevel": null
+  },
+  {
+    "id": "chaos_orb",
+    "name": "Chaos Orb",
+    "tier": "normal",
+    "effect": "reforge",
+    "description": "Removes a random modifier and adds a new random modifier to a Rare item",
+    "applicableToRarity": ["rare"],
+    "minItemLevel": null
+  },
+  {
+    "id": "greater_chaos_orb",
+    "name": "Greater Chaos Orb",
+    "tier": "greater",
+    "effect": "reforge",
+    "description": "Removes a random modifier and adds a new random modifier to a Rare item (min mod level 35)",
+    "applicableToRarity": ["rare"],
+    "minItemLevel": 35
+  },
+  {
+    "id": "perfect_chaos_orb",
+    "name": "Perfect Chaos Orb",
+    "tier": "perfect",
+    "effect": "reforge",
+    "description": "Removes a random modifier and adds a new random modifier to a Rare item (min mod level 50)",
+    "applicableToRarity": ["rare"],
+    "minItemLevel": 50
+  },
+  {
+    "id": "divine_orb",
+    "name": "Divine Orb",
+    "tier": "normal",
+    "effect": "randomize_values",
+    "description": "Rerolls the numeric values of the random modifiers on an item",
+    "applicableToRarity": ["magic", "rare"],
+    "minItemLevel": null
+  },
+  {
+    "id": "vaal_orb",
+    "name": "Vaal Orb",
+    "tier": "normal",
+    "effect": "corrupt",
+    "description": "Corrupts an item, unpredictably modifying it",
+    "applicableToRarity": ["normal", "magic", "rare"],
+    "minItemLevel": null
+  }
+]

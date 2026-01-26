@@ -1,0 +1,21 @@
+{
+  "name": "@crafterix/scraper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape": "tsx src/index.ts",
+    "scrape:items": "tsx src/scrape-items.ts",
+    "scrape:mods": "tsx src/scrape-modifiers.ts",
+    "scrape:currency": "tsx src/scrape-currency.ts"
+  },
+  "dependencies": {
+    "@crafterix/data": "workspace:*",
+    "cheerio": "^1.0.0",
+    "puppeteer": "^23.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "omen_of_amelioration",
+    "name": "Omen of Amelioration",
+    "description": "Your next currency that adds a modifier is guaranteed to add the highest tier possible",
+    "appliesTo": ["orb_of_transmutation", "greater_orb_of_transmutation", "perfect_orb_of_transmutation", "orb_of_augmentation", "greater_orb_of_augmentation", "perfect_orb_of_augmentation", "regal_orb", "greater_regal_orb", "perfect_regal_orb", "exalted_orb", "greater_exalted_orb", "perfect_exalted_orb"],
+    "effect": { "type": "guarantee_tier", "minTier": 1 }
+  },
+  {
+    "id": "omen_of_sinistral_alchemy",
+    "name": "Omen of Sinistral Alchemy",
+    "description": "Your next Orb of Alchemy will result in the maximum number of prefix modifiers",
+    "appliesTo": ["orb_of_alchemy"],
+    "effect": { "type": "maximize_prefixes" },
+    "exclusiveGroup": "alchemy_direction"
+  },
+  {
+    "id": "omen_of_dextral_alchemy",
+    "name": "Omen of Dextral Alchemy",
+    "description": "Your next Orb of Alchemy will result in the maximum number of suffix modifiers",
+    "appliesTo": ["orb_of_alchemy"],
+    "effect": { "type": "maximize_suffixes" },
+    "exclusiveGroup": "alchemy_direction"
+  },
+  {
+    "id": "omen_of_sinistral_exaltation",
+    "name": "Omen of Sinistral Exaltation",
+    "description": "Your next Exalted Orb is guaranteed to add a Prefix modifier",
+    "appliesTo": ["exalted_orb", "greater_exalted_orb", "perfect_exalted_orb"],
+    "effect": { "type": "force_mod_type", "modType": "prefix" },
+    "exclusiveGroup": "exalt_direction"
+  },
+  {
+    "id": "omen_of_dextral_exaltation",
+    "name": "Omen of Dextral Exaltation",
+    "description": "Your next Exalted Orb is guaranteed to add a Suffix modifier",
+    "appliesTo": ["exalted_orb", "greater_exalted_orb", "perfect_exalted_orb"],
+    "effect": { "type": "force_mod_type", "modType": "suffix" },
+    "exclusiveGroup": "exalt_direction"
+  },
+  {
+    "id": "omen_of_greater_exaltation",
+    "name": "Omen of Greater Exaltation",
+    "description": "Your next Exalted Orb will add two random modifiers",
+    "appliesTo": ["exalted_orb", "greater_exalted_orb", "perfect_exalted_orb"],
+    "effect": { "type": "double_mod" },
+    "exclusiveGroup": "exalt_quantity"
+  },
+  {
+    "id": "omen_of_sinistral_crystallisation",
+    "name": "Omen of Sinistral Crystallisation",
+    "description": "Your next Regal Orb is guaranteed to add a Prefix modifier",
+    "appliesTo": ["regal_orb", "greater_regal_orb", "perfect_regal_orb"],
+    "effect": { "type": "force_mod_type", "modType": "prefix" },
+    "exclusiveGroup": "regal_direction"
+  },
+  {
+    "id": "omen_of_dextral_crystallisation",
+    "name": "Omen of Dextral Crystallisation",
+    "description": "Your next Regal Orb is guaranteed to add a Suffix modifier",
+    "appliesTo": ["regal_orb", "greater_regal_orb", "perfect_regal_orb"],
+    "effect": { "type": "force_mod_type", "modType": "suffix" },
+    "exclusiveGroup": "regal_direction"
+  },
+  {
+    "id": "omen_of_whittling",
+    "name": "Omen of Whittling",
+    "description": "Your next Chaos Orb will remove the lowest level modifier",
+    "appliesTo": ["chaos_orb", "greater_chaos_orb", "perfect_chaos_orb"],
+    "effect": { "type": "remove_lowest_tier" }
+  },
+  {
+    "id": "omen_of_corruption",
+    "name": "Omen of Corruption",
+    "description": "Your next Vaal Orb will have a more predictable outcome",
+    "appliesTo": ["vaal_orb"],
+    "effect": { "type": "controlled_corruption" }
+  }
+]

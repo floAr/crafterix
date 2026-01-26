@@ -1,0 +1,24 @@
+{
+  "name": "@crafterix/data",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./items/*": "./data/items/*.json",
+    "./modifiers/*": "./data/modifiers/*.json",
+    "./currency/*": "./data/currency/*.json"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  }
+}

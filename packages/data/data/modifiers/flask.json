@@ -1,0 +1,944 @@
+[
+  {
+    "id": "of_the_surgeon_flaskrechargerate",
+    "name": "of the Surgeon",
+    "displayName": "(#)% Chance to gain a Charge when you kill an enemy",
+    "type": "suffix",
+    "domain": "flask",
+    "group": "FlaskRechargeRate",
+    "tags": [],
+    "applicableTo": [
+      "flask"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 45,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 31,
+            "max": 35
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 26,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 26,
+            "max": 30
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 8,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 21,
+            "max": 25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_the_eternal_flaskrechargerate",
+    "name": "of the Eternal",
+    "displayName": "(#)% increased Charges gained",
+    "type": "suffix",
+    "domain": "flask",
+    "group": "FlaskRechargeRate",
+    "tags": [],
+    "applicableTo": [
+      "flask"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 82,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 63,
+            "max": 70
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 63,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 55,
+            "max": 62
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 48,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 47,
+            "max": 54
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 33,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 39,
+            "max": 46
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 13,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 31,
+            "max": 38
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 1,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 23,
+            "max": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_the_chemist_flaskchargesused",
+    "name": "of the Chemist",
+    "displayName": "(#)% reduced Charges per use",
+    "type": "suffix",
+    "domain": "flask",
+    "group": "FlaskChargesUsed",
+    "tags": [],
+    "applicableTo": [
+      "flask"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 83,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 30,
+            "max": 32
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 64,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 27,
+            "max": 29
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 49,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 24,
+            "max": 26
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 34,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 21,
+            "max": 23
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 14,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 18,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 1,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 15,
+            "max": 17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_the_ample_flasknumcharges",
+    "name": "of the Ample",
+    "displayName": "(#)% increased Charges",
+    "type": "suffix",
+    "domain": "flask",
+    "group": "FlaskNumCharges",
+    "tags": [],
+    "applicableTo": [
+      "flask"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 63,
+            "max": 70
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 62,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 55,
+            "max": 62
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 47,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 47,
+            "max": 54
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 32,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 39,
+            "max": 46
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 12,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 31,
+            "max": 38
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 1,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 23,
+            "max": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sapping_flaskrecoveryamount",
+    "name": "Sapping",
+    "displayName": "(#)% increased Life RecoveredRemoves 15% of Life Recovered from Mana when used",
+    "type": "prefix",
+    "domain": "flask",
+    "group": "FlaskRecoveryAmount",
+    "tags": [
+      "life",
+      "mana"
+    ],
+    "applicableTo": [
+      "flask"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 93,
+            "max": 100
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 64,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 85,
+            "max": 92
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 47,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 77,
+            "max": 84
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 30,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 69,
+            "max": 76
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 13,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 61,
+            "max": 68
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_the_sylvan_flaskgaincharge",
+    "name": "of the Sylvan",
+    "displayName": "Gains # Charges per Second",
+    "type": "suffix",
+    "domain": "flask",
+    "group": "FlaskGainCharge",
+    "tags": [],
+    "applicableTo": [
+      "flask"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 45,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 0.25,
+            "max": 0.25
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 26,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 0.2,
+            "max": 0.2
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 8,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 0.15,
+            "max": 0.15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "seething_flaskbuffwhilehealing",
+    "name": "Seething",
+    "displayName": "#% reduced Amount RecoveredInstant Recovery",
+    "type": "prefix",
+    "domain": "flask",
+    "group": "FlaskBuffWhileHealing",
+    "tags": [],
+    "applicableTo": [
+      "flask"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 42,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 50,
+            "max": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "necromancer_s_flaskhealsothers",
+    "name": "Necromancer's",
+    "displayName": "Grants (#)% of Life Recovery to Minions",
+    "type": "prefix",
+    "domain": "flask",
+    "group": "FlaskHealsOthers",
+    "tags": [
+      "life",
+      "minion"
+    ],
+    "applicableTo": [
+      "flask"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 82,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 75,
+            "max": 80
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 64,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 69,
+            "max": 74
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 46,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 63,
+            "max": 68
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 28,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 57,
+            "max": 62
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 10,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 51,
+            "max": 56
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "saturated_flaskrecoveryamount",
+    "name": "Saturated",
+    "displayName": "(#)% increased Amount Recovered",
+    "type": "prefix",
+    "domain": "flask",
+    "group": "FlaskRecoveryAmount",
+    "tags": [],
+    "applicableTo": [
+      "flask"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 83,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 76,
+            "max": 80
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 67,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 71,
+            "max": 75
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 56,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 66,
+            "max": 70
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 46,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 61,
+            "max": 65
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 34,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 56,
+            "max": 60
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 23,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 51,
+            "max": 55
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 11,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 46,
+            "max": 50
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 1,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 41,
+            "max": 45
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cautious_flaskrecoveryamount",
+    "name": "Cautious",
+    "displayName": "(#)% more Recovery if used while on Low Life",
+    "type": "prefix",
+    "domain": "flask",
+    "group": "FlaskRecoveryAmount",
+    "tags": [],
+    "applicableTo": [
+      "flask"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 82,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 91,
+            "max": 100
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 63,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 81,
+            "max": 90
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 44,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 71,
+            "max": 80
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 25,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 61,
+            "max": 70
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 2,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 51,
+            "max": 60
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "catalysed_flaskrecoveryspeed",
+    "name": "Catalysed",
+    "displayName": "(#)% increased Recovery rate",
+    "type": "prefix",
+    "domain": "flask",
+    "group": "FlaskRecoverySpeed",
+    "tags": [],
+    "applicableTo": [
+      "flask"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 66,
+            "max": 70
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 61,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 61,
+            "max": 65
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 46,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 56,
+            "max": 60
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 31,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 51,
+            "max": 55
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 15,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 46,
+            "max": 50
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 1,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 41,
+            "max": 45
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bubbling_flaskrecoveryspeed",
+    "name": "Bubbling",
+    "displayName": "(#)% of Recovery applied Instantly",
+    "type": "prefix",
+    "domain": "flask",
+    "group": "FlaskRecoverySpeed",
+    "tags": [],
+    "applicableTo": [
+      "flask"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 46,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 28,
+            "max": 30
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 27,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 24,
+            "max": 27
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 3,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 20,
+            "max": 23
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "caustic_flaskrecoveryamount",
+    "name": "Caustic",
+    "displayName": "(#)% increased Mana RecoveredRemoves 15% of Mana Recovered from Life when used",
+    "type": "prefix",
+    "domain": "flask",
+    "group": "FlaskRecoveryAmount",
+    "tags": [
+      "life",
+      "mana"
+    ],
+    "applicableTo": [
+      "flask"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 93,
+            "max": 100
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 64,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 85,
+            "max": 92
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 47,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 77,
+            "max": 84
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 30,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 69,
+            "max": 76
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 13,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 61,
+            "max": 68
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prolonged_flaskrecoveryamount",
+    "name": "Prolonged",
+    "displayName": "(#)% more Recovery if used while on Low Mana",
+    "type": "prefix",
+    "domain": "flask",
+    "group": "FlaskRecoveryAmount",
+    "tags": [],
+    "applicableTo": [
+      "flask"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 82,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 91,
+            "max": 100
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 63,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 81,
+            "max": 90
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 44,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 71,
+            "max": 80
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 25,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 61,
+            "max": 70
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 2,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 51,
+            "max": 60
+          }
+        ]
+      }
+    ]
+  }
+]

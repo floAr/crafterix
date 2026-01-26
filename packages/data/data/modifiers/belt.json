@@ -1,0 +1,1931 @@
+[
+  {
+    "id": "blue_increasedmana",
+    "name": "Blue",
+    "displayName": "+(#) to maximum Mana",
+    "type": "prefix",
+    "domain": "item",
+    "group": "IncreasedMana",
+    "tags": [
+      "mana"
+    ],
+    "applicableTo": [
+      "one_hand_weapon",
+      "two_hand_weapon",
+      "helmet",
+      "gloves",
+      "boots",
+      "focus",
+      "amulet",
+      "ring",
+      "belt"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 70,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 150,
+            "max": 164
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 65,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 125,
+            "max": 149
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 60,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 105,
+            "max": 124
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 54,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 90,
+            "max": 104
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 46,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 80,
+            "max": 89
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 38,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 65,
+            "max": 79
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 33,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 55,
+            "max": 64
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 25,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 35,
+            "max": 54
+          }
+        ]
+      },
+      {
+        "tier": 9,
+        "requiredLevel": 16,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 25,
+            "max": 34
+          }
+        ]
+      },
+      {
+        "tier": 10,
+        "requiredLevel": 6,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 15,
+            "max": 24
+          }
+        ]
+      },
+      {
+        "tier": 11,
+        "requiredLevel": 1,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 10,
+            "max": 14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_the_titan_strength",
+    "name": "of the Titan",
+    "displayName": "+(#) to Strength",
+    "type": "suffix",
+    "domain": "item",
+    "group": "Strength",
+    "tags": [
+      "attribute"
+    ],
+    "applicableTo": [
+      "one_hand_weapon",
+      "two_hand_weapon",
+      "body_armour",
+      "helmet",
+      "gloves",
+      "boots",
+      "shield",
+      "amulet",
+      "ring",
+      "belt"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 74,
+        "weight": 1,
+        "values": [
+          {
+            "min": 31,
+            "max": 33
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 66,
+        "weight": 1,
+        "values": [
+          {
+            "min": 28,
+            "max": 30
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 55,
+        "weight": 1,
+        "values": [
+          {
+            "min": 25,
+            "max": 27
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 44,
+        "weight": 1,
+        "values": [
+          {
+            "min": 21,
+            "max": 24
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 33,
+        "weight": 1,
+        "values": [
+          {
+            "min": 17,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 22,
+        "weight": 1,
+        "values": [
+          {
+            "min": 13,
+            "max": 16
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 11,
+        "weight": 1,
+        "values": [
+          {
+            "min": 9,
+            "max": 12
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 5,
+            "max": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_tzteosh_fireresistance",
+    "name": "of Tzteosh",
+    "displayName": "+(#)% to Fire Resistance",
+    "type": "suffix",
+    "domain": "item",
+    "group": "FireResistance",
+    "tags": [
+      "elemental",
+      "fire",
+      "resistance"
+    ],
+    "applicableTo": [
+      "body_armour",
+      "helmet",
+      "gloves",
+      "boots",
+      "shield",
+      "focus",
+      "amulet",
+      "ring",
+      "belt"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 82,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 41,
+            "max": 45
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 71,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 36,
+            "max": 40
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 60,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 31,
+            "max": 35
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 48,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 26,
+            "max": 30
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 36,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 21,
+            "max": 25
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 24,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 16,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 12,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 11,
+            "max": 15
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 1,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 6,
+            "max": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_haast_coldresistance",
+    "name": "of Haast",
+    "displayName": "+(#)% to Cold Resistance",
+    "type": "suffix",
+    "domain": "item",
+    "group": "ColdResistance",
+    "tags": [
+      "elemental",
+      "cold",
+      "resistance"
+    ],
+    "applicableTo": [
+      "body_armour",
+      "helmet",
+      "gloves",
+      "boots",
+      "shield",
+      "focus",
+      "amulet",
+      "ring",
+      "belt"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 82,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 41,
+            "max": 45
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 71,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 36,
+            "max": 40
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 60,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 31,
+            "max": 35
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 50,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 26,
+            "max": 30
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 38,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 21,
+            "max": 25
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 26,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 16,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 14,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 11,
+            "max": 15
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 1,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 6,
+            "max": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_ephij_lightningresistance",
+    "name": "of Ephij",
+    "displayName": "+(#)% to Lightning Resistance",
+    "type": "suffix",
+    "domain": "item",
+    "group": "LightningResistance",
+    "tags": [
+      "elemental",
+      "lightning",
+      "resistance"
+    ],
+    "applicableTo": [
+      "body_armour",
+      "helmet",
+      "gloves",
+      "boots",
+      "shield",
+      "focus",
+      "amulet",
+      "ring",
+      "belt"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 82,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 41,
+            "max": 45
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 71,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 36,
+            "max": 40
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 60,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 31,
+            "max": 35
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 49,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 26,
+            "max": 30
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 37,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 21,
+            "max": 25
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 25,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 16,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 13,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 11,
+            "max": 15
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 1,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 6,
+            "max": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_bameth_chaosresistance",
+    "name": "of Bameth",
+    "displayName": "+(#)% to Chaos Resistance",
+    "type": "suffix",
+    "domain": "item",
+    "group": "ChaosResistance",
+    "tags": [
+      "chaos",
+      "resistance"
+    ],
+    "applicableTo": [
+      "body_armour",
+      "helmet",
+      "gloves",
+      "boots",
+      "shield",
+      "focus",
+      "amulet",
+      "ring",
+      "belt"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 250,
+        "values": [
+          {
+            "min": 24,
+            "max": 27
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 68,
+        "weight": 250,
+        "values": [
+          {
+            "min": 20,
+            "max": 23
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 56,
+        "weight": 250,
+        "values": [
+          {
+            "min": 16,
+            "max": 19
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 44,
+        "weight": 250,
+        "values": [
+          {
+            "min": 12,
+            "max": 15
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 30,
+        "weight": 250,
+        "values": [
+          {
+            "min": 8,
+            "max": 11
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 16,
+        "weight": 250,
+        "values": [
+          {
+            "min": 4,
+            "max": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "prime_increasedlife",
+    "name": "Prime",
+    "displayName": "+(#) to maximum Life",
+    "type": "prefix",
+    "domain": "item",
+    "group": "IncreasedLife",
+    "tags": [
+      "life"
+    ],
+    "applicableTo": [
+      "body_armour",
+      "helmet",
+      "gloves",
+      "boots",
+      "shield",
+      "amulet",
+      "ring",
+      "belt"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 80,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 200,
+            "max": 214
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 75,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 190,
+            "max": 199
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 70,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 175,
+            "max": 189
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 65,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 150,
+            "max": 174
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 60,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 120,
+            "max": 149
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 54,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 100,
+            "max": 119
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 46,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 85,
+            "max": 99
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 38,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 70,
+            "max": 84
+          }
+        ]
+      },
+      {
+        "tier": 9,
+        "requiredLevel": 33,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 60,
+            "max": 69
+          }
+        ]
+      },
+      {
+        "tier": 10,
+        "requiredLevel": 24,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 40,
+            "max": 59
+          }
+        ]
+      },
+      {
+        "tier": 11,
+        "requiredLevel": 16,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 30,
+            "max": 39
+          }
+        ]
+      },
+      {
+        "tier": 12,
+        "requiredLevel": 6,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 20,
+            "max": 29
+          }
+        ]
+      },
+      {
+        "tier": 13,
+        "requiredLevel": 1,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 10,
+            "max": 19
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_obsidian_skin_stunthreshold",
+    "name": "of Obsidian Skin",
+    "displayName": "+(#) to Stun Threshold",
+    "type": "suffix",
+    "domain": "item",
+    "group": "StunThreshold",
+    "tags": [],
+    "applicableTo": [
+      "body_armour",
+      "boots",
+      "shield",
+      "belt"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 72,
+        "weight": 800,
+        "values": [
+          {
+            "min": 254,
+            "max": 304
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 63,
+        "weight": 800,
+        "values": [
+          {
+            "min": 207,
+            "max": 253
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 54,
+        "weight": 800,
+        "values": [
+          {
+            "min": 164,
+            "max": 206
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 45,
+        "weight": 800,
+        "values": [
+          {
+            "min": 125,
+            "max": 163
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 36,
+        "weight": 800,
+        "values": [
+          {
+            "min": 98,
+            "max": 124
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 29,
+        "weight": 800,
+        "values": [
+          {
+            "min": 73,
+            "max": 97
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 22,
+        "weight": 800,
+        "values": [
+          {
+            "min": 50,
+            "max": 72
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 15,
+        "weight": 800,
+        "values": [
+          {
+            "min": 30,
+            "max": 49
+          }
+        ]
+      },
+      {
+        "tier": 9,
+        "requiredLevel": 8,
+        "weight": 800,
+        "values": [
+          {
+            "min": 12,
+            "max": 29
+          }
+        ]
+      },
+      {
+        "tier": 10,
+        "requiredLevel": 1,
+        "weight": 800,
+        "values": [
+          {
+            "min": 6,
+            "max": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jagged_thorns",
+    "name": "Jagged",
+    "displayName": "(#) to (#) Physical Thorns damage",
+    "type": "prefix",
+    "domain": "item",
+    "group": "Thorns",
+    "tags": [
+      "damage",
+      "physical"
+    ],
+    "applicableTo": [
+      "body_armour",
+      "shield",
+      "belt"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 74,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 101,
+            "max": 151
+          },
+          {
+            "min": 146,
+            "max": 220
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 63,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 64,
+            "max": 97
+          },
+          {
+            "min": 97,
+            "max": 145
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 48,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 40,
+            "max": 60
+          },
+          {
+            "min": 61,
+            "max": 92
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 38,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 24,
+            "max": 35
+          },
+          {
+            "min": 35,
+            "max": 53
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 19,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 11,
+            "max": 16
+          },
+          {
+            "min": 15,
+            "max": 23
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 10,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 5,
+            "max": 7
+          },
+          {
+            "min": 7,
+            "max": 10
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 1,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 1,
+            "max": 2
+          },
+          {
+            "min": 3,
+            "max": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_the_phoenix_liferegeneration",
+    "name": "of the Phoenix",
+    "displayName": "(#) Life Regeneration per second",
+    "type": "suffix",
+    "domain": "item",
+    "group": "LifeRegeneration",
+    "tags": [
+      "life"
+    ],
+    "applicableTo": [
+      "body_armour",
+      "helmet",
+      "boots",
+      "amulet",
+      "ring",
+      "belt"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 33.1,
+            "max": 36
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 75,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 29.1,
+            "max": 33
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 68,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 23.1,
+            "max": 29
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 58,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 18.1,
+            "max": 23
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 47,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 13.1,
+            "max": 18
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 35,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 9.1,
+            "max": 13
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 26,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 6.1,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 17,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 4.1,
+            "max": 6
+          }
+        ]
+      },
+      {
+        "tier": 9,
+        "requiredLevel": 11,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 3.1,
+            "max": 4
+          }
+        ]
+      },
+      {
+        "tier": 10,
+        "requiredLevel": 5,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 2.1,
+            "max": 3
+          }
+        ]
+      },
+      {
+        "tier": 11,
+        "requiredLevel": 1,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 1,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unmoving_increasedphysicaldamagereductionrating",
+    "name": "Unmoving",
+    "displayName": "+(#) to Armour",
+    "type": "prefix",
+    "domain": "item",
+    "group": "IncreasedPhysicalDamageReductionRating",
+    "tags": [
+      "defences"
+    ],
+    "applicableTo": [
+      "belt"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 80,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 225,
+            "max": 255
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 70,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 196,
+            "max": 224
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 65,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 169,
+            "max": 195
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 54,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 139,
+            "max": 168
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 46,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 107,
+            "max": 138
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 33,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 82,
+            "max": 106
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 25,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 55,
+            "max": 81
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 16,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 43,
+            "max": 54
+          }
+        ]
+      },
+      {
+        "tier": 9,
+        "requiredLevel": 11,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 23,
+            "max": 42
+          }
+        ]
+      },
+      {
+        "tier": 10,
+        "requiredLevel": 1,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 12,
+            "max": 22
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "regenerating_beltflaskrecoveryrate",
+    "name": "Regenerating",
+    "displayName": "(#)% increased Flask Life Recovery rate",
+    "type": "prefix",
+    "domain": "item",
+    "group": "BeltFlaskRecoveryRate",
+    "tags": [
+      "life"
+    ],
+    "applicableTo": [
+      "belt"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 75,
+        "weight": 800,
+        "values": [
+          {
+            "min": 35,
+            "max": 40
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 60,
+        "weight": 800,
+        "values": [
+          {
+            "min": 29,
+            "max": 34
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 46,
+        "weight": 800,
+        "values": [
+          {
+            "min": 23,
+            "max": 28
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 33,
+        "weight": 800,
+        "values": [
+          {
+            "min": 17,
+            "max": 22
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 16,
+        "weight": 800,
+        "values": [
+          {
+            "min": 11,
+            "max": 16
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 1,
+        "weight": 800,
+        "values": [
+          {
+            "min": 5,
+            "max": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "inspiring_beltflaskrecoveryrate",
+    "name": "Inspiring",
+    "displayName": "(#)% increased Flask Mana Recovery rate",
+    "type": "prefix",
+    "domain": "item",
+    "group": "BeltFlaskRecoveryRate",
+    "tags": [
+      "mana"
+    ],
+    "applicableTo": [
+      "belt"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 63,
+        "weight": 800,
+        "values": [
+          {
+            "min": 35,
+            "max": 40
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 54,
+        "weight": 800,
+        "values": [
+          {
+            "min": 29,
+            "max": 34
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 36,
+        "weight": 800,
+        "values": [
+          {
+            "min": 23,
+            "max": 28
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 26,
+        "weight": 800,
+        "values": [
+          {
+            "min": 17,
+            "max": 22
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 11,
+        "weight": 800,
+        "values": [
+          {
+            "min": 11,
+            "max": 16
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 5,
+        "weight": 800,
+        "values": [
+          {
+            "min": 5,
+            "max": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "revolutionary_beltcharmduration",
+    "name": "Revolutionary",
+    "displayName": "(#)% increased Charm Effect Duration",
+    "type": "prefix",
+    "domain": "item",
+    "group": "BeltCharmDuration",
+    "tags": [],
+    "applicableTo": [
+      "belt"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 75,
+        "weight": 800,
+        "values": [
+          {
+            "min": 28,
+            "max": 33
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 60,
+        "weight": 800,
+        "values": [
+          {
+            "min": 22,
+            "max": 27
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 46,
+        "weight": 800,
+        "values": [
+          {
+            "min": 16,
+            "max": 21
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 33,
+        "weight": 800,
+        "values": [
+          {
+            "min": 10,
+            "max": 15
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 8,
+        "weight": 800,
+        "values": [
+          {
+            "min": 4,
+            "max": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_overflowing_beltflaskchargesgained",
+    "name": "of Overflowing",
+    "displayName": "(#)% increased Flask Charges gained",
+    "type": "suffix",
+    "domain": "item",
+    "group": "BeltFlaskChargesGained",
+    "tags": [],
+    "applicableTo": [
+      "belt"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 800,
+        "values": [
+          {
+            "min": 35,
+            "max": 40
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 70,
+        "weight": 800,
+        "values": [
+          {
+            "min": 29,
+            "max": 34
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 48,
+        "weight": 800,
+        "values": [
+          {
+            "min": 23,
+            "max": 28
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 32,
+        "weight": 800,
+        "values": [
+          {
+            "min": 17,
+            "max": 22
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 16,
+        "weight": 800,
+        "values": [
+          {
+            "min": 11,
+            "max": 16
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 2,
+        "weight": 800,
+        "values": [
+          {
+            "min": 5,
+            "max": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_nourishing_beltflaskchargesused",
+    "name": "of Nourishing",
+    "displayName": "(#)% reduced Flask Charges used",
+    "type": "suffix",
+    "domain": "item",
+    "group": "BeltFlaskChargesUsed",
+    "tags": [],
+    "applicableTo": [
+      "belt"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 800,
+        "values": [
+          {
+            "min": 23,
+            "max": 25
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 72,
+        "weight": 800,
+        "values": [
+          {
+            "min": 20,
+            "max": 22
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 50,
+        "weight": 800,
+        "values": [
+          {
+            "min": 17,
+            "max": 19
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 33,
+        "weight": 800,
+        "values": [
+          {
+            "min": 14,
+            "max": 16
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 18,
+        "weight": 800,
+        "values": [
+          {
+            "min": 11,
+            "max": 13
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 3,
+        "weight": 800,
+        "values": [
+          {
+            "min": 8,
+            "max": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_abundance_beltcharmchargesgained",
+    "name": "of Abundance",
+    "displayName": "(#)% increased Charm Charges gained",
+    "type": "suffix",
+    "domain": "item",
+    "group": "BeltCharmChargesGained",
+    "tags": [],
+    "applicableTo": [
+      "belt"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 800,
+        "values": [
+          {
+            "min": 35,
+            "max": 40
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 70,
+        "weight": 800,
+        "values": [
+          {
+            "min": 29,
+            "max": 34
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 48,
+        "weight": 800,
+        "values": [
+          {
+            "min": 23,
+            "max": 28
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 32,
+        "weight": 800,
+        "values": [
+          {
+            "min": 17,
+            "max": 22
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 16,
+        "weight": 800,
+        "values": [
+          {
+            "min": 11,
+            "max": 16
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 2,
+        "weight": 800,
+        "values": [
+          {
+            "min": 5,
+            "max": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_scarcity_beltcharmchargesused",
+    "name": "of Scarcity",
+    "displayName": "(#)% reduced Charm Charges used",
+    "type": "suffix",
+    "domain": "item",
+    "group": "BeltCharmChargesUsed",
+    "tags": [],
+    "applicableTo": [
+      "belt"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 800,
+        "values": [
+          {
+            "min": 23,
+            "max": 25
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 72,
+        "weight": 800,
+        "values": [
+          {
+            "min": 20,
+            "max": 22
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 50,
+        "weight": 800,
+        "values": [
+          {
+            "min": 17,
+            "max": 19
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 33,
+        "weight": 800,
+        "values": [
+          {
+            "min": 14,
+            "max": 16
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 18,
+        "weight": 800,
+        "values": [
+          {
+            "min": 11,
+            "max": 13
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 3,
+        "weight": 800,
+        "values": [
+          {
+            "min": 8,
+            "max": 10
+          }
+        ]
+      }
+    ]
+  }
+]
