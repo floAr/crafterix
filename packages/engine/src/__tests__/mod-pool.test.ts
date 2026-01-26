@@ -1,4 +1,4 @@
-import { describe, it, expect } from "vitest";
+import { describe, it, expect, beforeAll } from "vitest";
 import type { ItemBase, Modifier } from "@crafterix/data";
 import { ModPool } from "../mod-pool.js";
 import { CraftingState } from "../crafting-state.js";
@@ -303,6 +303,186 @@ describe("ModPool", () => {
       const probs = pool.getModProbabilities(state, "prefix");
 
       expect(probs.size).toBe(0);
+    });
+  });
+});
+
+/**
+ * Integration tests using real scraped modifier data.
+ * These tests verify that the filtering logic works correctly
+ * with the actual game data from poe2db.
+ */
+describe("ModPool - Integration with real data", () => {
+  // Dynamic import to avoid issues if data not available
+  let SAMPLE_MODIFIERS_REAL: typeof import("../data/index.js").SAMPLE_MODIFIERS;
+  let SAMPLE_ITEMS_REAL: typeof import("../data/index.js").SAMPLE_ITEMS;
+
+  beforeAll(async () => {
+    const data = await import("../data/index.js");
+    SAMPLE_MODIFIERS_REAL = data.SAMPLE_MODIFIERS;
+    SAMPLE_ITEMS_REAL = data.SAMPLE_ITEMS;
+  });
+
+  describe("body armour filtering", () => {
+    it("should only return mods with body_armour in applicableTo", () => {
+      const pool = new ModPool(SAMPLE_MODIFIERS_REAL);
+      const bodyArmour = SAMPLE_ITEMS_REAL.find((i) => i.category === "body_armour");
+      if (!bodyArmour) {
+        console.warn("No body armour in sample items, skipping test");
+        return;
+      }
+
+      const state = CraftingState.fromBase(bodyArmour);
+      const prefixes = pool.getAvailableMods(state, "prefix");
+      const suffixes = pool.getAvailableMods(state, "suffix");
+
+      for (const { item } of prefixes) {
+        expect(
+          item.modifier.applicableTo,
+          `Prefix "${item.modifier.id}" (${item.modifier.displayName}) should be applicable to body_armour`
+        ).toContain("body_armour");
+      }
+
+      for (const { item } of suffixes) {
+        expect(
+          item.modifier.applicableTo,
+          `Suffix "${item.modifier.id}" (${item.modifier.displayName}) should be applicable to body_armour`
+        ).toContain("body_armour");
+      }
+    });
+
+    it("should NOT include weapon-only mods (physical damage, attack speed, etc)", () => {
+      const pool = new ModPool(SAMPLE_MODIFIERS_REAL);
+      const bodyArmour = SAMPLE_ITEMS_REAL.find((i) => i.category === "body_armour");
+      if (!bodyArmour) return;
+
+      const state = CraftingState.fromBase(bodyArmour);
+      const allMods = [
+        ...pool.getAvailableMods(state, "prefix"),
+        ...pool.getAvailableMods(state, "suffix"),
+      ];
+
+      // These mod patterns should NEVER appear on body armour
+      const weaponOnlyPatterns = [
+        /adds.*physical damage/i,
+        /adds.*fire damage/i,
+        /adds.*cold damage/i,
+        /adds.*lightning damage/i,
+        /increased attack speed/i,
+        /increased physical damage$/i,
+        /leeches.*physical damage/i,
+        /to level of all melee skills/i,
+      ];
+
+      for (const { item } of allMods) {
+        for (const pattern of weaponOnlyPatterns) {
+          if (pattern.test(item.modifier.displayName)) {
+            // If it matches a weapon pattern, verify it's actually applicable to body_armour
+            expect(
+              item.modifier.applicableTo,
+              `Mod "${item.modifier.displayName}" matches weapon pattern but appeared for body armour`
+            ).toContain("body_armour");
+          }
+        }
+      }
+    });
+
+    it("weapon-only mods in data should not have body_armour in applicableTo", () => {
+      // Verify the data itself is correct
+      const weaponOnlyMods = SAMPLE_MODIFIERS_REAL.filter(
+        (m) =>
+          (m.applicableTo.includes("one_hand_weapon") ||
+            m.applicableTo.includes("two_hand_weapon")) &&
+          !m.applicableTo.includes("body_armour")
+      );
+
+      // These should exist in the data
+      expect(weaponOnlyMods.length).toBeGreaterThan(0);
+
+      // Verify they have weapon-appropriate names
+      const hasPhysicalDamage = weaponOnlyMods.some((m) =>
+        m.displayName.toLowerCase().includes("physical damage")
+      );
+      expect(hasPhysicalDamage).toBe(true);
+    });
+  });
+
+  describe("cross-item-type verification", () => {
+    it("each item type should only get mods applicable to it", () => {
+      const pool = new ModPool(SAMPLE_MODIFIERS_REAL);
+
+      for (const item of SAMPLE_ITEMS_REAL) {
+        const state = CraftingState.fromBase(item);
+        const mods = [
+          ...pool.getAvailableMods(state, "prefix"),
+          ...pool.getAvailableMods(state, "suffix"),
+        ];
+
+        for (const { item: modItem } of mods) {
+          // Every mod must have at least one tag matching the item
+          const hasMatchingTag = modItem.modifier.applicableTo.some((tag) =>
+            item.tags.includes(tag)
+          );
+          expect(
+            hasMatchingTag,
+            `Mod "${modItem.modifier.id}" should have a tag matching item "${item.id}" tags: ${item.tags.join(", ")}`
+          ).toBe(true);
+        }
+      }
+    });
+  });
+
+  describe("essence mod filtering", () => {
+    it("should NOT include essence mods by default", () => {
+      const pool = new ModPool(SAMPLE_MODIFIERS_REAL);
+      const bodyArmour = SAMPLE_ITEMS_REAL.find((i) => i.category === "body_armour");
+      if (!bodyArmour) return;
+
+      const state = CraftingState.fromBase(bodyArmour);
+      const allMods = [
+        ...pool.getAvailableMods(state, "prefix"),
+        ...pool.getAvailableMods(state, "suffix"),
+      ];
+
+      // No mod should have "essence" tag
+      for (const { item } of allMods) {
+        expect(
+          item.modifier.tags,
+          `Mod "${item.modifier.id}" has essence tag but should be filtered out`
+        ).not.toContain("essence");
+      }
+    });
+
+    it("should include essence mods when explicitly requested", () => {
+      const pool = new ModPool(SAMPLE_MODIFIERS_REAL);
+      const bodyArmour = SAMPLE_ITEMS_REAL.find((i) => i.category === "body_armour");
+      if (!bodyArmour) return;
+
+      const state = CraftingState.fromBase(bodyArmour);
+      const allMods = [
+        ...pool.getAvailableMods(state, "prefix", [], true),
+        ...pool.getAvailableMods(state, "suffix", [], true),
+      ];
+
+      // Should include some essence mods
+      const essenceMods = allMods.filter(({ item }) =>
+        item.modifier.tags.includes("essence")
+      );
+      expect(essenceMods.length).toBeGreaterThan(0);
+    });
+
+    it("essence mods exist in the data with correct tag", () => {
+      // Verify essence mods are properly tagged in the data
+      const essenceMods = SAMPLE_MODIFIERS_REAL.filter((m) =>
+        m.tags.includes("essence")
+      );
+      expect(essenceMods.length).toBeGreaterThan(0);
+
+      // Verify they have essence-specific group names
+      const hasEssenceGroup = essenceMods.some((m) =>
+        m.group.toLowerCase().includes("essence")
+      );
+      expect(hasEssenceGroup).toBe(true);
     });
   });
 });

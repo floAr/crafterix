@@ -45,11 +45,13 @@ export class ModPool {
 
   /**
    * Get available mods for an item, filtered by type and existing mods.
+   * @param includeEssenceMods - If true, includes essence-only mods. Default false.
    */
   getAvailableMods(
     state: CraftingState,
     type: ModifierType,
-    weightMods: WeightModification[] = []
+    weightMods: WeightModification[] = [],
+    includeEssenceMods: boolean = false
   ): WeightedItem<ModTierSelection>[] {
     const base = state.item.base;
     const existingGroups = new Set<string>();
@@ -69,6 +71,9 @@ export class ModPool {
     for (const mod of this.modifiers) {
       // Filter by type
       if (mod.type !== type) continue;
+
+      // Filter out essence-only mods unless explicitly included
+      if (!includeEssenceMods && mod.tags.includes("essence")) continue;
 
       // Filter by applicable item tags
       if (!this.isApplicableToItem(mod, base)) continue;
