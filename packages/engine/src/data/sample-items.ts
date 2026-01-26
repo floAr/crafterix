@@ -1,6 +1,15 @@
 import type { ItemBase } from "@crafterix/data";
 
+/**
+ * Sample items for testing.
+ * Tags must match the granular item tags from poe2db scraping:
+ * - body_armour_str, body_armour_dex, body_armour_int, etc.
+ * - helmet_str, helmet_dex, helmet_int, etc.
+ * - one_hand_weapon, two_hand_weapon
+ * - amulet, ring, belt
+ */
 export const SAMPLE_ITEMS: ItemBase[] = [
+  // STR Body Armours
   {
     id: "plate_vest",
     name: "Plate Vest",
@@ -10,7 +19,7 @@ export const SAMPLE_ITEMS: ItemBase[] = [
     requiredLevel: 1,
     implicitMods: [],
     affixSlots: { maxPrefixes: 3, maxSuffixes: 3 },
-    tags: ["body_armour", "armour", "str_armour"],
+    tags: ["body_armour_str"],
   },
   {
     id: "chestplate",
@@ -21,7 +30,7 @@ export const SAMPLE_ITEMS: ItemBase[] = [
     requiredLevel: 25,
     implicitMods: [],
     affixSlots: { maxPrefixes: 3, maxSuffixes: 3 },
-    tags: ["body_armour", "armour", "str_armour"],
+    tags: ["body_armour_str"],
   },
   {
     id: "full_plate",
@@ -32,7 +41,7 @@ export const SAMPLE_ITEMS: ItemBase[] = [
     requiredLevel: 45,
     implicitMods: [],
     affixSlots: { maxPrefixes: 3, maxSuffixes: 3 },
-    tags: ["body_armour", "armour", "str_armour"],
+    tags: ["body_armour_str"],
   },
   {
     id: "glorious_plate",
@@ -43,7 +52,7 @@ export const SAMPLE_ITEMS: ItemBase[] = [
     requiredLevel: 60,
     implicitMods: [],
     affixSlots: { maxPrefixes: 3, maxSuffixes: 3 },
-    tags: ["body_armour", "armour", "str_armour"],
+    tags: ["body_armour_str"],
   },
 ];
 

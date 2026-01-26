@@ -324,7 +324,7 @@ describe("ModPool - Integration with real data", () => {
   });
 
   describe("body armour filtering", () => {
-    it("should only return mods with body_armour in applicableTo", () => {
+    it("should only return mods applicable to the item's tags", () => {
       const pool = new ModPool(SAMPLE_MODIFIERS_REAL);
       const bodyArmour = SAMPLE_ITEMS_REAL.find((i) => i.category === "body_armour");
       if (!bodyArmour) {
@@ -336,18 +336,25 @@ describe("ModPool - Integration with real data", () => {
       const prefixes = pool.getAvailableMods(state, "prefix");
       const suffixes = pool.getAvailableMods(state, "suffix");
 
+      // Every mod must have at least one tag matching the item's tags
       for (const { item } of prefixes) {
+        const hasMatchingTag = item.modifier.applicableTo.some((tag) =>
+          bodyArmour.tags.includes(tag)
+        );
         expect(
-          item.modifier.applicableTo,
-          `Prefix "${item.modifier.id}" (${item.modifier.displayName}) should be applicable to body_armour`
-        ).toContain("body_armour");
+          hasMatchingTag,
+          `Prefix "${item.modifier.id}" (${item.modifier.displayName}) should be applicable to tags: ${bodyArmour.tags.join(", ")}`
+        ).toBe(true);
       }
 
       for (const { item } of suffixes) {
+        const hasMatchingTag = item.modifier.applicableTo.some((tag) =>
+          bodyArmour.tags.includes(tag)
+        );
         expect(
-          item.modifier.applicableTo,
-          `Suffix "${item.modifier.id}" (${item.modifier.displayName}) should be applicable to body_armour`
-        ).toContain("body_armour");
+          hasMatchingTag,
+          `Suffix "${item.modifier.id}" (${item.modifier.displayName}) should be applicable to tags: ${bodyArmour.tags.join(", ")}`
+        ).toBe(true);
       }
     });
 
@@ -377,23 +384,29 @@ describe("ModPool - Integration with real data", () => {
       for (const { item } of allMods) {
         for (const pattern of weaponOnlyPatterns) {
           if (pattern.test(item.modifier.displayName)) {
-            // If it matches a weapon pattern, verify it's actually applicable to body_armour
+            // If it matches a weapon pattern, verify it's actually applicable to the item
+            const hasMatchingTag = item.modifier.applicableTo.some((tag) =>
+              bodyArmour.tags.includes(tag)
+            );
             expect(
-              item.modifier.applicableTo,
+              hasMatchingTag,
               `Mod "${item.modifier.displayName}" matches weapon pattern but appeared for body armour`
-            ).toContain("body_armour");
+            ).toBe(true);
           }
         }
       }
     });
 
-    it("weapon-only mods in data should not have body_armour in applicableTo", () => {
-      // Verify the data itself is correct
+    it("weapon-only mods should not be applicable to body armour tags", () => {
+      const bodyArmour = SAMPLE_ITEMS_REAL.find((i) => i.category === "body_armour");
+      if (!bodyArmour) return;
+
+      // Find weapon-only mods (apply to weapons, not to any body armour type)
       const weaponOnlyMods = SAMPLE_MODIFIERS_REAL.filter(
         (m) =>
           (m.applicableTo.includes("one_hand_weapon") ||
             m.applicableTo.includes("two_hand_weapon")) &&
-          !m.applicableTo.includes("body_armour")
+          !m.applicableTo.some((tag) => tag.startsWith("body_armour"))
       );
 
       // These should exist in the data

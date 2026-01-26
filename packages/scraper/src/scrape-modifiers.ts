@@ -7,82 +7,80 @@ const OUTPUT_DIR = path.join(import.meta.dirname, "../../data/data/modifiers");
 const BASE_URL = "https://poe2db.tw/us";
 
 // All item categories to scrape from poe2db
-const ITEM_CATEGORIES: Record<string, string[]> = {
-  // One-handed weapons
-  one_hand_weapon: [
-    "Claws",
-    "Daggers",
-    "Wands",
-    "One_Hand_Swords",
-    "One_Hand_Axes",
-    "One_Hand_Maces",
-    "Sceptres",
-    "Spears",
-    "Flails",
-  ],
-  // Two-handed weapons
-  two_hand_weapon: [
-    "Bows",
-    "Staves",
-    "Two_Hand_Swords",
-    "Two_Hand_Axes",
-    "Two_Hand_Maces",
-    "Quarterstaves",
-    "Crossbows",
-  ],
-  // Armor - body
-  body_armour: [
-    "Body_Armours_str",
-    "Body_Armours_dex",
-    "Body_Armours_int",
-    "Body_Armours_str_dex",
-    "Body_Armours_str_int",
-    "Body_Armours_dex_int",
-  ],
-  // Armor - helmet
-  helmet: [
-    "Helmets_str",
-    "Helmets_dex",
-    "Helmets_int",
-    "Helmets_str_dex",
-    "Helmets_str_int",
-    "Helmets_dex_int",
-  ],
-  // Armor - gloves
-  gloves: [
-    "Gloves_str",
-    "Gloves_dex",
-    "Gloves_int",
-    "Gloves_str_dex",
-    "Gloves_str_int",
-    "Gloves_dex_int",
-  ],
-  // Armor - boots
-  boots: [
-    "Boots_str",
-    "Boots_dex",
-    "Boots_int",
-    "Boots_str_dex",
-    "Boots_str_int",
-    "Boots_dex_int",
-  ],
-  // Shields
-  shield: [
-    "Shields_str",
-    "Shields_str_dex",
-    "Shields_str_int",
-    "Bucklers",
-  ],
+// Each poe2db page URL maps to a specific item tag
+// We keep granular tags (e.g., body_armour_str) for attribute-specific filtering
+const ITEM_CATEGORIES: Record<string, string> = {
+  // One-handed weapons - all share the same mod pool
+  "Claws": "one_hand_weapon",
+  "Daggers": "one_hand_weapon",
+  "Wands": "one_hand_weapon",
+  "One_Hand_Swords": "one_hand_weapon",
+  "One_Hand_Axes": "one_hand_weapon",
+  "One_Hand_Maces": "one_hand_weapon",
+  "Sceptres": "one_hand_weapon",
+  "Spears": "one_hand_weapon",
+  "Flails": "one_hand_weapon",
+
+  // Two-handed weapons - all share the same mod pool
+  "Bows": "two_hand_weapon",
+  "Staves": "two_hand_weapon",
+  "Two_Hand_Swords": "two_hand_weapon",
+  "Two_Hand_Axes": "two_hand_weapon",
+  "Two_Hand_Maces": "two_hand_weapon",
+  "Quarterstaves": "two_hand_weapon",
+  "Crossbows": "two_hand_weapon",
+
+  // Body armour - KEEP GRANULAR by attribute requirement
+  "Body_Armours_str": "body_armour_str",
+  "Body_Armours_dex": "body_armour_dex",
+  "Body_Armours_int": "body_armour_int",
+  "Body_Armours_str_dex": "body_armour_str_dex",
+  "Body_Armours_str_int": "body_armour_str_int",
+  "Body_Armours_dex_int": "body_armour_dex_int",
+
+  // Helmets - KEEP GRANULAR by attribute requirement
+  "Helmets_str": "helmet_str",
+  "Helmets_dex": "helmet_dex",
+  "Helmets_int": "helmet_int",
+  "Helmets_str_dex": "helmet_str_dex",
+  "Helmets_str_int": "helmet_str_int",
+  "Helmets_dex_int": "helmet_dex_int",
+
+  // Gloves - KEEP GRANULAR by attribute requirement
+  "Gloves_str": "gloves_str",
+  "Gloves_dex": "gloves_dex",
+  "Gloves_int": "gloves_int",
+  "Gloves_str_dex": "gloves_str_dex",
+  "Gloves_str_int": "gloves_str_int",
+  "Gloves_dex_int": "gloves_dex_int",
+
+  // Boots - KEEP GRANULAR by attribute requirement
+  "Boots_str": "boots_str",
+  "Boots_dex": "boots_dex",
+  "Boots_int": "boots_int",
+  "Boots_str_dex": "boots_str_dex",
+  "Boots_str_int": "boots_str_int",
+  "Boots_dex_int": "boots_dex_int",
+
+  // Shields - KEEP GRANULAR
+  "Shields_str": "shield_str",
+  "Shields_str_dex": "shield_str_dex",
+  "Shields_str_int": "shield_str_int",
+  "Bucklers": "buckler",
+
   // Off-hand
-  quiver: ["Quivers"],
-  focus: ["Foci"],
-  // Jewelry
-  amulet: ["Amulets"],
-  ring: ["Rings"],
-  belt: ["Belts"],
+  "Quivers": "quiver",
+  "Foci": "focus",
+
+  // Jewelry - single mod pool each
+  "Amulets": "amulet",
+  "Rings": "ring",
+  "Belts": "belt",
+
   // Other
-  jewel: ["Jewel"],
-  flask: ["Life_Flasks", "Mana_Flasks"],
+  "Jewel": "jewel",
+  "Life_Flasks": "flask",
+  "Mana_Flasks": "flask",
 };
 
 // Raw mod entry from poe2db
@@ -387,20 +385,19 @@ export async function scrapeModifiers(): Promise<void> {
   try {
     const allModifiers: Modifier[] = [];
 
-    // Scrape each category
-    for (const [itemTag, categories] of Object.entries(ITEM_CATEGORIES)) {
-      console.log(`\nScraping ${itemTag} categories...`);
+    // Scrape each poe2db page
+    for (const [pageUrl, itemTag] of Object.entries(ITEM_CATEGORIES)) {
+      console.log(`Scraping ${pageUrl} -> ${itemTag}...`);
 
-      for (const category of categories) {
-        const parsed = await scrapeCategoryPage(browser, category, itemTag);
-        const grouped = groupModTiers(parsed, itemTag);
-        allModifiers.push(...grouped);
+      const parsed = await scrapeCategoryPage(browser, pageUrl, itemTag);
+      const grouped = groupModTiers(parsed, itemTag);
+      allModifiers.push(...grouped);
 
-        console.log(`    ${category}: ${grouped.length} modifiers`);
-      }
+      console.log(`    ${pageUrl}: ${grouped.length} modifiers`);
     }
 
     // Merge modifiers that appear across multiple item types
+    // This combines mods that have the same stats but apply to different item types
     const merged = mergeModifiers(allModifiers);
     console.log(`\nTotal unique modifiers: ${merged.length}`);
 
@@ -412,15 +409,15 @@ export async function scrapeModifiers(): Promise<void> {
     // Also write per-category files for convenience
     const byCategory = new Map<string, Modifier[]>();
     for (const mod of merged) {
-      for (const itemTag of mod.applicableTo) {
-        const list = byCategory.get(itemTag) || [];
+      for (const tag of mod.applicableTo) {
+        const list = byCategory.get(tag) || [];
         list.push(mod);
-        byCategory.set(itemTag, list);
+        byCategory.set(tag, list);
       }
     }
 
-    for (const [itemTag, mods] of byCategory) {
-      const catPath = path.join(OUTPUT_DIR, `${itemTag}.json`);
+    for (const [tag, mods] of byCategory) {
+      const catPath = path.join(OUTPUT_DIR, `${tag}.json`);
       await fs.writeFile(catPath, JSON.stringify(mods, null, 2));
       console.log(`Wrote ${catPath} (${mods.length} modifiers)`);
     }
