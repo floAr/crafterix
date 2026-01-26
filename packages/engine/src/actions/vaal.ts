@@ -1,7 +1,7 @@
 import type { CorruptedImplicit, Currency, RolledCorruptedImplicit } from "@crafterix/data";
 import type { CraftingOutcome } from "../crafting-action.js";
 import { CraftingState } from "../crafting-state.js";
-import { selectWeighted } from "../weighted-random.js";
+import { selectWeighted, groupWeightedByModifierId } from "../weighted-random.js";
 import { BaseCurrencyAction, type ActionContext } from "./base-action.js";
 
 export interface VaalActionContext extends ActionContext {
@@ -142,22 +142,12 @@ export class VaalOrb extends BaseCurrencyAction {
 
     const prefixes = this.getAvailablePrefixes(state);
     const suffixes = this.getAvailableSuffixes(state);
-    const totalWeight = prefixes.reduce((s, p) => s + p.weight, 0) + suffixes.reduce((s, p) => s + p.weight, 0);
+    const allMods = [...prefixes, ...suffixes];
+    const totalWeight = allMods.reduce((s, p) => s + p.weight, 0);
 
-    // Group by mod
-    const grouped = new Map<string, { selection: typeof prefixes[0]["item"]; weight: number }>();
+    const grouped = groupWeightedByModifierId(allMods);
 
-    for (const { item: selection, weight } of [...prefixes, ...suffixes]) {
-      const modId = selection.modifier.id;
-      const existing = grouped.get(modId);
-      if (existing) {
-        existing.weight += weight;
-      } else {
-        grouped.set(modId, { selection, weight });
-      }
-    }
-
-    for (const { selection, weight } of grouped.values()) {
+    for (const { selection, value: weight } of grouped.values()) {
       const rolled = this.rollModWithMidValue(selection);
       let newState: CraftingState;
       if (selection.modifier.type === "prefix") {

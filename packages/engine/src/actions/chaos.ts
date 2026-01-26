@@ -1,7 +1,7 @@
 import type { Currency } from "@crafterix/data";
 import type { CraftingOutcome } from "../crafting-action.js";
 import { CraftingState } from "../crafting-state.js";
-import { selectWeighted } from "../weighted-random.js";
+import { selectWeighted, groupWeightedByModifierId } from "../weighted-random.js";
 import { BaseCurrencyAction, type ActionContext } from "./base-action.js";
 
 /**
@@ -65,24 +65,9 @@ export class ChaosOrb extends BaseCurrencyAction {
     if (allMods.length === 0) return [];
 
     const totalWeight = allMods.reduce((sum, m) => sum + m.weight, 0);
+    const grouped = groupWeightedByModifierId(allMods);
 
-    // Group by modifier ID (collapse tiers)
-    const grouped = new Map<string, { selection: typeof allMods[0]["item"]; weight: number }>();
-
-    for (const { item: selection, weight } of allMods) {
-      const modId = selection.modifier.id;
-      const existing = grouped.get(modId);
-      if (existing) {
-        existing.weight += weight;
-        if (selection.tier.tier < existing.selection.tier.tier) {
-          existing.selection = selection;
-        }
-      } else {
-        grouped.set(modId, { selection, weight });
-      }
-    }
-
-    return Array.from(grouped.values()).map(({ selection, weight }) => {
+    return Array.from(grouped.values()).map(({ selection, value: weight }) => {
       const rolledMod = this.rollModWithMidValue(selection);
       let newState: CraftingState;
 

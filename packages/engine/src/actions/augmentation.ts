@@ -1,8 +1,8 @@
 import type { Currency } from "@crafterix/data";
 import type { CraftingOutcome } from "../crafting-action.js";
 import { CraftingState } from "../crafting-state.js";
-import { selectWeighted, calculateProbabilities } from "../weighted-random.js";
-import { BaseCurrencyAction, type ActionContext, type ModTierSelection } from "./base-action.js";
+import { selectWeighted, calculateProbabilities, groupByModifierId } from "../weighted-random.js";
+import { BaseCurrencyAction, type ActionContext } from "./base-action.js";
 
 /**
  * Orb of Augmentation: Adds 1 affix to a Magic item (if it has room)
@@ -33,25 +33,9 @@ export class AugmentationOrb extends BaseCurrencyAction {
     if (allMods.length === 0) return [];
 
     const probabilities = calculateProbabilities(allMods);
+    const grouped = groupByModifierId(probabilities);
 
-    // Group by modifier ID
-    const grouped = new Map<string, { selection: ModTierSelection; probability: number }>();
-
-    for (const [selection, prob] of probabilities) {
-      const modId = selection.modifier.id;
-      const existing = grouped.get(modId);
-      if (existing) {
-        existing.probability += prob;
-        // Keep highest tier for display
-        if (selection.tier.tier < existing.selection.tier.tier) {
-          existing.selection = selection;
-        }
-      } else {
-        grouped.set(modId, { selection, probability: prob });
-      }
-    }
-
-    return Array.from(grouped.values()).map(({ selection, probability }) => {
+    return Array.from(grouped.values()).map(({ selection, value: probability }) => {
       const rolledMod = this.rollModWithMidValue(selection);
       const newState = selection.modifier.type === "prefix"
         ? state.withPrefix(rolledMod)

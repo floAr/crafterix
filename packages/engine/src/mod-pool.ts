@@ -8,10 +8,27 @@ export interface ModTierSelection {
 }
 
 export class ModPool {
-  constructor(private readonly modifiers: Modifier[]) {}
+  private readonly modifierById: Map<string, Modifier>;
+  private readonly modifiersByGroup: Map<string, Modifier[]>;
+
+  constructor(private readonly modifiers: Modifier[]) {
+    // Build O(1) lookup by ID
+    this.modifierById = new Map(modifiers.map((m) => [m.id, m]));
+
+    // Build group index for conflict checking
+    this.modifiersByGroup = new Map();
+    for (const mod of modifiers) {
+      const group = this.modifiersByGroup.get(mod.group);
+      if (group) {
+        group.push(mod);
+      } else {
+        this.modifiersByGroup.set(mod.group, [mod]);
+      }
+    }
+  }
 
   getModifierById(id: string): Modifier | undefined {
-    return this.modifiers.find((m) => m.id === id);
+    return this.modifierById.get(id);
   }
 
   /**
@@ -25,13 +42,13 @@ export class ModPool {
     const base = state.item.base;
     const existingGroups = new Set<string>();
 
-    // Collect groups already on the item
+    // Collect groups already on the item using O(1) lookups
     for (const prefix of state.item.prefixes) {
-      const mod = this.modifiers.find((m) => m.id === prefix.modifierId);
+      const mod = this.modifierById.get(prefix.modifierId);
       if (mod) existingGroups.add(mod.group);
     }
     for (const suffix of state.item.suffixes) {
-      const mod = this.modifiers.find((m) => m.id === suffix.modifierId);
+      const mod = this.modifierById.get(suffix.modifierId);
       if (mod) existingGroups.add(mod.group);
     }
 

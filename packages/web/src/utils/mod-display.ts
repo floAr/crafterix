@@ -3,9 +3,6 @@ import { ANY_PREFIX, ANY_SUFFIX, SCRAPED_MODIFIERS } from "@crafterix/data";
 // Build a lookup map for fast access
 const modifierMap = new Map(SCRAPED_MODIFIERS.map((m) => [m.id, m]));
 
-// Debug: log map size on load
-console.log("[mod-display] modifierMap size:", modifierMap.size, "SCRAPED_MODIFIERS length:", SCRAPED_MODIFIERS.length);
-
 /**
  * Format a modifier for display, replacing # placeholders with actual values.
  * Uses displayName from the modifier data.

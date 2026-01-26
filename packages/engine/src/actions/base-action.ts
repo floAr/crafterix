@@ -2,7 +2,7 @@ import type { Currency, Modifier, ModifierType, Omen, OmenEffect, RolledModifier
 import type { CraftingAction, CraftingOutcome } from "../crafting-action.js";
 import { CraftingState } from "../crafting-state.js";
 import { ModPool, type ModTierSelection } from "../mod-pool.js";
-import { calculateProbabilities, type WeightedItem } from "../weighted-random.js";
+import { calculateProbabilities, groupByModifierId, type WeightedItem } from "../weighted-random.js";
 
 export type { ModTierSelection };
 
@@ -101,25 +101,9 @@ export abstract class BaseCurrencyAction implements CraftingAction {
     if (allMods.length === 0) return [];
 
     const probabilities = calculateProbabilities(allMods);
+    const grouped = groupByModifierId(probabilities);
 
-    // Group by modifier ID
-    const grouped = new Map<string, { selection: ModTierSelection; probability: number }>();
-
-    for (const [selection, prob] of probabilities) {
-      const modId = selection.modifier.id;
-      const existing = grouped.get(modId);
-      if (existing) {
-        existing.probability += prob;
-        // Keep highest tier for display
-        if (selection.tier.tier < existing.selection.tier.tier) {
-          existing.selection = selection;
-        }
-      } else {
-        grouped.set(modId, { selection, probability: prob });
-      }
-    }
-
-    return Array.from(grouped.values()).map(({ selection, probability }) => ({
+    return Array.from(grouped.values()).map(({ selection, value: probability }) => ({
       state: applyMod(state, selection),
       probability,
     }));
