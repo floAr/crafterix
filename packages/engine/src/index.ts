@@ -7,6 +7,7 @@ export {
   type WeightedItem,
 } from "./weighted-random.js";
 export type { CraftingAction, CraftingOutcome, ActionRegistry } from "./crafting-action.js";
+export { buildOutcomeOptions, type OutcomeOption } from "./outcome-builder.js";
 
 // Actions
 export {

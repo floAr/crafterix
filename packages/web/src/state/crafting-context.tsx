@@ -7,11 +7,10 @@ import {
   type ReactNode,
   useMemo,
 } from "react";
-import type { Omen, RolledModifier } from "@crafterix/data";
-import { ANY_PREFIX, ANY_SUFFIX } from "@crafterix/data";
+import type { Omen } from "@crafterix/data";
 import {
-  CraftingState,
   createAllActions,
+  buildOutcomeOptions,
   SAMPLE_ITEMS,
   SAMPLE_MODIFIERS,
   SAMPLE_CURRENCY,
@@ -140,103 +139,19 @@ export function CraftingProvider({ children }: { children: ReactNode }) {
     const action = actions.get(state.selectedCurrencyId);
     if (!action) return;
 
-    const craftingState = new CraftingState(itemNode.item);
-    if (!action.canApply(craftingState)) return;
+    // Use engine's outcome builder for all calculation logic
+    const engineOutcomes = buildOutcomeOptions(action, itemNode.item);
+    if (engineOutcomes.length === 0) return;
 
-    const rawOutcomes = action.getOutcomes(craftingState);
-
-    // Convert to OutcomeOptions with mod info
-    const outcomes: OutcomeOption[] = rawOutcomes.map((o, idx) => {
-      const newItem = o.state.item;
-      const oldItem = itemNode.item;
-
-      // Determine what mod was added or removed
-      let modAdded: RolledModifier | null = null;
-      let modRemoved: RolledModifier | null = null;
-
-      // Find added prefix
-      const newPrefixes = newItem.prefixes.filter(
-        (p) => !oldItem.prefixes.some((op) => op.modifierId === p.modifierId)
-      );
-      if (newPrefixes.length > 0) modAdded = newPrefixes[0];
-
-      // Find added suffix
-      const newSuffixes = newItem.suffixes.filter(
-        (s) => !oldItem.suffixes.some((os) => os.modifierId === s.modifierId)
-      );
-      if (newSuffixes.length > 0 && !modAdded) modAdded = newSuffixes[0];
-
-      // Find removed prefix (for annulment)
-      const removedPrefixes = oldItem.prefixes.filter(
-        (p) => !newItem.prefixes.some((np) => np.modifierId === p.modifierId)
-      );
-      if (removedPrefixes.length > 0) modRemoved = removedPrefixes[0];
-
-      // Find removed suffix
-      const removedSuffixes = oldItem.suffixes.filter(
-        (s) => !newItem.suffixes.some((ns) => ns.modifierId === s.modifierId)
-      );
-      if (removedSuffixes.length > 0 && !modRemoved) modRemoved = removedSuffixes[0];
-
-      return {
-        id: `outcome-${idx}-${generateId()}`,
-        modAdded,
-        modRemoved,
-        probability: o.probability,
-        resultingItem: newItem,
-      };
-    });
-
-    // Create "Any" options for prefix and suffix adds
-    const anyOptions: OutcomeOption[] = [];
-    const oldItem = itemNode.item;
-
-    // Group outcomes by whether they add a prefix or suffix
-    const prefixOutcomes = outcomes.filter((o) => o.resultingItem.prefixes.length > oldItem.prefixes.length);
-    const suffixOutcomes = outcomes.filter((o) => o.resultingItem.suffixes.length > oldItem.suffixes.length);
-
-    if (prefixOutcomes.length > 0) {
-      const totalPrefixProb = prefixOutcomes.reduce((sum, o) => sum + o.probability, 0);
-      const placeholderMod: RolledModifier = { modifierId: ANY_PREFIX, tier: 0, values: [] };
-      // Use rarity from actual outcomes (handles Transmutation normal→magic)
-      const newRarity = prefixOutcomes[0].resultingItem.rarity;
-      anyOptions.push({
-        id: `any-prefix-${generateId()}`,
-        modAdded: placeholderMod,
-        modRemoved: null,
-        probability: totalPrefixProb,
-        resultingItem: {
-          ...oldItem,
-          rarity: newRarity,
-          prefixes: [...oldItem.prefixes, placeholderMod],
-        },
-      });
-    }
-
-    if (suffixOutcomes.length > 0) {
-      const totalSuffixProb = suffixOutcomes.reduce((sum, o) => sum + o.probability, 0);
-      const placeholderMod: RolledModifier = { modifierId: ANY_SUFFIX, tier: 0, values: [] };
-      // Use rarity from actual outcomes (handles Transmutation normal→magic)
-      const newRarity = suffixOutcomes[0].resultingItem.rarity;
-      anyOptions.push({
-        id: `any-suffix-${generateId()}`,
-        modAdded: placeholderMod,
-        modRemoved: null,
-        probability: totalSuffixProb,
-        resultingItem: {
-          ...oldItem,
-          rarity: newRarity,
-          suffixes: [...oldItem.suffixes, placeholderMod],
-        },
-      });
-    }
-
-    // Prepend "Any" options to the outcome list
-    const allOutcomes = [...anyOptions, ...outcomes];
+    // Add unique IDs for UI tracking
+    const outcomes: OutcomeOption[] = engineOutcomes.map((o, idx) => ({
+      ...o,
+      id: `outcome-${idx}-${generateId()}`,
+    }));
 
     dispatch({
       type: "OPEN_OUTCOME_MODAL",
-      outcomes: allOutcomes,
+      outcomes,
       currencyId: state.selectedCurrencyId,
       sourceItemId: itemId,
     });
