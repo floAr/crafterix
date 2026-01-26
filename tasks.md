@@ -421,7 +421,7 @@ export function useGameData(): GameData;
 - [x] Task 3: Fix private member access in essence
 - [x] Task 4: Remove debug logging
 - [x] Task 5: Remove unused parameter
-- [ ] Task 6: Split CraftingContext types
+- [x] Task 6: Split CraftingContext types
 - [ ] Task 7: Extract reducer
 - [ ] Task 8: Extract context helpers
 - [ ] Task 9: Move outcome calculation to engine

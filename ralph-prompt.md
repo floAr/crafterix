@@ -4,7 +4,7 @@ You are executing one iteration of a RALPH loop to refactor the Crafterix codeba
 
 ## Your Mission
 
-Complete ONE task from `tasks.md`, then stop.
+Complete ONE task from `tasks.md`, commit the changes, then stop.
 
 ## Steps
 
@@ -25,28 +25,35 @@ Complete ONE task from `tasks.md`, then stop.
 
 ### 4. Verify the change
 - Run `pnpm build` to ensure TypeScript compiles
-- Run `pnpm test` if tests exist
-- Manually verify the logic makes sense
+- If build fails, fix the errors before proceeding
 
-### 5. Commit the change
-- Stage only the files you changed
-- Write a clear commit message: `refactor: <brief description>`
-- Include which task number was completed
-
-### 6. Update tasks.md
+### 5. Update tasks.md
 - Change `- [ ] Task N:` to `- [x] Task N:` in the Completion Checklist
 - This marks the task as done
 
+### 6. COMMIT THE CHANGES (MANDATORY)
+This step is REQUIRED. You MUST commit before finishing.
+
+```bash
+git add -A
+git commit -m "refactor(task-N): <brief description of what changed>"
+```
+
+Example commit messages:
+- `refactor(task-3): fix private member access in essence actions`
+- `refactor(task-5): remove unused parameter in ChaosOrb`
+- `refactor(task-6): extract types to separate file`
+
 ### 7. Stop
-- After completing ONE task, stop and let the next iteration handle the next task
+- After committing, stop and let the next iteration handle the next task
 - Do not attempt multiple tasks in one iteration
 
 ## Rules
 
 - ONE task per iteration - do not batch
+- ALWAYS commit your changes before finishing
 - If build fails, fix it before committing
-- If you encounter a blocker, document it in the task and mark it `- [x]` anyway with a note
-- Do not modify tasks.md except to check off completed tasks
+- If you encounter a blocker, document it and skip to commit
 - Preserve all existing functionality
 
 ## Current Working Directory
@@ -59,4 +66,4 @@ You are in the Crafterix project root. Key paths:
 
 ## Start Now
 
-Read `tasks.md` and begin with the first unchecked task.
+Read `tasks.md` and begin with the first unchecked task. Remember to commit when done.
