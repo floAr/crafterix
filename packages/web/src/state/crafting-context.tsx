@@ -8,15 +8,7 @@ import {
   useMemo,
 } from "react";
 import type { Omen } from "@crafterix/data";
-import {
-  createAllActions,
-  buildOutcomeOptions,
-  SAMPLE_ITEMS,
-  SAMPLE_MODIFIERS,
-  SAMPLE_CURRENCY,
-  SAMPLE_CORRUPTED_IMPLICITS,
-  SAMPLE_OMENS,
-} from "@crafterix/engine";
+import { createAllActions, buildOutcomeOptions } from "@crafterix/engine";
 import {
   saveToLocalStorage,
   loadFromLocalStorage,
@@ -39,6 +31,7 @@ import {
   getCurrencyName as getCurrencyNameHelper,
   getApplicableOmens as getApplicableOmensHelper,
 } from "./helpers";
+import { useGameData } from "./data-context";
 
 // Re-export types for backwards compatibility
 export type { Position, ItemNode, CraftEdge, OutcomeOption, OutcomeModalState, GraphState } from "./types";
@@ -48,27 +41,31 @@ export type { Position, ItemNode, CraftEdge, OutcomeOption, OutcomeModalState, G
 const CraftingContext = createContext<CraftingContextValue | null>(null);
 
 export function CraftingProvider({ children }: { children: ReactNode }) {
+  // Get game data from context
+  const gameData = useGameData();
+  const { items, modifiers, currencies, omens, corruptedImplicits } = gameData;
+
   // Create reducer with context - omens list for conflict detection
-  const reducer = useMemo(() => createReducer({ omens: SAMPLE_OMENS }), []);
+  const reducer = useMemo(() => createReducer({ omens }), [omens]);
   const [state, dispatch] = useReducer(reducer, initialState);
   const isInitialized = useRef(false);
 
   // Resolve selected omen IDs to Omen objects
   const selectedOmens = useMemo(
     () => state.selectedOmenIds
-      .map((id) => SAMPLE_OMENS.find((o) => o.id === id))
+      .map((id) => omens.find((o) => o.id === id))
       .filter((o): o is Omen => o !== undefined),
-    [state.selectedOmenIds]
+    [state.selectedOmenIds, omens]
   );
 
   // Recreate actions when selected omens change
   const actions = useMemo(
-    () => createAllActions(SAMPLE_CURRENCY, {
-      modifiers: SAMPLE_MODIFIERS,
-      corruptedImplicits: SAMPLE_CORRUPTED_IMPLICITS,
+    () => createAllActions(currencies, {
+      modifiers,
+      corruptedImplicits,
       omens: selectedOmens,
     }),
-    [selectedOmens]
+    [currencies, modifiers, corruptedImplicits, selectedOmens]
   );
 
   // Load state from URL param or localStorage on mount
@@ -77,7 +74,7 @@ export function CraftingProvider({ children }: { children: ReactNode }) {
     isInitialized.current = true;
 
     // URL param takes priority
-    const urlState = getProjectFromUrl();
+    const urlState = getProjectFromUrl(items);
     if (urlState) {
       dispatch({ type: "LOAD_STATE", state: urlState });
       // Clear URL param after loading
@@ -88,11 +85,11 @@ export function CraftingProvider({ children }: { children: ReactNode }) {
     }
 
     // Fall back to localStorage
-    const savedState = loadFromLocalStorage();
+    const savedState = loadFromLocalStorage(items);
     if (savedState) {
       dispatch({ type: "LOAD_STATE", state: savedState });
     }
-  }, []);
+  }, [items]);
 
   // Auto-save to localStorage when state changes
   useEffect(() => {
@@ -115,19 +112,19 @@ export function CraftingProvider({ children }: { children: ReactNode }) {
 
   const getDisabledReason = (currencyId: string): string | null => {
     const selectedItem = getSelectedItem();
-    return getDisabledReasonHelper(selectedItem?.item ?? null, currencyId, SAMPLE_CURRENCY);
+    return getDisabledReasonHelper(selectedItem?.item ?? null, currencyId, currencies);
   };
 
   const getModDisplayName = (modId: string): string => {
-    return getModDisplayNameHelper(modId, SAMPLE_MODIFIERS);
+    return getModDisplayNameHelper(modId, modifiers);
   };
 
   const getCurrencyName = (currencyId: string): string => {
-    return getCurrencyNameHelper(currencyId, SAMPLE_CURRENCY);
+    return getCurrencyNameHelper(currencyId, currencies);
   };
 
   const getApplicableOmens = (currencyId: string): Omen[] => {
-    return getApplicableOmensHelper(currencyId, SAMPLE_OMENS);
+    return getApplicableOmensHelper(currencyId, omens);
   };
 
   const openOutcomeModal = (itemId: string) => {
@@ -162,7 +159,7 @@ export function CraftingProvider({ children }: { children: ReactNode }) {
   };
 
   const importProjectFn = async (file: File): Promise<boolean> => {
-    const loadedState = await importFromFile(file);
+    const loadedState = await importFromFile(file, items);
     if (loadedState) {
       dispatch({ type: "LOAD_STATE", state: loadedState });
       return true;
@@ -176,10 +173,10 @@ export function CraftingProvider({ children }: { children: ReactNode }) {
 
   const value: CraftingContextValue = {
     state,
-    items: SAMPLE_ITEMS,
-    currencies: SAMPLE_CURRENCY,
-    modifiers: SAMPLE_MODIFIERS,
-    omens: SAMPLE_OMENS,
+    items,
+    currencies,
+    modifiers,
+    omens,
     actions,
     selectBase: (base) => dispatch({ type: "SELECT_BASE", base }),
     selectCurrency: (currencyId) => dispatch({ type: "SELECT_CURRENCY", currencyId }),

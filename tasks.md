@@ -430,7 +430,7 @@ export function useGameData(): GameData;
 - [x] Task 12: Add engine tests - core
 - [x] Task 13: Add engine tests - actions
 - [x] Task 14: Simplify VaalOrb
-- [ ] Task 15: Create data provider pattern
+- [x] Task 15: Create data provider pattern
 
 ---
 

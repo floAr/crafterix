@@ -1,9 +1,26 @@
 import { CraftingProvider, useCrafting } from "./state/crafting-context";
+import { DataProvider, type GameData } from "./state/data-context";
 import { BasePicker } from "./components/BasePicker";
 import { CurrencySidebar } from "./components/CurrencySidebar";
 import { CraftGraph } from "./components/CraftGraph";
 import { ItemTooltip } from "./components/ItemTooltip";
 import { OutcomeModal } from "./components/OutcomeModal";
+import {
+  SAMPLE_ITEMS,
+  SAMPLE_MODIFIERS,
+  SAMPLE_CURRENCY,
+  SAMPLE_CORRUPTED_IMPLICITS,
+  SAMPLE_OMENS,
+} from "@crafterix/engine";
+
+// Default game data - can be swapped for other data sources
+const defaultGameData: GameData = {
+  items: SAMPLE_ITEMS,
+  modifiers: SAMPLE_MODIFIERS,
+  currencies: SAMPLE_CURRENCY,
+  corruptedImplicits: SAMPLE_CORRUPTED_IMPLICITS,
+  omens: SAMPLE_OMENS,
+};
 
 function CraftingWorkspace() {
   const { getSelectedItem } = useCrafting();
@@ -46,17 +63,19 @@ function CraftingWorkspace() {
 
 export function App() {
   return (
-    <CraftingProvider>
-      <div className="min-h-screen p-6 bg-poe-bg">
-        <header className="mb-6">
-          <h1 className="text-2xl font-bold text-poe-rare">Crafterix</h1>
-          <p className="text-sm text-poe-normal/60">
-            Path of Exile 2 Crafting Simulator
-          </p>
-        </header>
+    <DataProvider data={defaultGameData}>
+      <CraftingProvider>
+        <div className="min-h-screen p-6 bg-poe-bg">
+          <header className="mb-6">
+            <h1 className="text-2xl font-bold text-poe-rare">Crafterix</h1>
+            <p className="text-sm text-poe-normal/60">
+              Path of Exile 2 Crafting Simulator
+            </p>
+          </header>
 
-        <CraftingWorkspace />
-      </div>
-    </CraftingProvider>
+          <CraftingWorkspace />
+        </div>
+      </CraftingProvider>
+    </DataProvider>
   );
 }

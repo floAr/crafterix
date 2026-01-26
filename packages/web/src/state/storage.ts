@@ -1,5 +1,5 @@
+import type { ItemBase } from "@crafterix/data";
 import type { GraphState, ItemNode, CraftEdge } from "./types";
-import { SAMPLE_ITEMS } from "@crafterix/engine";
 
 const STORAGE_KEY = "crafterix_project";
 
@@ -23,13 +23,16 @@ export function serializeState(state: GraphState): SerializedGraphState {
   };
 }
 
-export function deserializeState(data: SerializedGraphState): Partial<GraphState> | null {
+export function deserializeState(
+  data: SerializedGraphState,
+  availableItems: ItemBase[]
+): Partial<GraphState> | null {
   if (data.version !== 1) return null;
 
-  const base = data.baseId ? SAMPLE_ITEMS.find((i) => i.id === data.baseId) : null;
+  const base = data.baseId ? availableItems.find((i) => i.id === data.baseId) : null;
 
   // Restore base reference in items
-  const items = data.items.map((item) => ({
+  const restoredItems = data.items.map((item) => ({
     ...item,
     item: {
       ...item.item,
@@ -39,9 +42,9 @@ export function deserializeState(data: SerializedGraphState): Partial<GraphState
 
   return {
     base: base ?? null,
-    items,
+    items: restoredItems,
     edges: data.edges,
-    selectedItemId: items.length > 0 ? items[0].id : null,
+    selectedItemId: restoredItems.length > 0 ? restoredItems[0].id : null,
     selectedCurrencyId: null,
     outcomeModal: null,
   };
@@ -56,13 +59,13 @@ export function saveToLocalStorage(state: GraphState): void {
   }
 }
 
-export function loadFromLocalStorage(): Partial<GraphState> | null {
+export function loadFromLocalStorage(items: ItemBase[]): Partial<GraphState> | null {
   try {
     const stored = localStorage.getItem(STORAGE_KEY);
     if (!stored) return null;
 
     const data = JSON.parse(stored) as SerializedGraphState;
-    return deserializeState(data);
+    return deserializeState(data, items);
   } catch (e) {
     console.error("Failed to load from localStorage:", e);
     return null;
@@ -92,13 +95,16 @@ export function exportToFile(state: GraphState, filename = "crafterix-project.js
 /**
  * Import state from uploaded JSON file.
  */
-export function importFromFile(file: File): Promise<Partial<GraphState> | null> {
+export function importFromFile(
+  file: File,
+  items: ItemBase[]
+): Promise<Partial<GraphState> | null> {
   return new Promise((resolve) => {
     const reader = new FileReader();
     reader.onload = (e) => {
       try {
         const data = JSON.parse(e.target?.result as string) as SerializedGraphState;
-        resolve(deserializeState(data));
+        resolve(deserializeState(data, items));
       } catch {
         resolve(null);
       }
@@ -119,11 +125,14 @@ export function stateToUrlParam(state: GraphState): string {
   return btoa(encodeURIComponent(json));
 }
 
-export function urlParamToState(param: string): Partial<GraphState> | null {
+export function urlParamToState(
+  param: string,
+  items: ItemBase[]
+): Partial<GraphState> | null {
   try {
     const json = decodeURIComponent(atob(param));
     const data = JSON.parse(json) as SerializedGraphState;
-    return deserializeState(data);
+    return deserializeState(data, items);
   } catch {
     return null;
   }
@@ -136,9 +145,9 @@ export function generateShareableUrl(state: GraphState): string {
   return url.toString();
 }
 
-export function getProjectFromUrl(): Partial<GraphState> | null {
+export function getProjectFromUrl(items: ItemBase[]): Partial<GraphState> | null {
   const url = new URL(window.location.href);
   const param = url.searchParams.get("project");
   if (!param) return null;
-  return urlParamToState(param);
+  return urlParamToState(param, items);
 }
