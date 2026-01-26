@@ -424,7 +424,7 @@ export function useGameData(): GameData;
 - [x] Task 6: Split CraftingContext types
 - [x] Task 7: Extract reducer
 - [x] Task 8: Extract context helpers
-- [ ] Task 9: Move outcome calculation to engine
+- [x] Task 9: Move outcome calculation to engine
 - [ ] Task 10: Extract CurrencyButton
 - [ ] Task 11: Extract OmenToggle
 - [ ] Task 12: Add engine tests - core
