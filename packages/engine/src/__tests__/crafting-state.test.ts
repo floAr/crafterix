@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import type { ItemBase, RolledModifier, CraftedItem } from "@crafterix/data";
+import type { ItemBase, RolledModifier } from "@crafterix/data";
 import { CraftingState } from "../crafting-state.js";
 
 // Test fixtures

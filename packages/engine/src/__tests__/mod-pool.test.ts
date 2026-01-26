@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import type { ItemBase, Modifier, RolledModifier } from "@crafterix/data";
+import type { ItemBase, Modifier } from "@crafterix/data";
 import { ModPool } from "../mod-pool.js";
 import { CraftingState } from "../crafting-state.js";
 
