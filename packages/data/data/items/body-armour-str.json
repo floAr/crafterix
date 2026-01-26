@@ -1,0 +1,20 @@
+[
+  {
+    "id": "plate_vest",
+    "name": "Plate Vest",
+    "category": "body_armour",
+    "attribute": "str",
+    "itemLevel": 1,
+    "requiredLevel": 1,
+    "implicitMods": [],
+    "affixSlots": {
+      "maxPrefixes": 3,
+      "maxSuffixes": 3
+    },
+    "tags": [
+      "body_armour",
+      "armour",
+      "str_armour"
+    ]
+  }
+]

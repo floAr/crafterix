@@ -131,6 +131,207 @@
     ]
   },
   {
+    "id": "of_the_proficient_localattributerequirements",
+    "name": "of the Proficient",
+    "displayName": "#% reduced Attribute Requirements",
+    "type": "suffix",
+    "domain": "item",
+    "group": "LocalAttributeRequirements",
+    "tags": [],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "wands",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "sceptres",
+      "spears",
+      "flails",
+      "bows",
+      "staves",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows",
+      "body_armour_str",
+      "body_armour_dex",
+      "body_armour_int",
+      "body_armour_str_dex",
+      "body_armour_str_int",
+      "body_armour_dex_int",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "boots_str",
+      "boots_dex",
+      "boots_int",
+      "boots_str_dex",
+      "boots_str_int",
+      "boots_dex_int",
+      "shield_str",
+      "shield_str_dex",
+      "shield_str_int",
+      "buckler",
+      "focus"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 60,
+        "weight": 1,
+        "values": [
+          {
+            "min": 35,
+            "max": 35
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 52,
+        "weight": 1,
+        "values": [
+          {
+            "min": 30,
+            "max": 30
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 40,
+        "weight": 1,
+        "values": [
+          {
+            "min": 25,
+            "max": 25
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 32,
+        "weight": 1,
+        "values": [
+          {
+            "min": 20,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 24,
+        "weight": 1,
+        "values": [
+          {
+            "min": 15,
+            "max": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_war_increasesocketedgemlevel",
+    "name": "of War",
+    "displayName": "+# to Level of all Melee Skills",
+    "type": "suffix",
+    "domain": "item",
+    "group": "IncreaseSocketedGemLevel",
+    "tags": [
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "amulet"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 1,
+        "values": [
+          {
+            "min": 5,
+            "max": 5
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 55,
+        "weight": 1,
+        "values": [
+          {
+            "min": 4,
+            "max": 4
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 36,
+        "weight": 1,
+        "values": [
+          {
+            "min": 3,
+            "max": 3
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 18,
+        "weight": 1,
+        "values": [
+          {
+            "min": 2,
+            "max": 2
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 2,
+        "weight": 1,
+        "values": [
+          {
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "of_legend_lifegainedfromenemydeath",
     "name": "of Legend",
     "displayName": "Gain (#) Life per enemy killed",
@@ -383,6 +584,130 @@
     ]
   },
   {
+    "id": "of_celebration_increasedattackspeed",
+    "name": "of Celebration",
+    "displayName": "(#)% increased Attack Speed",
+    "type": "suffix",
+    "domain": "item",
+    "group": "IncreasedAttackSpeed",
+    "tags": [
+      "attack",
+      "speed"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "quiver"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 77,
+        "weight": 1,
+        "values": [
+          {
+            "min": 26,
+            "max": 28
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 60,
+        "weight": 1,
+        "values": [
+          {
+            "min": 23,
+            "max": 25
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 45,
+        "weight": 1,
+        "values": [
+          {
+            "min": 20,
+            "max": 22
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 37,
+        "weight": 1,
+        "values": [
+          {
+            "min": 17,
+            "max": 19
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 30,
+        "weight": 1,
+        "values": [
+          {
+            "min": 14,
+            "max": 16
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 22,
+        "weight": 1,
+        "values": [
+          {
+            "min": 11,
+            "max": 13
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 11,
+        "weight": 1,
+        "values": [
+          {
+            "min": 8,
+            "max": 10
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 5,
+            "max": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "amazon_s_increasedaccuracy",
     "name": "Amazon's",
     "displayName": "+(#) to Accuracy Rating",
@@ -519,134 +844,6 @@
           {
             "min": 11,
             "max": 32
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "of_the_virtuoso_intelligence",
-    "name": "of the Virtuoso",
-    "displayName": "+(#) to Intelligence",
-    "type": "suffix",
-    "domain": "item",
-    "group": "Intelligence",
-    "tags": [
-      "attribute"
-    ],
-    "applicableTo": [
-      "daggers",
-      "wands",
-      "sceptres",
-      "flails",
-      "staves",
-      "quarterstaves",
-      "body_armour_int",
-      "body_armour_str_int",
-      "body_armour_dex_int",
-      "helmet_str",
-      "helmet_dex",
-      "helmet_int",
-      "helmet_str_dex",
-      "helmet_str_int",
-      "helmet_dex_int",
-      "gloves_int",
-      "gloves_str_int",
-      "gloves_dex_int",
-      "boots_int",
-      "boots_str_int",
-      "boots_dex_int",
-      "shield_str_int",
-      "focus",
-      "amulet",
-      "ring"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 74,
-        "weight": 1,
-        "values": [
-          {
-            "min": 31,
-            "max": 33
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 66,
-        "weight": 1,
-        "values": [
-          {
-            "min": 28,
-            "max": 30
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 55,
-        "weight": 1,
-        "values": [
-          {
-            "min": 25,
-            "max": 27
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 44,
-        "weight": 1,
-        "values": [
-          {
-            "min": 21,
-            "max": 24
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 33,
-        "weight": 1,
-        "values": [
-          {
-            "min": 17,
-            "max": 20
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 22,
-        "weight": 1,
-        "values": [
-          {
-            "min": 13,
-            "max": 16
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 11,
-        "weight": 1,
-        "values": [
-          {
-            "min": 9,
-            "max": 12
-          }
-        ]
-      },
-      {
-        "tier": 8,
-        "requiredLevel": 1,
-        "weight": 1,
-        "values": [
-          {
-            "min": 5,
-            "max": 8
           }
         ]
       }
@@ -808,281 +1005,6 @@
           {
             "min": 10,
             "max": 14
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "of_nirvana_manaregeneration",
-    "name": "of Nirvana",
-    "displayName": "(#)% increased Mana Regeneration Rate",
-    "type": "suffix",
-    "domain": "item",
-    "group": "ManaRegeneration",
-    "tags": [
-      "mana"
-    ],
-    "applicableTo": [
-      "wands",
-      "sceptres",
-      "staves",
-      "focus",
-      "amulet",
-      "ring"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 79,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 60,
-            "max": 69
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 55,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 50,
-            "max": 59
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 42,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 40,
-            "max": 49
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 29,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 30,
-            "max": 39
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 18,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 20,
-            "max": 29
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 1,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 10,
-            "max": 19
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "of_finesse_increasedcastspeed",
-    "name": "of Finesse",
-    "displayName": "(#)% increased Cast Speed",
-    "type": "suffix",
-    "domain": "item",
-    "group": "IncreasedCastSpeed",
-    "tags": [
-      "caster",
-      "speed"
-    ],
-    "applicableTo": [
-      "wands",
-      "staves",
-      "focus",
-      "amulet",
-      "ring"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 80,
-        "weight": 250,
-        "values": [
-          {
-            "min": 33,
-            "max": 35
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 70,
-        "weight": 500,
-        "values": [
-          {
-            "min": 29,
-            "max": 32
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 60,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 25,
-            "max": 28
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 45,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 21,
-            "max": 24
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 30,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 17,
-            "max": 20
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 15,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 13,
-            "max": 16
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 1,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 9,
-            "max": 12
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "of_warmth_lightradiusandmanaregeneration",
-    "name": "of Warmth",
-    "displayName": "(#)% increased Mana Regeneration Rate5% increased Light Radius",
-    "type": "suffix",
-    "domain": "item",
-    "group": "LightRadiusAndManaRegeneration",
-    "tags": [
-      "mana"
-    ],
-    "applicableTo": [
-      "wands",
-      "sceptres",
-      "staves",
-      "ring"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 8,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 8,
-            "max": 12
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "of_kindling_lightradiusandmanaregeneration",
-    "name": "of Kindling",
-    "displayName": "(#)% increased Mana Regeneration Rate10% increased Light Radius",
-    "type": "suffix",
-    "domain": "item",
-    "group": "LightRadiusAndManaRegeneration",
-    "tags": [
-      "mana"
-    ],
-    "applicableTo": [
-      "wands",
-      "sceptres",
-      "staves",
-      "ring"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 15,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 13,
-            "max": 17
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "of_the_hearth_lightradiusandmanaregeneration",
-    "name": "of the Hearth",
-    "displayName": "(#)% increased Mana Regeneration Rate15% increased Light Radius",
-    "type": "suffix",
-    "domain": "item",
-    "group": "LightRadiusAndManaRegeneration",
-    "tags": [
-      "mana"
-    ],
-    "applicableTo": [
-      "wands",
-      "sceptres",
-      "staves",
-      "ring"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 30,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 18,
-            "max": 22
           }
         ]
       }
@@ -1934,37 +1856,32 @@
     ]
   },
   {
-    "id": "of_the_phoenix_liferegeneration",
-    "name": "of the Phoenix",
-    "displayName": "(#) Life Regeneration per second",
+    "id": "of_thermokryptance_armourappliestoelementaldamage",
+    "name": "of Thermokryptance",
+    "displayName": "+(#)% of Armour also applies to Elemental Damage",
     "type": "suffix",
     "domain": "item",
-    "group": "LifeRegeneration",
+    "group": "ArmourAppliesToElementalDamage",
     "tags": [
-      "life"
+      "defences",
+      "elemental"
     ],
     "applicableTo": [
       "body_armour_str",
-      "body_armour_dex",
-      "body_armour_int",
       "body_armour_str_dex",
       "body_armour_str_int",
-      "body_armour_dex_int",
       "helmet_str",
-      "helmet_dex",
-      "helmet_int",
       "helmet_str_dex",
       "helmet_str_int",
-      "helmet_dex_int",
+      "gloves_str",
+      "gloves_str_dex",
+      "gloves_str_int",
       "boots_str",
-      "boots_dex",
-      "boots_int",
       "boots_str_dex",
       "boots_str_int",
-      "boots_dex_int",
-      "amulet",
-      "ring",
-      "belt"
+      "shield_str",
+      "shield_str_dex",
+      "shield_str_int"
     ],
     "tiers": [
       {
@@ -1973,118 +1890,515 @@
         "weight": 1000,
         "values": [
           {
-            "min": 33.1,
-            "max": 36
+            "min": 44,
+            "max": 50
           }
         ]
       },
       {
         "tier": 2,
-        "requiredLevel": 75,
+        "requiredLevel": 66,
         "weight": 1000,
         "values": [
           {
-            "min": 29.1,
-            "max": 33
+            "min": 38,
+            "max": 43
           }
         ]
       },
       {
         "tier": 3,
-        "requiredLevel": 68,
+        "requiredLevel": 48,
         "weight": 1000,
         "values": [
           {
-            "min": 23.1,
-            "max": 29
+            "min": 32,
+            "max": 37
           }
         ]
       },
       {
         "tier": 4,
-        "requiredLevel": 58,
+        "requiredLevel": 36,
         "weight": 1000,
         "values": [
           {
-            "min": 18.1,
-            "max": 23
+            "min": 26,
+            "max": 31
           }
         ]
       },
       {
         "tier": 5,
-        "requiredLevel": 47,
+        "requiredLevel": 16,
         "weight": 1000,
         "values": [
           {
-            "min": 13.1,
-            "max": 18
+            "min": 20,
+            "max": 25
           }
         ]
       },
       {
         "tier": 6,
-        "requiredLevel": 35,
+        "requiredLevel": 1,
         "weight": 1000,
         "values": [
           {
-            "min": 9.1,
-            "max": 13
+            "min": 14,
+            "max": 19
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_warping_evasionappliestodeflection",
+    "name": "of Warping",
+    "displayName": "Gain Deflection Rating equal to (#)% of Evasion Rating",
+    "type": "suffix",
+    "domain": "item",
+    "group": "EvasionAppliesToDeflection",
+    "tags": [
+      "defences"
+    ],
+    "applicableTo": [
+      "body_armour_dex",
+      "body_armour_str_dex",
+      "body_armour_dex_int",
+      "helmet_dex",
+      "helmet_str_dex",
+      "helmet_dex_int",
+      "gloves_dex",
+      "gloves_str_dex",
+      "gloves_dex_int",
+      "boots_dex",
+      "boots_str_dex",
+      "boots_dex_int",
+      "shield_str_dex",
+      "buckler"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 24,
+            "max": 26
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 66,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 21,
+            "max": 23
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 48,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 18,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 36,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 15,
+            "max": 17
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 16,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 12,
+            "max": 14
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 1,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 8,
+            "max": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "versatile_baselocaldefences",
+    "name": "Versatile",
+    "displayName": "+(#) to Armour+(#) to Evasion Rating",
+    "type": "prefix",
+    "domain": "item",
+    "group": "BaseLocalDefences",
+    "tags": [
+      "defences"
+    ],
+    "applicableTo": [
+      "body_armour_str_dex",
+      "helmet_str_dex",
+      "gloves_str_dex",
+      "boots_str_dex",
+      "shield_str_dex"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 75,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 118,
+            "max": 138
+          },
+          {
+            "min": 108,
+            "max": 126
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 65,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 99,
+            "max": 117
+          },
+          {
+            "min": 89,
+            "max": 107
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 60,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 79,
+            "max": 98
+          },
+          {
+            "min": 70,
+            "max": 88
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 54,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 66,
+            "max": 78
+          },
+          {
+            "min": 58,
+            "max": 69
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 46,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 54,
+            "max": 65
+          },
+          {
+            "min": 47,
+            "max": 57
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 33,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 36,
+            "max": 53
+          },
+          {
+            "min": 31,
+            "max": 46
           }
         ]
       },
       {
         "tier": 7,
-        "requiredLevel": 26,
+        "requiredLevel": 16,
         "weight": 1000,
         "values": [
           {
-            "min": 6.1,
-            "max": 9
+            "min": 15,
+            "max": 35
+          },
+          {
+            "min": 10,
+            "max": 30
           }
         ]
       },
       {
         "tier": 8,
-        "requiredLevel": 17,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 4.1,
-            "max": 6
-          }
-        ]
-      },
-      {
-        "tier": 9,
-        "requiredLevel": 11,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 3.1,
-            "max": 4
-          }
-        ]
-      },
-      {
-        "tier": 10,
-        "requiredLevel": 5,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 2.1,
-            "max": 3
-          }
-        ]
-      },
-      {
-        "tier": 11,
         "requiredLevel": 1,
         "weight": 1000,
         "values": [
           {
-            "min": 1,
-            "max": 2
+            "min": 8,
+            "max": 14
+          },
+          {
+            "min": 6,
+            "max": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "victor_s_defencespercent",
+    "name": "Victor's",
+    "displayName": "(#)% increased Armour and Evasion",
+    "type": "prefix",
+    "domain": "item",
+    "group": "DefencesPercent",
+    "tags": [
+      "defences"
+    ],
+    "applicableTo": [
+      "body_armour_str_dex",
+      "helmet_str_dex",
+      "gloves_str_dex",
+      "boots_str_dex",
+      "shield_str_dex"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 75,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 101,
+            "max": 110
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 65,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 92,
+            "max": 100
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 60,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 80,
+            "max": 91
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 54,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 68,
+            "max": 79
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 46,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 56,
+            "max": 67
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 33,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 43,
+            "max": 55
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 16,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 27,
+            "max": 42
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 2,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 15,
+            "max": 26
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "predator_s_baselocaldefencesandlife",
+    "name": "Predator's",
+    "displayName": "(#)% increased Armour and Evasion+(#) to maximum Life",
+    "type": "prefix",
+    "domain": "item",
+    "group": "BaseLocalDefencesAndLife",
+    "tags": [
+      "life",
+      "defences"
+    ],
+    "applicableTo": [
+      "body_armour_str_dex",
+      "helmet_str_dex",
+      "gloves_str_dex"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 78,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 39,
+            "max": 42
+          },
+          {
+            "min": 42,
+            "max": 49
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 60,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 33,
+            "max": 38
+          },
+          {
+            "min": 33,
+            "max": 41
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 46,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 27,
+            "max": 32
+          },
+          {
+            "min": 26,
+            "max": 32
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 33,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 21,
+            "max": 26
+          },
+          {
+            "min": 20,
+            "max": 25
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 16,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 14,
+            "max": 20
+          },
+          {
+            "min": 11,
+            "max": 19
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 8,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 6,
+            "max": 13
+          },
+          {
+            "min": 7,
+            "max": 10
           }
         ]
       }
@@ -2151,60 +2465,6 @@
           {
             "min": 6,
             "max": 10
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "hoarder_s_itemfoundrarityincreaseprefix",
-    "name": "Hoarder's",
-    "displayName": "(#)% increased Rarity of Items found",
-    "type": "prefix",
-    "domain": "item",
-    "group": "ItemFoundRarityIncreasePrefix",
-    "tags": [],
-    "applicableTo": [
-      "helmet_str",
-      "helmet_dex",
-      "helmet_int",
-      "helmet_str_dex",
-      "helmet_str_int",
-      "helmet_dex_int",
-      "amulet",
-      "ring"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 47,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 16,
-            "max": 19
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 29,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 12,
-            "max": 15
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 10,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 8,
-            "max": 11
           }
         ]
       }
@@ -3083,654 +3343,144 @@
     ]
   },
   {
-    "id": "of_the_span_allresistances",
-    "name": "of the Span",
-    "displayName": "+(#)% to all Elemental Resistances",
+    "id": "of_nourishment_lifegainpertarget",
+    "name": "of Nourishment",
+    "displayName": "Gain # Life per Enemy Hit with Attacks",
     "type": "suffix",
     "domain": "item",
-    "group": "AllResistances",
+    "group": "LifeGainPerTarget",
     "tags": [
-      "elemental",
-      "fire",
-      "cold",
-      "lightning",
-      "resistance"
+      "life",
+      "attack"
     ],
     "applicableTo": [
-      "shield_str_int",
-      "amulet",
-      "ring"
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int"
     ],
     "tiers": [
       {
         "tier": 1,
-        "requiredLevel": 80,
-        "weight": 800,
+        "requiredLevel": 40,
+        "weight": 1000,
         "values": [
           {
-            "min": 17,
-            "max": 18
+            "min": 5,
+            "max": 5
           }
         ]
       },
       {
         "tier": 2,
-        "requiredLevel": 68,
-        "weight": 800,
+        "requiredLevel": 30,
+        "weight": 1000,
         "values": [
           {
-            "min": 15,
-            "max": 16
+            "min": 4,
+            "max": 4
           }
         ]
       },
       {
         "tier": 3,
-        "requiredLevel": 54,
-        "weight": 800,
+        "requiredLevel": 20,
+        "weight": 1000,
         "values": [
           {
-            "min": 12,
-            "max": 14
+            "min": 3,
+            "max": 3
           }
         ]
       },
       {
         "tier": 4,
-        "requiredLevel": 40,
-        "weight": 800,
+        "requiredLevel": 8,
+        "weight": 1000,
         "values": [
           {
-            "min": 9,
-            "max": 11
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 26,
-        "weight": 800,
-        "values": [
-          {
-            "min": 6,
-            "max": 8
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 12,
-        "weight": 800,
-        "values": [
-          {
-            "min": 3,
-            "max": 5
+            "min": 2,
+            "max": 2
           }
         ]
       }
     ]
   },
   {
-    "id": "of_the_infinite_allattributes",
-    "name": "of the Infinite",
-    "displayName": "+(#) to all Attributes",
+    "id": "of_ferocity_criticalstrikemultiplier",
+    "name": "of Ferocity",
+    "displayName": "(#)% increased Critical Damage Bonus",
     "type": "suffix",
     "domain": "item",
-    "group": "AllAttributes",
+    "group": "CriticalStrikeMultiplier",
     "tags": [
-      "attribute"
+      "damage",
+      "critical"
     ],
     "applicableTo": [
-      "amulet",
-      "ring"
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "amulet"
     ],
     "tiers": [
       {
         "tier": 1,
-        "requiredLevel": 82,
-        "weight": 800,
+        "requiredLevel": 59,
+        "weight": 250,
         "values": [
           {
-            "min": 23,
+            "min": 30,
+            "max": 34
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 45,
+        "weight": 500,
+        "values": [
+          {
+            "min": 25,
+            "max": 29
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 31,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 20,
             "max": 24
           }
         ]
       },
       {
-        "tier": 2,
-        "requiredLevel": 75,
-        "weight": 800,
-        "values": [
-          {
-            "min": 21,
-            "max": 22
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 66,
-        "weight": 800,
-        "values": [
-          {
-            "min": 19,
-            "max": 20
-          }
-        ]
-      },
-      {
         "tier": 4,
-        "requiredLevel": 55,
-        "weight": 800,
+        "requiredLevel": 21,
+        "weight": 1000,
         "values": [
           {
-            "min": 17,
-            "max": 18
+            "min": 15,
+            "max": 19
           }
         ]
       },
       {
         "tier": 5,
-        "requiredLevel": 44,
-        "weight": 800,
-        "values": [
-          {
-            "min": 14,
-            "max": 16
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 33,
-        "weight": 800,
-        "values": [
-          {
-            "min": 11,
-            "max": 13
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 22,
-        "weight": 800,
-        "values": [
-          {
-            "min": 8,
-            "max": 10
-          }
-        ]
-      },
-      {
-        "tier": 8,
-        "requiredLevel": 11,
-        "weight": 800,
-        "values": [
-          {
-            "min": 5,
-            "max": 7
-          }
-        ]
-      },
-      {
-        "tier": 9,
-        "requiredLevel": 1,
-        "weight": 800,
-        "values": [
-          {
-            "min": 2,
-            "max": 4
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "adroit_increasedevasionrating",
-    "name": "Adroit",
-    "displayName": "+(#) to Evasion Rating",
-    "type": "prefix",
-    "domain": "item",
-    "group": "IncreasedEvasionRating",
-    "tags": [
-      "defences"
-    ],
-    "applicableTo": [
-      "ring"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 70,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 177,
-            "max": 203
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 65,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 152,
-            "max": 176
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 54,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 124,
-            "max": 151
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 46,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 94,
-            "max": 123
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 33,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 70,
-            "max": 93
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 25,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 45,
-            "max": 69
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 16,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 34,
-            "max": 44
-          }
-        ]
-      },
-      {
-        "tier": 8,
-        "requiredLevel": 11,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 16,
-            "max": 33
-          }
-        ]
-      },
-      {
-        "tier": 9,
-        "requiredLevel": 1,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 8,
-            "max": 15
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "magmatic_firedamagepercentage",
-    "name": "Magmatic",
-    "displayName": "(#)% increased Fire Damage",
-    "type": "prefix",
-    "domain": "item",
-    "group": "FireDamagePercentage",
-    "tags": [
-      "damage",
-      "elemental",
-      "fire"
-    ],
-    "applicableTo": [
-      "ring"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 75,
-        "weight": 500,
-        "values": [
-          {
-            "min": 27,
-            "max": 30
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 65,
-        "weight": 500,
-        "values": [
-          {
-            "min": 23,
-            "max": 26
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 46,
-        "weight": 500,
-        "values": [
-          {
-            "min": 18,
-            "max": 22
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 33,
-        "weight": 500,
-        "values": [
-          {
-            "min": 13,
-            "max": 17
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 16,
-        "weight": 500,
-        "values": [
-          {
-            "min": 8,
-            "max": 12
-          }
-        ]
-      },
-      {
-        "tier": 6,
         "requiredLevel": 8,
-        "weight": 500,
+        "weight": 1000,
         "values": [
           {
-            "min": 3,
-            "max": 7
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "crystalline_colddamagepercentage",
-    "name": "Crystalline",
-    "displayName": "(#)% increased Cold Damage",
-    "type": "prefix",
-    "domain": "item",
-    "group": "ColdDamagePercentage",
-    "tags": [
-      "damage",
-      "elemental",
-      "cold"
-    ],
-    "applicableTo": [
-      "ring"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 75,
-        "weight": 500,
-        "values": [
-          {
-            "min": 27,
-            "max": 30
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 65,
-        "weight": 500,
-        "values": [
-          {
-            "min": 23,
-            "max": 26
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 46,
-        "weight": 500,
-        "values": [
-          {
-            "min": 18,
-            "max": 22
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 33,
-        "weight": 500,
-        "values": [
-          {
-            "min": 13,
-            "max": 17
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 16,
-        "weight": 500,
-        "values": [
-          {
-            "min": 8,
-            "max": 12
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 8,
-        "weight": 500,
-        "values": [
-          {
-            "min": 3,
-            "max": 7
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "smiting_lightningdamagepercentage",
-    "name": "Smiting",
-    "displayName": "(#)% increased Lightning Damage",
-    "type": "prefix",
-    "domain": "item",
-    "group": "LightningDamagePercentage",
-    "tags": [
-      "damage",
-      "elemental",
-      "lightning"
-    ],
-    "applicableTo": [
-      "ring"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 75,
-        "weight": 500,
-        "values": [
-          {
-            "min": 27,
-            "max": 30
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 65,
-        "weight": 500,
-        "values": [
-          {
-            "min": 23,
-            "max": 26
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 46,
-        "weight": 500,
-        "values": [
-          {
-            "min": 18,
-            "max": 22
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 33,
-        "weight": 500,
-        "values": [
-          {
-            "min": 13,
-            "max": 17
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 16,
-        "weight": 500,
-        "values": [
-          {
-            "min": 8,
-            "max": 12
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 8,
-        "weight": 500,
-        "values": [
-          {
-            "min": 3,
-            "max": 7
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "vile_increasedchaosdamage",
-    "name": "Vile",
-    "displayName": "(#)% increased Chaos Damage",
-    "type": "prefix",
-    "domain": "item",
-    "group": "IncreasedChaosDamage",
-    "tags": [
-      "damage",
-      "chaos"
-    ],
-    "applicableTo": [
-      "ring"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 75,
-        "weight": 500,
-        "values": [
-          {
-            "min": 27,
-            "max": 30
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 65,
-        "weight": 500,
-        "values": [
-          {
-            "min": 23,
-            "max": 26
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 46,
-        "weight": 500,
-        "values": [
-          {
-            "min": 18,
-            "max": 22
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 33,
-        "weight": 500,
-        "values": [
-          {
-            "min": 13,
-            "max": 17
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 16,
-        "weight": 500,
-        "values": [
-          {
-            "min": 8,
-            "max": 12
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 8,
-        "weight": 500,
-        "values": [
-          {
-            "min": 3,
-            "max": 7
+            "min": 10,
+            "max": 14
           }
         ]
       }

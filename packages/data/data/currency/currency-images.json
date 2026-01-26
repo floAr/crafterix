@@ -135,19 +135,19 @@
     "id": "gemcutter_s_prism",
     "name": "Gemcutter's Prism",
     "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyGemQuality.webp",
-    "localImage": "assets/currency/gemcutter_s_prism.webp"
+    "localImage": null
   },
   {
     "id": "glassblower_s_bauble",
     "name": "Glassblower's Bauble",
     "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyFlaskQuality.webp",
-    "localImage": "assets/currency/glassblower_s_bauble.webp"
+    "localImage": null
   },
   {
     "id": "armourer_s_scrap",
     "name": "Armourer's Scrap",
     "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/CurrencyArmourQuality.webp",
-    "localImage": "assets/currency/armourer_s_scrap.webp"
+    "localImage": null
   },
   {
     "id": "blacksmith_s_whetstone",
@@ -183,7 +183,7 @@
     "id": "lesser_essence_of_the_body",
     "name": "Lesser Essence of the Body",
     "imageUrl": "https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/LifeEssenceLesser.webp",
-    "localImage": "assets/currency/lesser_essence_of_the_body.webp"
+    "localImage": null
   },
   {
     "id": "lesser_essence_of_the_mind",

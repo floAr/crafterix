@@ -113,6 +113,283 @@
     ]
   },
   {
+    "id": "amazon_s_increasedaccuracy",
+    "name": "Amazon's",
+    "displayName": "+(#) to Accuracy Rating",
+    "type": "prefix",
+    "domain": "item",
+    "group": "IncreasedAccuracy",
+    "tags": [
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "quiver",
+      "amulet",
+      "ring"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 76,
+        "weight": 1,
+        "values": [
+          {
+            "min": 451,
+            "max": 550
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 67,
+        "weight": 1,
+        "values": [
+          {
+            "min": 347,
+            "max": 450
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 58,
+        "weight": 1,
+        "values": [
+          {
+            "min": 237,
+            "max": 346
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 48,
+        "weight": 1,
+        "values": [
+          {
+            "min": 168,
+            "max": 236
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 36,
+        "weight": 1,
+        "values": [
+          {
+            "min": 124,
+            "max": 167
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 26,
+        "weight": 1,
+        "values": [
+          {
+            "min": 85,
+            "max": 123
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 18,
+        "weight": 1,
+        "values": [
+          {
+            "min": 61,
+            "max": 84
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 11,
+        "weight": 1,
+        "values": [
+          {
+            "min": 33,
+            "max": 60
+          }
+        ]
+      },
+      {
+        "tier": 9,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 11,
+            "max": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_shining_lightradiusandaccuracy",
+    "name": "of Shining",
+    "displayName": "+(#) to Accuracy Rating5% increased Light Radius",
+    "type": "suffix",
+    "domain": "item",
+    "group": "LightRadiusAndAccuracy",
+    "tags": [
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 8,
+        "weight": 1,
+        "values": [
+          {
+            "min": 10,
+            "max": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_light_lightradiusandaccuracy",
+    "name": "of Light",
+    "displayName": "+(#) to Accuracy Rating10% increased Light Radius",
+    "type": "suffix",
+    "domain": "item",
+    "group": "LightRadiusAndAccuracy",
+    "tags": [
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 15,
+        "weight": 1,
+        "values": [
+          {
+            "min": 21,
+            "max": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_radiance_lightradiusandaccuracy",
+    "name": "of Radiance",
+    "displayName": "+(#) to Accuracy Rating15% increased Light Radius",
+    "type": "suffix",
+    "domain": "item",
+    "group": "LightRadiusAndAccuracy",
+    "tags": [
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 30,
+        "weight": 1,
+        "values": [
+          {
+            "min": 41,
+            "max": 60
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "of_the_virtuoso_intelligence",
     "name": "of the Virtuoso",
     "displayName": "+(#) to Intelligence",
@@ -402,672 +679,31 @@
     ]
   },
   {
-    "id": "runic_weaponcasterdamageprefix",
-    "name": "Runic",
-    "displayName": "(#)% increased Spell Damage",
-    "type": "prefix",
-    "domain": "item",
-    "group": "WeaponCasterDamagePrefix",
-    "tags": [
-      "damage",
-      "caster"
-    ],
-    "applicableTo": [
-      "wands",
-      "staves",
-      "focus"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 80,
-        "weight": 50,
-        "values": [
-          {
-            "min": 105,
-            "max": 119
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 70,
-        "weight": 100,
-        "values": [
-          {
-            "min": 90,
-            "max": 104
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 60,
-        "weight": 200,
-        "values": [
-          {
-            "min": 75,
-            "max": 89
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 46,
-        "weight": 400,
-        "values": [
-          {
-            "min": 65,
-            "max": 74
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 33,
-        "weight": 600,
-        "values": [
-          {
-            "min": 55,
-            "max": 64
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 16,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 45,
-            "max": 54
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 8,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 35,
-            "max": 44
-          }
-        ]
-      },
-      {
-        "tier": 8,
-        "requiredLevel": 1,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 25,
-            "max": 34
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "pyromancer_s_weapondamagetypeprefix",
-    "name": "Pyromancer's",
-    "displayName": "(#)% increased Fire Damage",
-    "type": "prefix",
-    "domain": "item",
-    "group": "WeaponDamageTypePrefix",
-    "tags": [
-      "damage",
-      "elemental",
-      "fire"
-    ],
-    "applicableTo": [
-      "wands",
-      "staves",
-      "focus"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 81,
-        "weight": 50,
-        "values": [
-          {
-            "min": 105,
-            "max": 119
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 70,
-        "weight": 100,
-        "values": [
-          {
-            "min": 90,
-            "max": 104
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 60,
-        "weight": 200,
-        "values": [
-          {
-            "min": 75,
-            "max": 89
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 46,
-        "weight": 300,
-        "values": [
-          {
-            "min": 65,
-            "max": 74
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 33,
-        "weight": 400,
-        "values": [
-          {
-            "min": 55,
-            "max": 64
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 16,
-        "weight": 500,
-        "values": [
-          {
-            "min": 45,
-            "max": 54
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 8,
-        "weight": 500,
-        "values": [
-          {
-            "min": 35,
-            "max": 44
-          }
-        ]
-      },
-      {
-        "tier": 8,
-        "requiredLevel": 2,
-        "weight": 500,
-        "values": [
-          {
-            "min": 25,
-            "max": 34
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "cryomancer_s_weapondamagetypeprefix",
-    "name": "Cryomancer's",
-    "displayName": "(#)% increased Cold Damage",
-    "type": "prefix",
-    "domain": "item",
-    "group": "WeaponDamageTypePrefix",
-    "tags": [
-      "damage",
-      "elemental",
-      "cold"
-    ],
-    "applicableTo": [
-      "wands",
-      "staves",
-      "focus"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 81,
-        "weight": 50,
-        "values": [
-          {
-            "min": 105,
-            "max": 119
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 70,
-        "weight": 100,
-        "values": [
-          {
-            "min": 90,
-            "max": 104
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 60,
-        "weight": 200,
-        "values": [
-          {
-            "min": 75,
-            "max": 89
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 46,
-        "weight": 300,
-        "values": [
-          {
-            "min": 65,
-            "max": 74
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 33,
-        "weight": 400,
-        "values": [
-          {
-            "min": 55,
-            "max": 64
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 16,
-        "weight": 500,
-        "values": [
-          {
-            "min": 45,
-            "max": 54
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 8,
-        "weight": 500,
-        "values": [
-          {
-            "min": 35,
-            "max": 44
-          }
-        ]
-      },
-      {
-        "tier": 8,
-        "requiredLevel": 2,
-        "weight": 500,
-        "values": [
-          {
-            "min": 25,
-            "max": 34
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "electromancer_s_weapondamagetypeprefix",
-    "name": "Electromancer's",
-    "displayName": "(#)% increased Lightning Damage",
-    "type": "prefix",
-    "domain": "item",
-    "group": "WeaponDamageTypePrefix",
-    "tags": [
-      "damage",
-      "elemental",
-      "lightning"
-    ],
-    "applicableTo": [
-      "wands",
-      "staves",
-      "focus"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 81,
-        "weight": 50,
-        "values": [
-          {
-            "min": 105,
-            "max": 119
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 70,
-        "weight": 100,
-        "values": [
-          {
-            "min": 90,
-            "max": 104
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 60,
-        "weight": 200,
-        "values": [
-          {
-            "min": 75,
-            "max": 89
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 46,
-        "weight": 300,
-        "values": [
-          {
-            "min": 65,
-            "max": 74
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 33,
-        "weight": 400,
-        "values": [
-          {
-            "min": 55,
-            "max": 64
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 16,
-        "weight": 500,
-        "values": [
-          {
-            "min": 45,
-            "max": 54
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 8,
-        "weight": 500,
-        "values": [
-          {
-            "min": 35,
-            "max": 44
-          }
-        ]
-      },
-      {
-        "tier": 8,
-        "requiredLevel": 2,
-        "weight": 500,
-        "values": [
-          {
-            "min": 25,
-            "max": 34
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "malevolent_weapondamagetypeprefix",
-    "name": "Malevolent",
-    "displayName": "(#)% increased Chaos Damage",
-    "type": "prefix",
-    "domain": "item",
-    "group": "WeaponDamageTypePrefix",
-    "tags": [
-      "damage",
-      "chaos"
-    ],
-    "applicableTo": [
-      "wands",
-      "staves",
-      "focus"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 81,
-        "weight": 50,
-        "values": [
-          {
-            "min": 105,
-            "max": 119
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 70,
-        "weight": 100,
-        "values": [
-          {
-            "min": 90,
-            "max": 104
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 60,
-        "weight": 200,
-        "values": [
-          {
-            "min": 75,
-            "max": 89
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 46,
-        "weight": 300,
-        "values": [
-          {
-            "min": 65,
-            "max": 74
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 33,
-        "weight": 400,
-        "values": [
-          {
-            "min": 55,
-            "max": 64
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 16,
-        "weight": 500,
-        "values": [
-          {
-            "min": 45,
-            "max": 54
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 8,
-        "weight": 500,
-        "values": [
-          {
-            "min": 35,
-            "max": 44
-          }
-        ]
-      },
-      {
-        "tier": 8,
-        "requiredLevel": 2,
-        "weight": 500,
-        "values": [
-          {
-            "min": 25,
-            "max": 34
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "torturer_s_weapondamagetypeprefix",
-    "name": "Torturer's",
-    "displayName": "(#)% increased Spell Physical Damage",
-    "type": "prefix",
-    "domain": "item",
-    "group": "WeaponDamageTypePrefix",
-    "tags": [
-      "damage",
-      "physical"
-    ],
-    "applicableTo": [
-      "wands",
-      "staves",
-      "focus"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 81,
-        "weight": 50,
-        "values": [
-          {
-            "min": 105,
-            "max": 119
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 70,
-        "weight": 100,
-        "values": [
-          {
-            "min": 90,
-            "max": 104
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 60,
-        "weight": 200,
-        "values": [
-          {
-            "min": 75,
-            "max": 89
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 46,
-        "weight": 300,
-        "values": [
-          {
-            "min": 65,
-            "max": 74
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 33,
-        "weight": 400,
-        "values": [
-          {
-            "min": 55,
-            "max": 64
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 16,
-        "weight": 500,
-        "values": [
-          {
-            "min": 45,
-            "max": 54
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 8,
-        "weight": 500,
-        "values": [
-          {
-            "min": 35,
-            "max": 44
-          }
-        ]
-      },
-      {
-        "tier": 8,
-        "requiredLevel": 2,
-        "weight": 500,
-        "values": [
-          {
-            "min": 25,
-            "max": 34
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "of_the_wizard_increasesocketedgemlevel",
-    "name": "of the Wizard",
-    "displayName": "+# to Level of all Spell Skills",
+    "id": "of_the_slavedriver_increasesocketedgemlevel",
+    "name": "of the Slavedriver",
+    "displayName": "+# to Level of all Minion Skills",
     "type": "suffix",
     "domain": "item",
     "group": "IncreaseSocketedGemLevel",
     "tags": [
-      "caster",
+      "minion",
       "gem"
     ],
     "applicableTo": [
-      "wands",
-      "staves",
-      "focus",
+      "sceptres",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
       "amulet"
     ],
     "tiers": [
       {
         "tier": 1,
         "requiredLevel": 78,
-        "weight": 50,
+        "weight": 100,
         "values": [
           {
             "min": 4,
@@ -1078,7 +714,7 @@
       {
         "tier": 2,
         "requiredLevel": 55,
-        "weight": 100,
+        "weight": 250,
         "values": [
           {
             "min": 3,
@@ -1089,7 +725,7 @@
       {
         "tier": 3,
         "requiredLevel": 25,
-        "weight": 150,
+        "weight": 500,
         "values": [
           {
             "min": 2,
@@ -1099,367 +735,12 @@
       },
       {
         "tier": 4,
-        "requiredLevel": 5,
-        "weight": 200,
+        "requiredLevel": 2,
+        "weight": 750,
         "values": [
           {
             "min": 1,
             "max": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "of_nirvana_manaregeneration",
-    "name": "of Nirvana",
-    "displayName": "(#)% increased Mana Regeneration Rate",
-    "type": "suffix",
-    "domain": "item",
-    "group": "ManaRegeneration",
-    "tags": [
-      "mana"
-    ],
-    "applicableTo": [
-      "wands",
-      "sceptres",
-      "staves",
-      "focus",
-      "amulet",
-      "ring"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 79,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 60,
-            "max": 69
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 55,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 50,
-            "max": 59
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 42,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 40,
-            "max": 49
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 29,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 30,
-            "max": 39
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 18,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 20,
-            "max": 29
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 1,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 10,
-            "max": 19
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "of_finesse_increasedcastspeed",
-    "name": "of Finesse",
-    "displayName": "(#)% increased Cast Speed",
-    "type": "suffix",
-    "domain": "item",
-    "group": "IncreasedCastSpeed",
-    "tags": [
-      "caster",
-      "speed"
-    ],
-    "applicableTo": [
-      "wands",
-      "staves",
-      "focus",
-      "amulet",
-      "ring"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 80,
-        "weight": 250,
-        "values": [
-          {
-            "min": 33,
-            "max": 35
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 70,
-        "weight": 500,
-        "values": [
-          {
-            "min": 29,
-            "max": 32
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 60,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 25,
-            "max": 28
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 45,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 21,
-            "max": 24
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 30,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 17,
-            "max": 20
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 15,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 13,
-            "max": 16
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 1,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 9,
-            "max": 12
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "of_unmaking_spellcriticalstrikechanceincrease",
-    "name": "of Unmaking",
-    "displayName": "(#)% increased Critical Hit Chance for Spells",
-    "type": "suffix",
-    "domain": "item",
-    "group": "SpellCriticalStrikeChanceIncrease",
-    "tags": [
-      "caster",
-      "critical"
-    ],
-    "applicableTo": [
-      "wands",
-      "staves",
-      "focus"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 76,
-        "weight": 125,
-        "values": [
-          {
-            "min": 60,
-            "max": 73
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 59,
-        "weight": 250,
-        "values": [
-          {
-            "min": 54,
-            "max": 59
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 41,
-        "weight": 500,
-        "values": [
-          {
-            "min": 47,
-            "max": 53
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 28,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 40,
-            "max": 46
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 21,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 34,
-            "max": 39
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 11,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 27,
-            "max": 33
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "of_destruction_criticalstrikemultiplier",
-    "name": "of Destruction",
-    "displayName": "(#)% increased Critical Spell Damage Bonus",
-    "type": "suffix",
-    "domain": "item",
-    "group": "CriticalStrikeMultiplier",
-    "tags": [
-      "caster",
-      "critical"
-    ],
-    "applicableTo": [
-      "wands",
-      "staves",
-      "focus"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 73,
-        "weight": 125,
-        "values": [
-          {
-            "min": 35,
-            "max": 39
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 59,
-        "weight": 250,
-        "values": [
-          {
-            "min": 30,
-            "max": 34
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 44,
-        "weight": 500,
-        "values": [
-          {
-            "min": 25,
-            "max": 29
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 30,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 20,
-            "max": 24
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 21,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 15,
-            "max": 19
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 8,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 10,
-            "max": 14
           }
         ]
       }
@@ -1991,6 +1272,352 @@
     ]
   },
   {
+    "id": "prime_increasedlife",
+    "name": "Prime",
+    "displayName": "+(#) to maximum Life",
+    "type": "prefix",
+    "domain": "item",
+    "group": "IncreasedLife",
+    "tags": [
+      "life"
+    ],
+    "applicableTo": [
+      "body_armour_str",
+      "body_armour_dex",
+      "body_armour_int",
+      "body_armour_str_dex",
+      "body_armour_str_int",
+      "body_armour_dex_int",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "boots_str",
+      "boots_dex",
+      "boots_int",
+      "boots_str_dex",
+      "boots_str_int",
+      "boots_dex_int",
+      "shield_str",
+      "shield_str_dex",
+      "shield_str_int",
+      "buckler",
+      "amulet",
+      "ring",
+      "belt"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 80,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 200,
+            "max": 214
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 75,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 190,
+            "max": 199
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 70,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 175,
+            "max": 189
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 65,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 150,
+            "max": 174
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 60,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 120,
+            "max": 149
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 54,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 100,
+            "max": 119
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 46,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 85,
+            "max": 99
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 38,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 70,
+            "max": 84
+          }
+        ]
+      },
+      {
+        "tier": 9,
+        "requiredLevel": 33,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 60,
+            "max": 69
+          }
+        ]
+      },
+      {
+        "tier": 10,
+        "requiredLevel": 24,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 40,
+            "max": 59
+          }
+        ]
+      },
+      {
+        "tier": 11,
+        "requiredLevel": 16,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 30,
+            "max": 39
+          }
+        ]
+      },
+      {
+        "tier": 12,
+        "requiredLevel": 6,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 20,
+            "max": 29
+          }
+        ]
+      },
+      {
+        "tier": 13,
+        "requiredLevel": 1,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 10,
+            "max": 19
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_the_phoenix_liferegeneration",
+    "name": "of the Phoenix",
+    "displayName": "(#) Life Regeneration per second",
+    "type": "suffix",
+    "domain": "item",
+    "group": "LifeRegeneration",
+    "tags": [
+      "life"
+    ],
+    "applicableTo": [
+      "body_armour_str",
+      "body_armour_dex",
+      "body_armour_int",
+      "body_armour_str_dex",
+      "body_armour_str_int",
+      "body_armour_dex_int",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "boots_str",
+      "boots_dex",
+      "boots_int",
+      "boots_str_dex",
+      "boots_str_int",
+      "boots_dex_int",
+      "amulet",
+      "ring",
+      "belt"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 33.1,
+            "max": 36
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 75,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 29.1,
+            "max": 33
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 68,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 23.1,
+            "max": 29
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 58,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 18.1,
+            "max": 23
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 47,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 13.1,
+            "max": 18
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 35,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 9.1,
+            "max": 13
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 26,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 6.1,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 17,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 4.1,
+            "max": 6
+          }
+        ]
+      },
+      {
+        "tier": 9,
+        "requiredLevel": 11,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 3.1,
+            "max": 4
+          }
+        ]
+      },
+      {
+        "tier": 10,
+        "requiredLevel": 5,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 2.1,
+            "max": 3
+          }
+        ]
+      },
+      {
+        "tier": 11,
+        "requiredLevel": 1,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 1,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "resplendent_baselocaldefences",
     "name": "Resplendent",
     "displayName": "+(#) to maximum Energy Shield",
@@ -2240,63 +1867,79 @@
     ]
   },
   {
-    "id": "of_anticipation_energyshielddelay",
-    "name": "of Anticipation",
-    "displayName": "(#)% faster start of Energy Shield Recharge",
-    "type": "suffix",
+    "id": "pope_s_baselocaldefencesandlife",
+    "name": "Pope's",
+    "displayName": "(#)% increased Energy Shield+(#) to maximum Life",
+    "type": "prefix",
     "domain": "item",
-    "group": "EnergyShieldDelay",
+    "group": "BaseLocalDefencesAndLife",
     "tags": [
+      "life",
       "defences"
     ],
     "applicableTo": [
       "body_armour_int",
-      "body_armour_str_int",
-      "body_armour_dex_int",
-      "focus"
+      "helmet_int",
+      "gloves_int"
     ],
     "tiers": [
       {
         "tier": 1,
-        "requiredLevel": 81,
+        "requiredLevel": 78,
         "weight": 1000,
         "values": [
           {
-            "min": 51,
-            "max": 55
+            "min": 39,
+            "max": 42
+          },
+          {
+            "min": 42,
+            "max": 49
           }
         ]
       },
       {
         "tier": 2,
-        "requiredLevel": 66,
+        "requiredLevel": 60,
         "weight": 1000,
         "values": [
           {
-            "min": 46,
-            "max": 50
+            "min": 33,
+            "max": 38
+          },
+          {
+            "min": 33,
+            "max": 41
           }
         ]
       },
       {
         "tier": 3,
-        "requiredLevel": 48,
+        "requiredLevel": 46,
         "weight": 1000,
         "values": [
           {
-            "min": 41,
-            "max": 45
+            "min": 27,
+            "max": 32
+          },
+          {
+            "min": 26,
+            "max": 32
           }
         ]
       },
       {
         "tier": 4,
-        "requiredLevel": 36,
+        "requiredLevel": 33,
         "weight": 1000,
         "values": [
           {
-            "min": 36,
-            "max": 40
+            "min": 21,
+            "max": 26
+          },
+          {
+            "min": 20,
+            "max": 25
           }
         ]
       },
@@ -2306,19 +1949,224 @@
         "weight": 1000,
         "values": [
           {
-            "min": 31,
-            "max": 35
+            "min": 14,
+            "max": 20
+          },
+          {
+            "min": 11,
+            "max": 19
           }
         ]
       },
       {
         "tier": 6,
-        "requiredLevel": 1,
+        "requiredLevel": 8,
         "weight": 1000,
         "values": [
           {
-            "min": 26,
-            "max": 30
+            "min": 6,
+            "max": 13
+          },
+          {
+            "min": 7,
+            "max": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_ruin_criticalstrikechanceincrease",
+    "name": "of Ruin",
+    "displayName": "(#)% increased Critical Hit Chance",
+    "type": "suffix",
+    "domain": "item",
+    "group": "CriticalStrikeChanceIncrease",
+    "tags": [
+      "critical"
+    ],
+    "applicableTo": [
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "amulet"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 58,
+        "weight": 250,
+        "values": [
+          {
+            "min": 30,
+            "max": 34
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 44,
+        "weight": 500,
+        "values": [
+          {
+            "min": 25,
+            "max": 29
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 30,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 20,
+            "max": 24
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 20,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 15,
+            "max": 19
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 5,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 10,
+            "max": 14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_archaeology_itemfoundrarityincrease",
+    "name": "of Archaeology",
+    "displayName": "(#)% increased Rarity of Items found",
+    "type": "suffix",
+    "domain": "item",
+    "group": "ItemFoundRarityIncrease",
+    "tags": [],
+    "applicableTo": [
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "boots_str",
+      "boots_dex",
+      "boots_int",
+      "boots_str_dex",
+      "boots_str_int",
+      "boots_dex_int",
+      "amulet",
+      "ring"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 40,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 15,
+            "max": 18
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 24,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 11,
+            "max": 14
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 3,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 6,
+            "max": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hoarder_s_itemfoundrarityincreaseprefix",
+    "name": "Hoarder's",
+    "displayName": "(#)% increased Rarity of Items found",
+    "type": "prefix",
+    "domain": "item",
+    "group": "ItemFoundRarityIncreasePrefix",
+    "tags": [],
+    "applicableTo": [
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "amulet",
+      "ring"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 47,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 16,
+            "max": 19
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 29,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 12,
+            "max": 15
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 10,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 8,
+            "max": 11
           }
         ]
       }

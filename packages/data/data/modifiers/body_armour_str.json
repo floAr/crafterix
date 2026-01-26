@@ -1,18 +1,35 @@
 [
   {
-    "id": "blue_increasedmana",
-    "name": "Blue",
-    "displayName": "+(#) to maximum Mana",
-    "type": "prefix",
+    "id": "of_the_proficient_localattributerequirements",
+    "name": "of the Proficient",
+    "displayName": "#% reduced Attribute Requirements",
+    "type": "suffix",
     "domain": "item",
-    "group": "IncreasedMana",
-    "tags": [
-      "mana"
-    ],
+    "group": "LocalAttributeRequirements",
+    "tags": [],
     "applicableTo": [
+      "claws",
+      "daggers",
       "wands",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
       "sceptres",
+      "spears",
+      "flails",
+      "bows",
       "staves",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows",
+      "body_armour_str",
+      "body_armour_dex",
+      "body_armour_int",
+      "body_armour_str_dex",
+      "body_armour_str_int",
+      "body_armour_dex_int",
       "helmet_str",
       "helmet_dex",
       "helmet_int",
@@ -31,130 +48,65 @@
       "boots_str_dex",
       "boots_str_int",
       "boots_dex_int",
-      "focus",
-      "amulet",
-      "ring",
-      "belt"
+      "shield_str",
+      "shield_str_dex",
+      "shield_str_int",
+      "buckler",
+      "focus"
     ],
     "tiers": [
       {
         "tier": 1,
-        "requiredLevel": 70,
-        "weight": 1000,
+        "requiredLevel": 60,
+        "weight": 1,
         "values": [
           {
-            "min": 150,
-            "max": 164
+            "min": 35,
+            "max": 35
           }
         ]
       },
       {
         "tier": 2,
-        "requiredLevel": 65,
-        "weight": 1000,
+        "requiredLevel": 52,
+        "weight": 1,
         "values": [
           {
-            "min": 125,
-            "max": 149
+            "min": 30,
+            "max": 30
           }
         ]
       },
       {
         "tier": 3,
-        "requiredLevel": 60,
-        "weight": 1000,
+        "requiredLevel": 40,
+        "weight": 1,
         "values": [
           {
-            "min": 105,
-            "max": 124
+            "min": 25,
+            "max": 25
           }
         ]
       },
       {
         "tier": 4,
-        "requiredLevel": 54,
-        "weight": 1000,
+        "requiredLevel": 32,
+        "weight": 1,
         "values": [
           {
-            "min": 90,
-            "max": 104
+            "min": 20,
+            "max": 20
           }
         ]
       },
       {
         "tier": 5,
-        "requiredLevel": 46,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 80,
-            "max": 89
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 38,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 65,
-            "max": 79
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 33,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 55,
-            "max": 64
-          }
-        ]
-      },
-      {
-        "tier": 8,
-        "requiredLevel": 25,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 35,
-            "max": 54
-          }
-        ]
-      },
-      {
-        "tier": 9,
-        "requiredLevel": 16,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 25,
-            "max": 34
-          }
-        ]
-      },
-      {
-        "tier": 10,
-        "requiredLevel": 6,
-        "weight": 1000,
+        "requiredLevel": 24,
+        "weight": 1,
         "values": [
           {
             "min": 15,
-            "max": 24
-          }
-        ]
-      },
-      {
-        "tier": 11,
-        "requiredLevel": 1,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 10,
-            "max": 14
+            "max": 15
           }
         ]
       }
@@ -1006,6 +958,470 @@
     ]
   },
   {
+    "id": "impervious_baselocaldefences",
+    "name": "Impervious",
+    "displayName": "+(#) to Armour",
+    "type": "prefix",
+    "domain": "item",
+    "group": "BaseLocalDefences",
+    "tags": [
+      "defences"
+    ],
+    "applicableTo": [
+      "body_armour_str",
+      "helmet_str",
+      "gloves_str",
+      "boots_str",
+      "shield_str"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 79,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 257,
+            "max": 276
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 75,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 226,
+            "max": 256
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 65,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 203,
+            "max": 225
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 60,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 161,
+            "max": 202
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 54,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 123,
+            "max": 160
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 46,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 103,
+            "max": 122
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 33,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 83,
+            "max": 102
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 25,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 69,
+            "max": 82
+          }
+        ]
+      },
+      {
+        "tier": 9,
+        "requiredLevel": 16,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 51,
+            "max": 68
+          }
+        ]
+      },
+      {
+        "tier": 10,
+        "requiredLevel": 8,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 28,
+            "max": 50
+          }
+        ]
+      },
+      {
+        "tier": 11,
+        "requiredLevel": 1,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 16,
+            "max": 27
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "impenetrable_defencespercent",
+    "name": "Impenetrable",
+    "displayName": "(#)% increased Armour",
+    "type": "prefix",
+    "domain": "item",
+    "group": "DefencesPercent",
+    "tags": [
+      "defences"
+    ],
+    "applicableTo": [
+      "body_armour_str",
+      "helmet_str",
+      "gloves_str",
+      "boots_str",
+      "shield_str"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 75,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 101,
+            "max": 110
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 65,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 92,
+            "max": 100
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 60,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 80,
+            "max": 91
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 54,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 68,
+            "max": 79
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 46,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 56,
+            "max": 67
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 35,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 43,
+            "max": 55
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 16,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 27,
+            "max": 42
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 2,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 15,
+            "max": 26
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "crocodile_s_baselocaldefencesandlife",
+    "name": "Crocodile's",
+    "displayName": "(#)% increased Armour+(#) to maximum Life",
+    "type": "prefix",
+    "domain": "item",
+    "group": "BaseLocalDefencesAndLife",
+    "tags": [
+      "life",
+      "defences"
+    ],
+    "applicableTo": [
+      "body_armour_str",
+      "helmet_str",
+      "gloves_str"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 78,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 39,
+            "max": 42
+          },
+          {
+            "min": 42,
+            "max": 49
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 60,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 33,
+            "max": 38
+          },
+          {
+            "min": 33,
+            "max": 41
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 46,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 27,
+            "max": 32
+          },
+          {
+            "min": 26,
+            "max": 32
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 33,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 21,
+            "max": 26
+          },
+          {
+            "min": 20,
+            "max": 25
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 16,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 14,
+            "max": 20
+          },
+          {
+            "min": 11,
+            "max": 19
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 8,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 6,
+            "max": 13
+          },
+          {
+            "min": 7,
+            "max": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hardened_baselocaldefencesanddefencepercent",
+    "name": "Hardened",
+    "displayName": "+(#) to Armour(#)% increased Armour",
+    "type": "prefix",
+    "domain": "item",
+    "group": "BaseLocalDefencesAndDefencePercent",
+    "tags": [
+      "defences"
+    ],
+    "applicableTo": [
+      "body_armour_str"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 78,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 70,
+            "max": 86
+          },
+          {
+            "min": 39,
+            "max": 42
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 60,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 54,
+            "max": 69
+          },
+          {
+            "min": 33,
+            "max": 38
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 46,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 40,
+            "max": 53
+          },
+          {
+            "min": 27,
+            "max": 32
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 33,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 30,
+            "max": 39
+          },
+          {
+            "min": 21,
+            "max": 26
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 16,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 12,
+            "max": 29
+          },
+          {
+            "min": 14,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 8,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 7,
+            "max": 11
+          },
+          {
+            "min": 6,
+            "max": 13
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "of_obsidian_skin_stunthreshold",
     "name": "of Obsidian Skin",
     "displayName": "+(#) to Stun Threshold",
@@ -1435,679 +1851,437 @@
     ]
   },
   {
-    "id": "unmoving_increasedphysicaldamagereductionrating",
-    "name": "Unmoving",
-    "displayName": "+(#) to Armour",
+    "id": "queen_s_basespirit",
+    "name": "Queen's",
+    "displayName": "+(#) to Spirit",
     "type": "prefix",
     "domain": "item",
-    "group": "IncreasedPhysicalDamageReductionRating",
-    "tags": [
-      "defences"
-    ],
+    "group": "BaseSpirit",
+    "tags": [],
     "applicableTo": [
-      "belt"
+      "body_armour_str",
+      "body_armour_dex",
+      "body_armour_int",
+      "body_armour_str_dex",
+      "body_armour_str_int",
+      "body_armour_dex_int",
+      "amulet"
     ],
     "tiers": [
       {
         "tier": 1,
-        "requiredLevel": 80,
-        "weight": 1000,
+        "requiredLevel": 78,
+        "weight": 100,
         "values": [
           {
-            "min": 225,
-            "max": 255
+            "min": 57,
+            "max": 61
           }
         ]
       },
       {
         "tier": 2,
-        "requiredLevel": 70,
-        "weight": 1000,
+        "requiredLevel": 65,
+        "weight": 200,
         "values": [
           {
-            "min": 196,
-            "max": 224
+            "min": 54,
+            "max": 56
           }
         ]
       },
       {
         "tier": 3,
-        "requiredLevel": 65,
-        "weight": 1000,
+        "requiredLevel": 60,
+        "weight": 300,
         "values": [
           {
-            "min": 169,
-            "max": 195
+            "min": 51,
+            "max": 53
           }
         ]
       },
       {
         "tier": 4,
         "requiredLevel": 54,
-        "weight": 1000,
+        "weight": 400,
         "values": [
           {
-            "min": 139,
-            "max": 168
+            "min": 47,
+            "max": 50
           }
         ]
       },
       {
         "tier": 5,
         "requiredLevel": 46,
-        "weight": 1000,
+        "weight": 500,
         "values": [
           {
-            "min": 107,
-            "max": 138
+            "min": 43,
+            "max": 46
           }
         ]
       },
       {
         "tier": 6,
         "requiredLevel": 33,
-        "weight": 1000,
+        "weight": 500,
         "values": [
           {
-            "min": 82,
-            "max": 106
+            "min": 38,
+            "max": 42
           }
         ]
       },
       {
         "tier": 7,
         "requiredLevel": 25,
-        "weight": 1000,
+        "weight": 500,
         "values": [
           {
-            "min": 55,
-            "max": 81
+            "min": 34,
+            "max": 37
           }
         ]
       },
       {
         "tier": 8,
         "requiredLevel": 16,
-        "weight": 1000,
+        "weight": 500,
         "values": [
           {
-            "min": 43,
-            "max": 54
-          }
-        ]
-      },
-      {
-        "tier": 9,
-        "requiredLevel": 11,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 23,
-            "max": 42
-          }
-        ]
-      },
-      {
-        "tier": 10,
-        "requiredLevel": 1,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 12,
-            "max": 22
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "regenerating_beltflaskrecoveryrate",
-    "name": "Regenerating",
-    "displayName": "(#)% increased Flask Life Recovery rate",
-    "type": "prefix",
-    "domain": "item",
-    "group": "BeltFlaskRecoveryRate",
-    "tags": [
-      "life"
-    ],
-    "applicableTo": [
-      "belt"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 75,
-        "weight": 800,
-        "values": [
-          {
-            "min": 35,
-            "max": 40
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 60,
-        "weight": 800,
-        "values": [
-          {
-            "min": 29,
-            "max": 34
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 46,
-        "weight": 800,
-        "values": [
-          {
-            "min": 23,
-            "max": 28
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 33,
-        "weight": 800,
-        "values": [
-          {
-            "min": 17,
-            "max": 22
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 16,
-        "weight": 800,
-        "values": [
-          {
-            "min": 11,
-            "max": 16
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 1,
-        "weight": 800,
-        "values": [
-          {
-            "min": 5,
-            "max": 10
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "inspiring_beltflaskrecoveryrate",
-    "name": "Inspiring",
-    "displayName": "(#)% increased Flask Mana Recovery rate",
-    "type": "prefix",
-    "domain": "item",
-    "group": "BeltFlaskRecoveryRate",
-    "tags": [
-      "mana"
-    ],
-    "applicableTo": [
-      "belt"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 63,
-        "weight": 800,
-        "values": [
-          {
-            "min": 35,
-            "max": 40
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 54,
-        "weight": 800,
-        "values": [
-          {
-            "min": 29,
-            "max": 34
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 36,
-        "weight": 800,
-        "values": [
-          {
-            "min": 23,
-            "max": 28
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 26,
-        "weight": 800,
-        "values": [
-          {
-            "min": 17,
-            "max": 22
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 11,
-        "weight": 800,
-        "values": [
-          {
-            "min": 11,
-            "max": 16
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 5,
-        "weight": 800,
-        "values": [
-          {
-            "min": 5,
-            "max": 10
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "revolutionary_beltcharmduration",
-    "name": "Revolutionary",
-    "displayName": "(#)% increased Charm Effect Duration",
-    "type": "prefix",
-    "domain": "item",
-    "group": "BeltCharmDuration",
-    "tags": [],
-    "applicableTo": [
-      "belt"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 75,
-        "weight": 800,
-        "values": [
-          {
-            "min": 28,
+            "min": 30,
             "max": 33
           }
         ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 60,
-        "weight": 800,
-        "values": [
-          {
-            "min": 22,
-            "max": 27
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 46,
-        "weight": 800,
-        "values": [
-          {
-            "min": 16,
-            "max": 21
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 33,
-        "weight": 800,
-        "values": [
-          {
-            "min": 10,
-            "max": 15
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 8,
-        "weight": 800,
-        "values": [
-          {
-            "min": 4,
-            "max": 9
-          }
-        ]
       }
     ]
   },
   {
-    "id": "of_overflowing_beltflaskchargesgained",
-    "name": "of Overflowing",
-    "displayName": "(#)% increased Flask Charges gained",
+    "id": "of_staunching_reducedailmentduration",
+    "name": "of Staunching",
+    "displayName": "(#)% reduced Duration of Bleeding on You",
     "type": "suffix",
     "domain": "item",
-    "group": "BeltFlaskChargesGained",
-    "tags": [],
+    "group": "ReducedAilmentDuration",
+    "tags": [
+      "physical",
+      "ailment"
+    ],
     "applicableTo": [
-      "belt"
+      "body_armour_str",
+      "body_armour_dex",
+      "body_armour_int",
+      "body_armour_str_dex",
+      "body_armour_str_int",
+      "body_armour_dex_int"
     ],
     "tiers": [
       {
         "tier": 1,
-        "requiredLevel": 81,
-        "weight": 800,
+        "requiredLevel": 76,
+        "weight": 500,
         "values": [
           {
-            "min": 35,
-            "max": 40
+            "min": 56,
+            "max": 60
           }
         ]
       },
       {
         "tier": 2,
-        "requiredLevel": 70,
-        "weight": 800,
+        "requiredLevel": 64,
+        "weight": 500,
         "values": [
           {
-            "min": 29,
-            "max": 34
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 48,
-        "weight": 800,
-        "values": [
-          {
-            "min": 23,
-            "max": 28
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 32,
-        "weight": 800,
-        "values": [
-          {
-            "min": 17,
-            "max": 22
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 16,
-        "weight": 800,
-        "values": [
-          {
-            "min": 11,
-            "max": 16
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 2,
-        "weight": 800,
-        "values": [
-          {
-            "min": 5,
-            "max": 10
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "of_nourishing_beltflaskchargesused",
-    "name": "of Nourishing",
-    "displayName": "(#)% reduced Flask Charges used",
-    "type": "suffix",
-    "domain": "item",
-    "group": "BeltFlaskChargesUsed",
-    "tags": [],
-    "applicableTo": [
-      "belt"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 81,
-        "weight": 800,
-        "values": [
-          {
-            "min": 23,
-            "max": 25
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 72,
-        "weight": 800,
-        "values": [
-          {
-            "min": 20,
-            "max": 22
+            "min": 51,
+            "max": 55
           }
         ]
       },
       {
         "tier": 3,
         "requiredLevel": 50,
-        "weight": 800,
+        "weight": 500,
         "values": [
           {
-            "min": 17,
-            "max": 19
+            "min": 46,
+            "max": 50
           }
         ]
       },
       {
         "tier": 4,
-        "requiredLevel": 33,
-        "weight": 800,
+        "requiredLevel": 37,
+        "weight": 500,
         "values": [
           {
-            "min": 14,
-            "max": 16
+            "min": 41,
+            "max": 45
           }
         ]
       },
       {
         "tier": 5,
-        "requiredLevel": 18,
-        "weight": 800,
+        "requiredLevel": 21,
+        "weight": 500,
         "values": [
           {
-            "min": 11,
-            "max": 13
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 3,
-        "weight": 800,
-        "values": [
-          {
-            "min": 8,
-            "max": 10
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "of_abundance_beltcharmchargesgained",
-    "name": "of Abundance",
-    "displayName": "(#)% increased Charm Charges gained",
-    "type": "suffix",
-    "domain": "item",
-    "group": "BeltCharmChargesGained",
-    "tags": [],
-    "applicableTo": [
-      "belt"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 81,
-        "weight": 800,
-        "values": [
-          {
-            "min": 35,
+            "min": 36,
             "max": 40
           }
         ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 70,
-        "weight": 800,
-        "values": [
-          {
-            "min": 29,
-            "max": 34
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 48,
-        "weight": 800,
-        "values": [
-          {
-            "min": 23,
-            "max": 28
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 32,
-        "weight": 800,
-        "values": [
-          {
-            "min": 17,
-            "max": 22
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 16,
-        "weight": 800,
-        "values": [
-          {
-            "min": 11,
-            "max": 16
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 2,
-        "weight": 800,
-        "values": [
-          {
-            "min": 5,
-            "max": 10
-          }
-        ]
       }
     ]
   },
   {
-    "id": "of_scarcity_beltcharmchargesused",
-    "name": "of Scarcity",
-    "displayName": "(#)% reduced Charm Charges used",
+    "id": "of_the_antidote_reducedailmentduration",
+    "name": "of the Antidote",
+    "displayName": "(#)% reduced Poison Duration on you",
     "type": "suffix",
     "domain": "item",
-    "group": "BeltCharmChargesUsed",
-    "tags": [],
+    "group": "ReducedAilmentDuration",
+    "tags": [
+      "chaos",
+      "ailment"
+    ],
     "applicableTo": [
-      "belt"
+      "body_armour_str",
+      "body_armour_dex",
+      "body_armour_int",
+      "body_armour_str_dex",
+      "body_armour_str_int",
+      "body_armour_dex_int"
     ],
     "tiers": [
       {
         "tier": 1,
-        "requiredLevel": 81,
-        "weight": 800,
+        "requiredLevel": 76,
+        "weight": 500,
         "values": [
           {
-            "min": 23,
-            "max": 25
+            "min": 56,
+            "max": 60
           }
         ]
       },
       {
         "tier": 2,
-        "requiredLevel": 72,
-        "weight": 800,
+        "requiredLevel": 64,
+        "weight": 500,
         "values": [
           {
-            "min": 20,
-            "max": 22
+            "min": 51,
+            "max": 55
           }
         ]
       },
       {
         "tier": 3,
         "requiredLevel": 50,
-        "weight": 800,
+        "weight": 500,
         "values": [
           {
-            "min": 17,
-            "max": 19
+            "min": 46,
+            "max": 50
           }
         ]
       },
       {
         "tier": 4,
-        "requiredLevel": 33,
-        "weight": 800,
+        "requiredLevel": 37,
+        "weight": 500,
         "values": [
           {
-            "min": 14,
-            "max": 16
+            "min": 41,
+            "max": 45
           }
         ]
       },
       {
         "tier": 5,
-        "requiredLevel": 18,
-        "weight": 800,
+        "requiredLevel": 21,
+        "weight": 500,
         "values": [
           {
-            "min": 11,
-            "max": 13
+            "min": 36,
+            "max": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_dousing_reducedailmentduration",
+    "name": "of Dousing",
+    "displayName": "(#)% reduced Ignite Duration on you",
+    "type": "suffix",
+    "domain": "item",
+    "group": "ReducedAilmentDuration",
+    "tags": [
+      "elemental",
+      "fire",
+      "ailment"
+    ],
+    "applicableTo": [
+      "body_armour_str",
+      "body_armour_dex",
+      "body_armour_int",
+      "body_armour_str_dex",
+      "body_armour_str_int",
+      "body_armour_dex_int"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 76,
+        "weight": 500,
+        "values": [
+          {
+            "min": 56,
+            "max": 60
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 64,
+        "weight": 500,
+        "values": [
+          {
+            "min": 51,
+            "max": 55
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 50,
+        "weight": 500,
+        "values": [
+          {
+            "min": 46,
+            "max": 50
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 37,
+        "weight": 500,
+        "values": [
+          {
+            "min": 41,
+            "max": 45
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 21,
+        "weight": 500,
+        "values": [
+          {
+            "min": 36,
+            "max": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_thermokryptance_armourappliestoelementaldamage",
+    "name": "of Thermokryptance",
+    "displayName": "+(#)% of Armour also applies to Elemental Damage",
+    "type": "suffix",
+    "domain": "item",
+    "group": "ArmourAppliesToElementalDamage",
+    "tags": [
+      "defences",
+      "elemental"
+    ],
+    "applicableTo": [
+      "body_armour_str",
+      "body_armour_str_dex",
+      "body_armour_str_int",
+      "helmet_str",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "gloves_str",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "boots_str",
+      "boots_str_dex",
+      "boots_str_int",
+      "shield_str",
+      "shield_str_dex",
+      "shield_str_int"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 44,
+            "max": 50
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 66,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 38,
+            "max": 43
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 48,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 32,
+            "max": 37
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 36,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 26,
+            "max": 31
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 16,
+        "weight": 1000,
+        "values": [
+          {
+            "min": 20,
+            "max": 25
           }
         ]
       },
       {
         "tier": 6,
-        "requiredLevel": 3,
-        "weight": 800,
+        "requiredLevel": 1,
+        "weight": 1000,
         "values": [
           {
-            "min": 8,
-            "max": 10
+            "min": 14,
+            "max": 19
           }
         ]
       }

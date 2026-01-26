@@ -1,0 +1,2824 @@
+[
+  {
+    "id": "of_the_phantom_dexterity",
+    "name": "of the Phantom",
+    "displayName": "+(#) to Dexterity",
+    "type": "suffix",
+    "domain": "item",
+    "group": "Dexterity",
+    "tags": [
+      "attribute"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "spears",
+      "bows",
+      "two_hand_swords",
+      "quarterstaves",
+      "crossbows",
+      "body_armour_dex",
+      "body_armour_str_dex",
+      "body_armour_dex_int",
+      "helmet_dex",
+      "helmet_str_dex",
+      "helmet_dex_int",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "boots_dex",
+      "boots_str_dex",
+      "boots_dex_int",
+      "shield_str_dex",
+      "buckler",
+      "quiver",
+      "amulet",
+      "ring"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 74,
+        "weight": 1,
+        "values": [
+          {
+            "min": 31,
+            "max": 33
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 66,
+        "weight": 1,
+        "values": [
+          {
+            "min": 28,
+            "max": 30
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 55,
+        "weight": 1,
+        "values": [
+          {
+            "min": 25,
+            "max": 27
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 44,
+        "weight": 1,
+        "values": [
+          {
+            "min": 21,
+            "max": 24
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 33,
+        "weight": 1,
+        "values": [
+          {
+            "min": 17,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 22,
+        "weight": 1,
+        "values": [
+          {
+            "min": 13,
+            "max": 16
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 11,
+        "weight": 1,
+        "values": [
+          {
+            "min": 9,
+            "max": 12
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 5,
+            "max": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_the_proficient_localattributerequirements",
+    "name": "of the Proficient",
+    "displayName": "#% reduced Attribute Requirements",
+    "type": "suffix",
+    "domain": "item",
+    "group": "LocalAttributeRequirements",
+    "tags": [],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "wands",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "sceptres",
+      "spears",
+      "flails",
+      "bows",
+      "staves",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows",
+      "body_armour_str",
+      "body_armour_dex",
+      "body_armour_int",
+      "body_armour_str_dex",
+      "body_armour_str_int",
+      "body_armour_dex_int",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "boots_str",
+      "boots_dex",
+      "boots_int",
+      "boots_str_dex",
+      "boots_str_int",
+      "boots_dex_int",
+      "shield_str",
+      "shield_str_dex",
+      "shield_str_int",
+      "buckler",
+      "focus"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 60,
+        "weight": 1,
+        "values": [
+          {
+            "min": 35,
+            "max": 35
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 52,
+        "weight": 1,
+        "values": [
+          {
+            "min": 30,
+            "max": 30
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 40,
+        "weight": 1,
+        "values": [
+          {
+            "min": 25,
+            "max": 25
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 32,
+        "weight": 1,
+        "values": [
+          {
+            "min": 20,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 24,
+        "weight": 1,
+        "values": [
+          {
+            "min": 15,
+            "max": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "flaring_physicaldamage",
+    "name": "Flaring",
+    "displayName": "Adds (#) to (#) Physical Damage",
+    "type": "prefix",
+    "domain": "item",
+    "group": "PhysicalDamage",
+    "tags": [
+      "damage",
+      "physical",
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 75,
+        "weight": 1,
+        "values": [
+          {
+            "min": 26,
+            "max": 39
+          },
+          {
+            "min": 44,
+            "max": 66
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 65,
+        "weight": 1,
+        "values": [
+          {
+            "min": 21,
+            "max": 31
+          },
+          {
+            "min": 36,
+            "max": 53
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 60,
+        "weight": 1,
+        "values": [
+          {
+            "min": 16,
+            "max": 24
+          },
+          {
+            "min": 28,
+            "max": 42
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 54,
+        "weight": 1,
+        "values": [
+          {
+            "min": 13,
+            "max": 20
+          },
+          {
+            "min": 23,
+            "max": 35
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 46,
+        "weight": 1,
+        "values": [
+          {
+            "min": 10,
+            "max": 15
+          },
+          {
+            "min": 18,
+            "max": 26
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 33,
+        "weight": 1,
+        "values": [
+          {
+            "min": 8,
+            "max": 12
+          },
+          {
+            "min": 14,
+            "max": 21
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 16,
+        "weight": 1,
+        "values": [
+          {
+            "min": 6,
+            "max": 9
+          },
+          {
+            "min": 11,
+            "max": 16
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 8,
+        "weight": 1,
+        "values": [
+          {
+            "min": 4,
+            "max": 6
+          },
+          {
+            "min": 7,
+            "max": 11
+          }
+        ]
+      },
+      {
+        "tier": 9,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 1,
+            "max": 2
+          },
+          {
+            "min": 4,
+            "max": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "carbonising_firedamage",
+    "name": "Carbonising",
+    "displayName": "Adds (#) to (#) Fire Damage",
+    "type": "prefix",
+    "domain": "item",
+    "group": "FireDamage",
+    "tags": [
+      "damage",
+      "elemental",
+      "fire",
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 1,
+        "values": [
+          {
+            "min": 88,
+            "max": 101
+          },
+          {
+            "min": 133,
+            "max": 154
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 75,
+        "weight": 1,
+        "values": [
+          {
+            "min": 62,
+            "max": 85
+          },
+          {
+            "min": 101,
+            "max": 129
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 65,
+        "weight": 1,
+        "values": [
+          {
+            "min": 47,
+            "max": 59
+          },
+          {
+            "min": 74,
+            "max": 97
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 60,
+        "weight": 1,
+        "values": [
+          {
+            "min": 35,
+            "max": 44
+          },
+          {
+            "min": 56,
+            "max": 71
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 54,
+        "weight": 1,
+        "values": [
+          {
+            "min": 25,
+            "max": 33
+          },
+          {
+            "min": 38,
+            "max": 54
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 46,
+        "weight": 1,
+        "values": [
+          {
+            "min": 20,
+            "max": 24
+          },
+          {
+            "min": 32,
+            "max": 37
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 33,
+        "weight": 1,
+        "values": [
+          {
+            "min": 13,
+            "max": 19
+          },
+          {
+            "min": 21,
+            "max": 29
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 16,
+        "weight": 1,
+        "values": [
+          {
+            "min": 7,
+            "max": 11
+          },
+          {
+            "min": 13,
+            "max": 19
+          }
+        ]
+      },
+      {
+        "tier": 9,
+        "requiredLevel": 8,
+        "weight": 1,
+        "values": [
+          {
+            "min": 4,
+            "max": 6
+          },
+          {
+            "min": 7,
+            "max": 10
+          }
+        ]
+      },
+      {
+        "tier": 10,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 1,
+            "max": 2
+          },
+          {
+            "min": 3,
+            "max": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "crystalising_colddamage",
+    "name": "Crystalising",
+    "displayName": "Adds (#) to (#) Cold Damage",
+    "type": "prefix",
+    "domain": "item",
+    "group": "ColdDamage",
+    "tags": [
+      "damage",
+      "elemental",
+      "cold",
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 1,
+        "values": [
+          {
+            "min": 72,
+            "max": 81
+          },
+          {
+            "min": 110,
+            "max": 123
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 75,
+        "weight": 1,
+        "values": [
+          {
+            "min": 55,
+            "max": 69
+          },
+          {
+            "min": 83,
+            "max": 106
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 65,
+        "weight": 1,
+        "values": [
+          {
+            "min": 40,
+            "max": 53
+          },
+          {
+            "min": 62,
+            "max": 80
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 60,
+        "weight": 1,
+        "values": [
+          {
+            "min": 31,
+            "max": 38
+          },
+          {
+            "min": 47,
+            "max": 59
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 54,
+        "weight": 1,
+        "values": [
+          {
+            "min": 22,
+            "max": 29
+          },
+          {
+            "min": 34,
+            "max": 44
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 46,
+        "weight": 1,
+        "values": [
+          {
+            "min": 17,
+            "max": 20
+          },
+          {
+            "min": 26,
+            "max": 32
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 33,
+        "weight": 1,
+        "values": [
+          {
+            "min": 11,
+            "max": 15
+          },
+          {
+            "min": 17,
+            "max": 24
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 16,
+        "weight": 1,
+        "values": [
+          {
+            "min": 6,
+            "max": 9
+          },
+          {
+            "min": 10,
+            "max": 16
+          }
+        ]
+      },
+      {
+        "tier": 9,
+        "requiredLevel": 8,
+        "weight": 1,
+        "values": [
+          {
+            "min": 3,
+            "max": 5
+          },
+          {
+            "min": 6,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "tier": 10,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 1,
+            "max": 2
+          },
+          {
+            "min": 3,
+            "max": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "buzzing_lightningdamage",
+    "name": "Buzzing",
+    "displayName": "Adds 1 to (#) Lightning Damage",
+    "type": "prefix",
+    "domain": "item",
+    "group": "LightningDamage",
+    "tags": [
+      "damage",
+      "elemental",
+      "lightning",
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 8,
+        "weight": 1,
+        "values": [
+          {
+            "min": 13,
+            "max": 19
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 4,
+            "max": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vapourising_lightningdamage",
+    "name": "Vapourising",
+    "displayName": "Adds (#) to (#) Lightning Damage",
+    "type": "prefix",
+    "domain": "item",
+    "group": "LightningDamage",
+    "tags": [
+      "damage",
+      "elemental",
+      "lightning",
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 1,
+        "values": [
+          {
+            "min": 1,
+            "max": 12
+          },
+          {
+            "min": 202,
+            "max": 234
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 75,
+        "weight": 1,
+        "values": [
+          {
+            "min": 1,
+            "max": 10
+          },
+          {
+            "min": 157,
+            "max": 196
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 65,
+        "weight": 1,
+        "values": [
+          {
+            "min": 1,
+            "max": 8
+          },
+          {
+            "min": 111,
+            "max": 152
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 60,
+        "weight": 1,
+        "values": [
+          {
+            "min": 1,
+            "max": 6
+          },
+          {
+            "min": 85,
+            "max": 107
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 54,
+        "weight": 1,
+        "values": [
+          {
+            "min": 1,
+            "max": 4
+          },
+          {
+            "min": 63,
+            "max": 82
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 46,
+        "weight": 1,
+        "values": [
+          {
+            "min": 1,
+            "max": 3
+          },
+          {
+            "min": 55,
+            "max": 60
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 33,
+        "weight": 1,
+        "values": [
+          {
+            "min": 1,
+            "max": 2
+          },
+          {
+            "min": 36,
+            "max": 52
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 16,
+        "weight": 1,
+        "values": [
+          {
+            "min": 1,
+            "max": 2
+          },
+          {
+            "min": 20,
+            "max": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "merciless_localphysicaldamagepercent",
+    "name": "Merciless",
+    "displayName": "(#)% increased Physical Damage",
+    "type": "prefix",
+    "domain": "item",
+    "group": "LocalPhysicalDamagePercent",
+    "tags": [
+      "damage",
+      "physical",
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 82,
+        "weight": 1,
+        "values": [
+          {
+            "min": 170,
+            "max": 179
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 75,
+        "weight": 1,
+        "values": [
+          {
+            "min": 155,
+            "max": 169
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 60,
+        "weight": 1,
+        "values": [
+          {
+            "min": 135,
+            "max": 154
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 46,
+        "weight": 1,
+        "values": [
+          {
+            "min": 110,
+            "max": 134
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 33,
+        "weight": 1,
+        "values": [
+          {
+            "min": 85,
+            "max": 109
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 16,
+        "weight": 1,
+        "values": [
+          {
+            "min": 65,
+            "max": 84
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 8,
+        "weight": 1,
+        "values": [
+          {
+            "min": 50,
+            "max": 64
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 40,
+            "max": 49
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dictator_s_localincreasedphysicaldamagepercentandaccuracyrating",
+    "name": "Dictator's",
+    "displayName": "(#)% increased Physical Damage+(#) to Accuracy Rating",
+    "type": "prefix",
+    "domain": "item",
+    "group": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating",
+    "tags": [
+      "damage",
+      "physical",
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 1,
+        "values": [
+          {
+            "min": 75,
+            "max": 79
+          },
+          {
+            "min": 175,
+            "max": 200
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 70,
+        "weight": 1,
+        "values": [
+          {
+            "min": 65,
+            "max": 74
+          },
+          {
+            "min": 150,
+            "max": 174
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 65,
+        "weight": 1,
+        "values": [
+          {
+            "min": 55,
+            "max": 64
+          },
+          {
+            "min": 124,
+            "max": 149
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 54,
+        "weight": 1,
+        "values": [
+          {
+            "min": 45,
+            "max": 54
+          },
+          {
+            "min": 98,
+            "max": 123
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 38,
+        "weight": 1,
+        "values": [
+          {
+            "min": 35,
+            "max": 44
+          },
+          {
+            "min": 73,
+            "max": 97
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 23,
+        "weight": 1,
+        "values": [
+          {
+            "min": 25,
+            "max": 34
+          },
+          {
+            "min": 47,
+            "max": 72
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 11,
+        "weight": 1,
+        "values": [
+          {
+            "min": 20,
+            "max": 24
+          },
+          {
+            "min": 21,
+            "max": 46
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 15,
+            "max": 19
+          },
+          {
+            "min": 16,
+            "max": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_war_increasesocketedgemlevel",
+    "name": "of War",
+    "displayName": "+# to Level of all Melee Skills",
+    "type": "suffix",
+    "domain": "item",
+    "group": "IncreaseSocketedGemLevel",
+    "tags": [
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "amulet"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 1,
+        "values": [
+          {
+            "min": 5,
+            "max": 5
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 55,
+        "weight": 1,
+        "values": [
+          {
+            "min": 4,
+            "max": 4
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 36,
+        "weight": 1,
+        "values": [
+          {
+            "min": 3,
+            "max": 3
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 18,
+        "weight": 1,
+        "values": [
+          {
+            "min": 2,
+            "max": 2
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 2,
+        "weight": 1,
+        "values": [
+          {
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_the_vampire_lifeleech",
+    "name": "of the Vampire",
+    "displayName": "Leeches (#)% of Physical Damage as Life",
+    "type": "suffix",
+    "domain": "item",
+    "group": "LifeLeech",
+    "tags": [
+      "life",
+      "physical",
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 1,
+        "values": [
+          {
+            "min": 9,
+            "max": 9.9
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 68,
+        "weight": 1,
+        "values": [
+          {
+            "min": 8,
+            "max": 8.9
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 54,
+        "weight": 1,
+        "values": [
+          {
+            "min": 7,
+            "max": 7.9
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 38,
+        "weight": 1,
+        "values": [
+          {
+            "min": 6,
+            "max": 6.9
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 21,
+        "weight": 1,
+        "values": [
+          {
+            "min": 5,
+            "max": 5.9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_the_desperate_manaleech",
+    "name": "of the Desperate",
+    "displayName": "Leeches (#)% of Physical Damage as Mana",
+    "type": "suffix",
+    "domain": "item",
+    "group": "ManaLeech",
+    "tags": [
+      "mana",
+      "physical",
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 1,
+        "values": [
+          {
+            "min": 8,
+            "max": 8.9
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 68,
+        "weight": 1,
+        "values": [
+          {
+            "min": 7,
+            "max": 7.9
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 54,
+        "weight": 1,
+        "values": [
+          {
+            "min": 6,
+            "max": 6.9
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 38,
+        "weight": 1,
+        "values": [
+          {
+            "min": 5,
+            "max": 5.9
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 21,
+        "weight": 1,
+        "values": [
+          {
+            "min": 4,
+            "max": 4.9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_legend_lifegainedfromenemydeath",
+    "name": "of Legend",
+    "displayName": "Gain (#) Life per enemy killed",
+    "type": "suffix",
+    "domain": "item",
+    "group": "LifeGainedFromEnemyDeath",
+    "tags": [
+      "life"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "wands",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "staves",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "quiver",
+      "ring"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 77,
+        "weight": 1,
+        "values": [
+          {
+            "min": 69,
+            "max": 84
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 66,
+        "weight": 1,
+        "values": [
+          {
+            "min": 54,
+            "max": 68
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 55,
+        "weight": 1,
+        "values": [
+          {
+            "min": 41,
+            "max": 53
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 44,
+        "weight": 1,
+        "values": [
+          {
+            "min": 29,
+            "max": 40
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 33,
+        "weight": 1,
+        "values": [
+          {
+            "min": 19,
+            "max": 28
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 22,
+        "weight": 1,
+        "values": [
+          {
+            "min": 10,
+            "max": 18
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 11,
+        "weight": 1,
+        "values": [
+          {
+            "min": 7,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 4,
+            "max": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_assimilation_managainedfromenemydeath",
+    "name": "of Assimilation",
+    "displayName": "Gain (#) Mana per enemy killed",
+    "type": "suffix",
+    "domain": "item",
+    "group": "ManaGainedFromEnemyDeath",
+    "tags": [
+      "mana"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "wands",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "staves",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "quiver",
+      "ring"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 78,
+        "weight": 1,
+        "values": [
+          {
+            "min": 36,
+            "max": 45
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 67,
+        "weight": 1,
+        "values": [
+          {
+            "min": 28,
+            "max": 35
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 56,
+        "weight": 1,
+        "values": [
+          {
+            "min": 21,
+            "max": 27
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 45,
+        "weight": 1,
+        "values": [
+          {
+            "min": 15,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 34,
+        "weight": 1,
+        "values": [
+          {
+            "min": 10,
+            "max": 14
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 23,
+        "weight": 1,
+        "values": [
+          {
+            "min": 6,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 12,
+        "weight": 1,
+        "values": [
+          {
+            "min": 4,
+            "max": 5
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 2,
+            "max": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_nourishment_lifegainpertarget",
+    "name": "of Nourishment",
+    "displayName": "Grants # Life per Enemy Hit",
+    "type": "suffix",
+    "domain": "item",
+    "group": "LifeGainPerTarget",
+    "tags": [
+      "life",
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 40,
+        "weight": 1,
+        "values": [
+          {
+            "min": 5,
+            "max": 5
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 30,
+        "weight": 1,
+        "values": [
+          {
+            "min": 4,
+            "max": 4
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 20,
+        "weight": 1,
+        "values": [
+          {
+            "min": 3,
+            "max": 3
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 8,
+        "weight": 1,
+        "values": [
+          {
+            "min": 2,
+            "max": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_celebration_increasedattackspeed",
+    "name": "of Celebration",
+    "displayName": "(#)% increased Attack Speed",
+    "type": "suffix",
+    "domain": "item",
+    "group": "IncreasedAttackSpeed",
+    "tags": [
+      "attack",
+      "speed"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "quiver"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 77,
+        "weight": 1,
+        "values": [
+          {
+            "min": 26,
+            "max": 28
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 60,
+        "weight": 1,
+        "values": [
+          {
+            "min": 23,
+            "max": 25
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 45,
+        "weight": 1,
+        "values": [
+          {
+            "min": 20,
+            "max": 22
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 37,
+        "weight": 1,
+        "values": [
+          {
+            "min": 17,
+            "max": 19
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 30,
+        "weight": 1,
+        "values": [
+          {
+            "min": 14,
+            "max": 16
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 22,
+        "weight": 1,
+        "values": [
+          {
+            "min": 11,
+            "max": 13
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 11,
+        "weight": 1,
+        "values": [
+          {
+            "min": 8,
+            "max": 10
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 5,
+            "max": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "amazon_s_increasedaccuracy",
+    "name": "Amazon's",
+    "displayName": "+(#) to Accuracy Rating",
+    "type": "prefix",
+    "domain": "item",
+    "group": "IncreasedAccuracy",
+    "tags": [
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "quiver",
+      "amulet",
+      "ring"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 76,
+        "weight": 1,
+        "values": [
+          {
+            "min": 451,
+            "max": 550
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 67,
+        "weight": 1,
+        "values": [
+          {
+            "min": 347,
+            "max": 450
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 58,
+        "weight": 1,
+        "values": [
+          {
+            "min": 237,
+            "max": 346
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 48,
+        "weight": 1,
+        "values": [
+          {
+            "min": 168,
+            "max": 236
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 36,
+        "weight": 1,
+        "values": [
+          {
+            "min": 124,
+            "max": 167
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 26,
+        "weight": 1,
+        "values": [
+          {
+            "min": 85,
+            "max": 123
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 18,
+        "weight": 1,
+        "values": [
+          {
+            "min": 61,
+            "max": 84
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 11,
+        "weight": 1,
+        "values": [
+          {
+            "min": 33,
+            "max": 60
+          }
+        ]
+      },
+      {
+        "tier": 9,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 11,
+            "max": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_unmaking_criticalstrikechanceincrease",
+    "name": "of Unmaking",
+    "displayName": "+(#)% to Critical Hit Chance",
+    "type": "suffix",
+    "domain": "item",
+    "group": "CriticalStrikeChanceIncrease",
+    "tags": [
+      "attack",
+      "critical"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 73,
+        "weight": 1,
+        "values": [
+          {
+            "min": 4.41,
+            "max": 5
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 59,
+        "weight": 1,
+        "values": [
+          {
+            "min": 3.81,
+            "max": 4.4
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 44,
+        "weight": 1,
+        "values": [
+          {
+            "min": 3.11,
+            "max": 3.8
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 30,
+        "weight": 1,
+        "values": [
+          {
+            "min": 2.11,
+            "max": 2.7
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 20,
+        "weight": 1,
+        "values": [
+          {
+            "min": 1.51,
+            "max": 2.1
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 1.01,
+            "max": 1.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_destruction_criticalstrikemultiplier",
+    "name": "of Destruction",
+    "displayName": "+(#)% to Critical Damage Bonus",
+    "type": "suffix",
+    "domain": "item",
+    "group": "CriticalStrikeMultiplier",
+    "tags": [
+      "damage",
+      "attack",
+      "critical"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 73,
+        "weight": 1,
+        "values": [
+          {
+            "min": 23,
+            "max": 25
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 59,
+        "weight": 1,
+        "values": [
+          {
+            "min": 20,
+            "max": 22
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 44,
+        "weight": 1,
+        "values": [
+          {
+            "min": 17,
+            "max": 19
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 30,
+        "weight": 1,
+        "values": [
+          {
+            "min": 14,
+            "max": 16
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 21,
+        "weight": 1,
+        "values": [
+          {
+            "min": 12,
+            "max": 13
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 8,
+        "weight": 1,
+        "values": [
+          {
+            "min": 10,
+            "max": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_shining_lightradiusandaccuracy",
+    "name": "of Shining",
+    "displayName": "+(#) to Accuracy Rating5% increased Light Radius",
+    "type": "suffix",
+    "domain": "item",
+    "group": "LightRadiusAndAccuracy",
+    "tags": [
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 8,
+        "weight": 1,
+        "values": [
+          {
+            "min": 10,
+            "max": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_light_lightradiusandaccuracy",
+    "name": "of Light",
+    "displayName": "+(#) to Accuracy Rating10% increased Light Radius",
+    "type": "suffix",
+    "domain": "item",
+    "group": "LightRadiusAndAccuracy",
+    "tags": [
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 15,
+        "weight": 1,
+        "values": [
+          {
+            "min": 21,
+            "max": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_radiance_lightradiusandaccuracy",
+    "name": "of Radiance",
+    "displayName": "+(#) to Accuracy Rating15% increased Light Radius",
+    "type": "suffix",
+    "domain": "item",
+    "group": "LightRadiusAndAccuracy",
+    "tags": [
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 30,
+        "weight": 1,
+        "values": [
+          {
+            "min": 41,
+            "max": 60
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_the_concussion_stundurationincreasepercent",
+    "name": "of the Concussion",
+    "displayName": "(#)% increased Stun Duration",
+    "type": "suffix",
+    "domain": "item",
+    "group": "StunDurationIncreasePercent",
+    "tags": [],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 71,
+        "weight": 1,
+        "values": [
+          {
+            "min": 27,
+            "max": 30
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 58,
+        "weight": 1,
+        "values": [
+          {
+            "min": 23,
+            "max": 26
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 44,
+        "weight": 1,
+        "values": [
+          {
+            "min": 20,
+            "max": 22
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 30,
+        "weight": 1,
+        "values": [
+          {
+            "min": 17,
+            "max": 19
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 18,
+        "weight": 1,
+        "values": [
+          {
+            "min": 14,
+            "max": 16
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 5,
+        "weight": 1,
+        "values": [
+          {
+            "min": 11,
+            "max": 13
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_the_champion_stundamageincrease",
+    "name": "of the Champion",
+    "displayName": "Causes (#)% increased Stun Buildup",
+    "type": "suffix",
+    "domain": "item",
+    "group": "StunDamageIncrease",
+    "tags": [],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 74,
+        "weight": 1,
+        "values": [
+          {
+            "min": 71,
+            "max": 80
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 58,
+        "weight": 1,
+        "values": [
+          {
+            "min": 61,
+            "max": 70
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 44,
+        "weight": 1,
+        "values": [
+          {
+            "min": 51,
+            "max": 60
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 30,
+        "weight": 1,
+        "values": [
+          {
+            "min": 41,
+            "max": 50
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 20,
+        "weight": 1,
+        "values": [
+          {
+            "min": 31,
+            "max": 40
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 5,
+        "weight": 1,
+        "values": [
+          {
+            "min": 21,
+            "max": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "devastating_increasedweaponelementaldamagepercent",
+    "name": "Devastating",
+    "displayName": "(#)% increased Elemental Damage with Attacks",
+    "type": "prefix",
+    "domain": "item",
+    "group": "IncreasedWeaponElementalDamagePercent",
+    "tags": [
+      "damage",
+      "elemental",
+      "attack"
+    ],
+    "applicableTo": [
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 81,
+        "weight": 1,
+        "values": [
+          {
+            "min": 87,
+            "max": 100
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 60,
+        "weight": 1,
+        "values": [
+          {
+            "min": 73,
+            "max": 86
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 46,
+        "weight": 1,
+        "values": [
+          {
+            "min": 63,
+            "max": 72
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 33,
+        "weight": 1,
+        "values": [
+          {
+            "min": 53,
+            "max": 62
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 16,
+        "weight": 1,
+        "values": [
+          {
+            "min": 36,
+            "max": 52
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 4,
+        "weight": 1,
+        "values": [
+          {
+            "min": 19,
+            "max": 35
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "of_the_virtuoso_intelligence",
+    "name": "of the Virtuoso",
+    "displayName": "+(#) to Intelligence",
+    "type": "suffix",
+    "domain": "item",
+    "group": "Intelligence",
+    "tags": [
+      "attribute"
+    ],
+    "applicableTo": [
+      "daggers",
+      "wands",
+      "sceptres",
+      "flails",
+      "staves",
+      "quarterstaves",
+      "body_armour_int",
+      "body_armour_str_int",
+      "body_armour_dex_int",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "gloves_int",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "boots_int",
+      "boots_str_int",
+      "boots_dex_int",
+      "shield_str_int",
+      "focus",
+      "amulet",
+      "ring"
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "requiredLevel": 74,
+        "weight": 1,
+        "values": [
+          {
+            "min": 31,
+            "max": 33
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "requiredLevel": 66,
+        "weight": 1,
+        "values": [
+          {
+            "min": 28,
+            "max": 30
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "requiredLevel": 55,
+        "weight": 1,
+        "values": [
+          {
+            "min": 25,
+            "max": 27
+          }
+        ]
+      },
+      {
+        "tier": 4,
+        "requiredLevel": 44,
+        "weight": 1,
+        "values": [
+          {
+            "min": 21,
+            "max": 24
+          }
+        ]
+      },
+      {
+        "tier": 5,
+        "requiredLevel": 33,
+        "weight": 1,
+        "values": [
+          {
+            "min": 17,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "tier": 6,
+        "requiredLevel": 22,
+        "weight": 1,
+        "values": [
+          {
+            "min": 13,
+            "max": 16
+          }
+        ]
+      },
+      {
+        "tier": 7,
+        "requiredLevel": 11,
+        "weight": 1,
+        "values": [
+          {
+            "min": 9,
+            "max": 12
+          }
+        ]
+      },
+      {
+        "tier": 8,
+        "requiredLevel": 1,
+        "weight": 1,
+        "values": [
+          {
+            "min": 5,
+            "max": 8
+          }
+        ]
+      }
+    ]
+  }
+]

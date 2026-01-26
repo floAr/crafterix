@@ -10,13 +10,31 @@
       "attribute"
     ],
     "applicableTo": [
-      "one_hand_weapon",
-      "two_hand_weapon",
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "shield",
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "spears",
+      "bows",
+      "two_hand_swords",
+      "quarterstaves",
+      "crossbows",
+      "body_armour_dex",
+      "body_armour_str_dex",
+      "body_armour_dex_int",
+      "helmet_dex",
+      "helmet_str_dex",
+      "helmet_dex_int",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "boots_dex",
+      "boots_str_dex",
+      "boots_dex_int",
+      "shield_str_dex",
+      "buckler",
       "quiver",
       "amulet",
       "ring"
@@ -121,13 +139,50 @@
     "group": "LocalAttributeRequirements",
     "tags": [],
     "applicableTo": [
-      "one_hand_weapon",
-      "two_hand_weapon",
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "shield",
+      "claws",
+      "daggers",
+      "wands",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "sceptres",
+      "spears",
+      "flails",
+      "bows",
+      "staves",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows",
+      "body_armour_str",
+      "body_armour_dex",
+      "body_armour_int",
+      "body_armour_str_dex",
+      "body_armour_str_int",
+      "body_armour_dex_int",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "boots_str",
+      "boots_dex",
+      "boots_int",
+      "boots_str_dex",
+      "boots_str_int",
+      "boots_dex_int",
+      "shield_str",
+      "shield_str_dex",
+      "shield_str_int",
+      "buckler",
       "focus"
     ],
     "tiers": [
@@ -199,9 +254,23 @@
       "attack"
     ],
     "applicableTo": [
-      "one_hand_weapon",
-      "two_hand_weapon",
-      "gloves",
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
       "amulet"
     ],
     "tiers": [
@@ -273,9 +342,27 @@
       "life"
     ],
     "applicableTo": [
-      "one_hand_weapon",
-      "two_hand_weapon",
-      "gloves",
+      "claws",
+      "daggers",
+      "wands",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "staves",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
       "quiver",
       "ring"
     ],
@@ -381,9 +468,27 @@
       "mana"
     ],
     "applicableTo": [
-      "one_hand_weapon",
-      "two_hand_weapon",
-      "gloves",
+      "claws",
+      "daggers",
+      "wands",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "staves",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
       "quiver",
       "ring"
     ],
@@ -490,9 +595,25 @@
       "speed"
     ],
     "applicableTo": [
-      "one_hand_weapon",
-      "two_hand_weapon",
-      "gloves",
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
       "quiver"
     ],
     "tiers": [
@@ -597,10 +718,31 @@
       "attack"
     ],
     "applicableTo": [
-      "one_hand_weapon",
-      "two_hand_weapon",
-      "helmet",
-      "gloves",
+      "claws",
+      "daggers",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "spears",
+      "flails",
+      "bows",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "quarterstaves",
+      "crossbows",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
       "quiver",
       "amulet",
       "ring"
@@ -718,13 +860,28 @@
       "attribute"
     ],
     "applicableTo": [
-      "one_hand_weapon",
-      "two_hand_weapon",
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "shield",
+      "daggers",
+      "wands",
+      "sceptres",
+      "flails",
+      "staves",
+      "quarterstaves",
+      "body_armour_int",
+      "body_armour_str_int",
+      "body_armour_dex_int",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "gloves_int",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "boots_int",
+      "boots_str_int",
+      "boots_dex_int",
+      "shield_str_int",
       "focus",
       "amulet",
       "ring"
@@ -831,11 +988,27 @@
       "mana"
     ],
     "applicableTo": [
-      "one_hand_weapon",
-      "two_hand_weapon",
-      "helmet",
-      "gloves",
-      "boots",
+      "wands",
+      "sceptres",
+      "staves",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "boots_str",
+      "boots_dex",
+      "boots_int",
+      "boots_str_dex",
+      "boots_str_int",
+      "boots_dex_int",
       "focus",
       "amulet",
       "ring",
@@ -976,13 +1149,31 @@
       "attribute"
     ],
     "applicableTo": [
-      "one_hand_weapon",
-      "two_hand_weapon",
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "shield",
+      "one_hand_swords",
+      "one_hand_axes",
+      "one_hand_maces",
+      "sceptres",
+      "spears",
+      "flails",
+      "two_hand_swords",
+      "two_hand_axes",
+      "two_hand_maces",
+      "crossbows",
+      "body_armour_str",
+      "body_armour_str_dex",
+      "body_armour_str_int",
+      "helmet_str",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "gloves_str",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "boots_str",
+      "boots_str_dex",
+      "boots_str_int",
+      "shield_str",
+      "shield_str_dex",
+      "shield_str_int",
       "amulet",
       "ring",
       "belt"
@@ -1091,11 +1282,34 @@
       "resistance"
     ],
     "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "shield",
+      "body_armour_str",
+      "body_armour_dex",
+      "body_armour_int",
+      "body_armour_str_dex",
+      "body_armour_str_int",
+      "body_armour_dex_int",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "boots_str",
+      "boots_dex",
+      "boots_int",
+      "boots_str_dex",
+      "boots_str_int",
+      "boots_dex_int",
+      "shield_str",
+      "shield_str_dex",
+      "shield_str_int",
+      "buckler",
       "focus",
       "amulet",
       "ring",
@@ -1205,11 +1419,34 @@
       "resistance"
     ],
     "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "shield",
+      "body_armour_str",
+      "body_armour_dex",
+      "body_armour_int",
+      "body_armour_str_dex",
+      "body_armour_str_int",
+      "body_armour_dex_int",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "boots_str",
+      "boots_dex",
+      "boots_int",
+      "boots_str_dex",
+      "boots_str_int",
+      "boots_dex_int",
+      "shield_str",
+      "shield_str_dex",
+      "shield_str_int",
+      "buckler",
       "focus",
       "amulet",
       "ring",
@@ -1319,11 +1556,34 @@
       "resistance"
     ],
     "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "shield",
+      "body_armour_str",
+      "body_armour_dex",
+      "body_armour_int",
+      "body_armour_str_dex",
+      "body_armour_str_int",
+      "body_armour_dex_int",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "boots_str",
+      "boots_dex",
+      "boots_int",
+      "boots_str_dex",
+      "boots_str_int",
+      "boots_dex_int",
+      "shield_str",
+      "shield_str_dex",
+      "shield_str_int",
+      "buckler",
       "focus",
       "amulet",
       "ring",
@@ -1432,11 +1692,34 @@
       "resistance"
     ],
     "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "shield",
+      "body_armour_str",
+      "body_armour_dex",
+      "body_armour_int",
+      "body_armour_str_dex",
+      "body_armour_str_int",
+      "body_armour_dex_int",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "boots_str",
+      "boots_dex",
+      "boots_int",
+      "boots_str_dex",
+      "boots_str_int",
+      "boots_dex_int",
+      "shield_str",
+      "shield_str_dex",
+      "shield_str_int",
+      "buckler",
       "focus",
       "amulet",
       "ring",
@@ -1522,11 +1805,34 @@
       "life"
     ],
     "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "shield",
+      "body_armour_str",
+      "body_armour_dex",
+      "body_armour_int",
+      "body_armour_str_dex",
+      "body_armour_str_int",
+      "body_armour_dex_int",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "boots_str",
+      "boots_dex",
+      "boots_int",
+      "boots_str_dex",
+      "boots_str_int",
+      "boots_dex_int",
+      "shield_str",
+      "shield_str_dex",
+      "shield_str_int",
+      "buckler",
       "amulet",
       "ring",
       "belt"
@@ -1678,364 +1984,6 @@
     ]
   },
   {
-    "id": "impervious_baselocaldefences",
-    "name": "Impervious",
-    "displayName": "+(#) to Armour",
-    "type": "prefix",
-    "domain": "item",
-    "group": "BaseLocalDefences",
-    "tags": [
-      "defences"
-    ],
-    "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "shield"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 79,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 257,
-            "max": 276
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 75,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 226,
-            "max": 256
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 65,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 203,
-            "max": 225
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 60,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 161,
-            "max": 202
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 54,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 123,
-            "max": 160
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 46,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 103,
-            "max": 122
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 33,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 83,
-            "max": 102
-          }
-        ]
-      },
-      {
-        "tier": 8,
-        "requiredLevel": 25,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 69,
-            "max": 82
-          }
-        ]
-      },
-      {
-        "tier": 9,
-        "requiredLevel": 16,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 51,
-            "max": 68
-          }
-        ]
-      },
-      {
-        "tier": 10,
-        "requiredLevel": 8,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 28,
-            "max": 50
-          }
-        ]
-      },
-      {
-        "tier": 11,
-        "requiredLevel": 1,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 16,
-            "max": 27
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "impenetrable_defencespercent",
-    "name": "Impenetrable",
-    "displayName": "(#)% increased Armour",
-    "type": "prefix",
-    "domain": "item",
-    "group": "DefencesPercent",
-    "tags": [
-      "defences"
-    ],
-    "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "shield"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 75,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 101,
-            "max": 110
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 65,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 92,
-            "max": 100
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 60,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 80,
-            "max": 91
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 54,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 68,
-            "max": 79
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 46,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 56,
-            "max": 67
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 35,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 43,
-            "max": 55
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 16,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 27,
-            "max": 42
-          }
-        ]
-      },
-      {
-        "tier": 8,
-        "requiredLevel": 2,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 15,
-            "max": 26
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "crocodile_s_baselocaldefencesandlife",
-    "name": "Crocodile's",
-    "displayName": "(#)% increased Armour+(#) to maximum Life",
-    "type": "prefix",
-    "domain": "item",
-    "group": "BaseLocalDefencesAndLife",
-    "tags": [
-      "life",
-      "defences"
-    ],
-    "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 78,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 39,
-            "max": 42
-          },
-          {
-            "min": 42,
-            "max": 49
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 60,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 33,
-            "max": 38
-          },
-          {
-            "min": 33,
-            "max": 41
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 46,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 27,
-            "max": 32
-          },
-          {
-            "min": 26,
-            "max": 32
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 33,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 21,
-            "max": 26
-          },
-          {
-            "min": 20,
-            "max": 25
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 16,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 14,
-            "max": 20
-          },
-          {
-            "min": 11,
-            "max": 19
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 8,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 6,
-            "max": 13
-          },
-          {
-            "min": 7,
-            "max": 10
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "of_thermokryptance_armourappliestoelementaldamage",
     "name": "of Thermokryptance",
     "displayName": "+(#)% of Armour also applies to Elemental Damage",
@@ -2047,11 +1995,21 @@
       "elemental"
     ],
     "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "shield"
+      "body_armour_str",
+      "body_armour_str_dex",
+      "body_armour_str_int",
+      "helmet_str",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "gloves_str",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "boots_str",
+      "boots_str_dex",
+      "boots_str_int",
+      "shield_str",
+      "shield_str_dex",
+      "shield_str_int"
     ],
     "tiers": [
       {
@@ -2123,1165 +2081,6 @@
     ]
   },
   {
-    "id": "fugitive_baselocaldefences",
-    "name": "Fugitive",
-    "displayName": "+(#) to Evasion Rating",
-    "type": "prefix",
-    "domain": "item",
-    "group": "BaseLocalDefences",
-    "tags": [
-      "defences"
-    ],
-    "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "shield"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 79,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 233,
-            "max": 251
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 75,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 205,
-            "max": 232
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 65,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 182,
-            "max": 204
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 60,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 143,
-            "max": 181
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 54,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 108,
-            "max": 142
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 46,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 89,
-            "max": 107
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 33,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 71,
-            "max": 88
-          }
-        ]
-      },
-      {
-        "tier": 8,
-        "requiredLevel": 25,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 57,
-            "max": 70
-          }
-        ]
-      },
-      {
-        "tier": 9,
-        "requiredLevel": 16,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 40,
-            "max": 56
-          }
-        ]
-      },
-      {
-        "tier": 10,
-        "requiredLevel": 8,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 19,
-            "max": 39
-          }
-        ]
-      },
-      {
-        "tier": 11,
-        "requiredLevel": 1,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 11,
-            "max": 18
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "illusion_s_defencespercent",
-    "name": "Illusion's",
-    "displayName": "(#)% increased Evasion Rating",
-    "type": "prefix",
-    "domain": "item",
-    "group": "DefencesPercent",
-    "tags": [
-      "defences"
-    ],
-    "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "shield"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 75,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 101,
-            "max": 110
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 65,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 92,
-            "max": 100
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 60,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 80,
-            "max": 91
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 54,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 68,
-            "max": 79
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 46,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 56,
-            "max": 67
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 33,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 43,
-            "max": 55
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 16,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 27,
-            "max": 42
-          }
-        ]
-      },
-      {
-        "tier": 8,
-        "requiredLevel": 2,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 15,
-            "max": 26
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "stag_s_baselocaldefencesandlife",
-    "name": "Stag's",
-    "displayName": "(#)% increased Evasion Rating+(#) to maximum Life",
-    "type": "prefix",
-    "domain": "item",
-    "group": "BaseLocalDefencesAndLife",
-    "tags": [
-      "life",
-      "defences"
-    ],
-    "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 78,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 39,
-            "max": 42
-          },
-          {
-            "min": 42,
-            "max": 49
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 60,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 33,
-            "max": 38
-          },
-          {
-            "min": 33,
-            "max": 41
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 46,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 27,
-            "max": 32
-          },
-          {
-            "min": 26,
-            "max": 32
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 33,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 21,
-            "max": 26
-          },
-          {
-            "min": 20,
-            "max": 25
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 16,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 14,
-            "max": 20
-          },
-          {
-            "min": 11,
-            "max": 19
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 8,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 6,
-            "max": 13
-          },
-          {
-            "min": 7,
-            "max": 10
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "of_warping_evasionappliestodeflection",
-    "name": "of Warping",
-    "displayName": "Gain Deflection Rating equal to (#)% of Evasion Rating",
-    "type": "suffix",
-    "domain": "item",
-    "group": "EvasionAppliesToDeflection",
-    "tags": [
-      "defences"
-    ],
-    "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "shield"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 81,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 24,
-            "max": 26
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 66,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 21,
-            "max": 23
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 48,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 18,
-            "max": 20
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 36,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 15,
-            "max": 17
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 16,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 12,
-            "max": 14
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 1,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 8,
-            "max": 11
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "resplendent_baselocaldefences",
-    "name": "Resplendent",
-    "displayName": "+(#) to maximum Energy Shield",
-    "type": "prefix",
-    "domain": "item",
-    "group": "BaseLocalDefences",
-    "tags": [
-      "defences"
-    ],
-    "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "focus"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 79,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 91,
-            "max": 96
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 70,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 81,
-            "max": 90
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 65,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 74,
-            "max": 80
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 60,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 61,
-            "max": 73
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 54,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 48,
-            "max": 60
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 46,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 42,
-            "max": 47
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 33,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 36,
-            "max": 41
-          }
-        ]
-      },
-      {
-        "tier": 8,
-        "requiredLevel": 25,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 31,
-            "max": 35
-          }
-        ]
-      },
-      {
-        "tier": 9,
-        "requiredLevel": 16,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 25,
-            "max": 30
-          }
-        ]
-      },
-      {
-        "tier": 10,
-        "requiredLevel": 8,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 18,
-            "max": 24
-          }
-        ]
-      },
-      {
-        "tier": 11,
-        "requiredLevel": 1,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 10,
-            "max": 17
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "unfaltering_defencespercent",
-    "name": "Unfaltering",
-    "displayName": "(#)% increased Energy Shield",
-    "type": "prefix",
-    "domain": "item",
-    "group": "DefencesPercent",
-    "tags": [
-      "defences"
-    ],
-    "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "focus"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 75,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 101,
-            "max": 110
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 65,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 92,
-            "max": 100
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 60,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 80,
-            "max": 91
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 54,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 68,
-            "max": 79
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 46,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 56,
-            "max": 67
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 33,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 43,
-            "max": 55
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 16,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 27,
-            "max": 42
-          }
-        ]
-      },
-      {
-        "tier": 8,
-        "requiredLevel": 2,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 15,
-            "max": 26
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "pope_s_baselocaldefencesandlife",
-    "name": "Pope's",
-    "displayName": "(#)% increased Energy Shield+(#) to maximum Life",
-    "type": "prefix",
-    "domain": "item",
-    "group": "BaseLocalDefencesAndLife",
-    "tags": [
-      "life",
-      "defences"
-    ],
-    "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 78,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 39,
-            "max": 42
-          },
-          {
-            "min": 42,
-            "max": 49
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 60,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 33,
-            "max": 38
-          },
-          {
-            "min": 33,
-            "max": 41
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 46,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 27,
-            "max": 32
-          },
-          {
-            "min": 26,
-            "max": 32
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 33,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 21,
-            "max": 26
-          },
-          {
-            "min": 20,
-            "max": 25
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 16,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 14,
-            "max": 20
-          },
-          {
-            "min": 11,
-            "max": 19
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 8,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 6,
-            "max": 13
-          },
-          {
-            "min": 7,
-            "max": 10
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "versatile_baselocaldefences",
-    "name": "Versatile",
-    "displayName": "+(#) to Armour+(#) to Evasion Rating",
-    "type": "prefix",
-    "domain": "item",
-    "group": "BaseLocalDefences",
-    "tags": [
-      "defences"
-    ],
-    "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "shield"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 75,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 118,
-            "max": 138
-          },
-          {
-            "min": 108,
-            "max": 126
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 65,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 99,
-            "max": 117
-          },
-          {
-            "min": 89,
-            "max": 107
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 60,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 79,
-            "max": 98
-          },
-          {
-            "min": 70,
-            "max": 88
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 54,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 66,
-            "max": 78
-          },
-          {
-            "min": 58,
-            "max": 69
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 46,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 54,
-            "max": 65
-          },
-          {
-            "min": 47,
-            "max": 57
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 33,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 36,
-            "max": 53
-          },
-          {
-            "min": 31,
-            "max": 46
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 16,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 15,
-            "max": 35
-          },
-          {
-            "min": 10,
-            "max": 30
-          }
-        ]
-      },
-      {
-        "tier": 8,
-        "requiredLevel": 1,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 8,
-            "max": 14
-          },
-          {
-            "min": 6,
-            "max": 9
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "victor_s_defencespercent",
-    "name": "Victor's",
-    "displayName": "(#)% increased Armour and Evasion",
-    "type": "prefix",
-    "domain": "item",
-    "group": "DefencesPercent",
-    "tags": [
-      "defences"
-    ],
-    "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "shield"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 75,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 101,
-            "max": 110
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 65,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 92,
-            "max": 100
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 60,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 80,
-            "max": 91
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 54,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 68,
-            "max": 79
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 46,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 56,
-            "max": 67
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 33,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 43,
-            "max": 55
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 16,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 27,
-            "max": 42
-          }
-        ]
-      },
-      {
-        "tier": 8,
-        "requiredLevel": 2,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 15,
-            "max": 26
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "predator_s_baselocaldefencesandlife",
-    "name": "Predator's",
-    "displayName": "(#)% increased Armour and Evasion+(#) to maximum Life",
-    "type": "prefix",
-    "domain": "item",
-    "group": "BaseLocalDefencesAndLife",
-    "tags": [
-      "life",
-      "defences"
-    ],
-    "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 78,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 39,
-            "max": 42
-          },
-          {
-            "min": 42,
-            "max": 49
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 60,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 33,
-            "max": 38
-          },
-          {
-            "min": 33,
-            "max": 41
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 46,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 27,
-            "max": 32
-          },
-          {
-            "min": 26,
-            "max": 32
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 33,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 21,
-            "max": 26
-          },
-          {
-            "min": 20,
-            "max": 25
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 16,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 14,
-            "max": 20
-          },
-          {
-            "min": 11,
-            "max": 19
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 8,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 6,
-            "max": 13
-          },
-          {
-            "min": 7,
-            "max": 10
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "godly_baselocaldefences",
     "name": "Godly",
     "displayName": "+(#) to Armour+(#) to maximum Energy Shield",
@@ -3292,11 +2091,11 @@
       "defences"
     ],
     "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "shield"
+      "body_armour_str_int",
+      "helmet_str_int",
+      "gloves_str_int",
+      "boots_str_int",
+      "shield_str_int"
     ],
     "tiers": [
       {
@@ -3432,11 +2231,11 @@
       "defences"
     ],
     "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots",
-      "shield"
+      "body_armour_str_int",
+      "helmet_str_int",
+      "gloves_str_int",
+      "boots_str_int",
+      "shield_str_int"
     ],
     "tiers": [
       {
@@ -3541,364 +2340,9 @@
       "defences"
     ],
     "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 78,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 39,
-            "max": 42
-          },
-          {
-            "min": 42,
-            "max": 49
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 60,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 33,
-            "max": 38
-          },
-          {
-            "min": 33,
-            "max": 41
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 46,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 27,
-            "max": 32
-          },
-          {
-            "min": 26,
-            "max": 32
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 33,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 21,
-            "max": 26
-          },
-          {
-            "min": 20,
-            "max": 25
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 16,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 14,
-            "max": 20
-          },
-          {
-            "min": 11,
-            "max": 19
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 8,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 6,
-            "max": 13
-          },
-          {
-            "min": 7,
-            "max": 10
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "banshee_s_baselocaldefences",
-    "name": "Banshee's",
-    "displayName": "+(#) to Evasion Rating+(#) to maximum Energy Shield",
-    "type": "prefix",
-    "domain": "item",
-    "group": "BaseLocalDefences",
-    "tags": [
-      "defences"
-    ],
-    "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 75,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 108,
-            "max": 126
-          },
-          {
-            "min": 43,
-            "max": 48
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 65,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 89,
-            "max": 107
-          },
-          {
-            "min": 37,
-            "max": 42
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 60,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 70,
-            "max": 88
-          },
-          {
-            "min": 30,
-            "max": 36
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 54,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 58,
-            "max": 69
-          },
-          {
-            "min": 26,
-            "max": 29
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 46,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 47,
-            "max": 57
-          },
-          {
-            "min": 22,
-            "max": 25
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 33,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 31,
-            "max": 46
-          },
-          {
-            "min": 16,
-            "max": 21
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 16,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 10,
-            "max": 30
-          },
-          {
-            "min": 9,
-            "max": 15
-          }
-        ]
-      },
-      {
-        "tier": 8,
-        "requiredLevel": 1,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 6,
-            "max": 9
-          },
-          {
-            "min": 5,
-            "max": 8
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "incorporeal_defencespercent",
-    "name": "Incorporeal",
-    "displayName": "(#)% increased Evasion and Energy Shield",
-    "type": "prefix",
-    "domain": "item",
-    "group": "DefencesPercent",
-    "tags": [
-      "defences"
-    ],
-    "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves",
-      "boots"
-    ],
-    "tiers": [
-      {
-        "tier": 1,
-        "requiredLevel": 75,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 101,
-            "max": 110
-          }
-        ]
-      },
-      {
-        "tier": 2,
-        "requiredLevel": 65,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 92,
-            "max": 100
-          }
-        ]
-      },
-      {
-        "tier": 3,
-        "requiredLevel": 60,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 80,
-            "max": 91
-          }
-        ]
-      },
-      {
-        "tier": 4,
-        "requiredLevel": 54,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 68,
-            "max": 79
-          }
-        ]
-      },
-      {
-        "tier": 5,
-        "requiredLevel": 46,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 56,
-            "max": 67
-          }
-        ]
-      },
-      {
-        "tier": 6,
-        "requiredLevel": 33,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 43,
-            "max": 55
-          }
-        ]
-      },
-      {
-        "tier": 7,
-        "requiredLevel": 16,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 27,
-            "max": 42
-          }
-        ]
-      },
-      {
-        "tier": 8,
-        "requiredLevel": 2,
-        "weight": 1000,
-        "values": [
-          {
-            "min": 15,
-            "max": 26
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "maestro_s_baselocaldefencesandlife",
-    "name": "Maestro's",
-    "displayName": "(#)% increased Evasion and Energy Shield+(#) to maximum Life",
-    "type": "prefix",
-    "domain": "item",
-    "group": "BaseLocalDefencesAndLife",
-    "tags": [
-      "life",
-      "defences"
-    ],
-    "applicableTo": [
-      "body_armour",
-      "helmet",
-      "gloves"
+      "body_armour_str_int",
+      "helmet_str_int",
+      "gloves_str_int"
     ],
     "tiers": [
       {
@@ -4002,9 +2446,24 @@
     "group": "ItemFoundRarityIncrease",
     "tags": [],
     "applicableTo": [
-      "helmet",
-      "gloves",
-      "boots",
+      "helmet_str",
+      "helmet_dex",
+      "helmet_int",
+      "helmet_str_dex",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "boots_str",
+      "boots_dex",
+      "boots_int",
+      "boots_str_dex",
+      "boots_str_int",
+      "boots_dex_int",
       "amulet",
       "ring"
     ],
@@ -4055,10 +2514,16 @@
       "defences"
     ],
     "applicableTo": [
-      "helmet",
-      "gloves",
-      "boots",
-      "shield",
+      "helmet_int",
+      "helmet_str_int",
+      "helmet_dex_int",
+      "gloves_int",
+      "gloves_str_int",
+      "gloves_dex_int",
+      "boots_int",
+      "boots_str_int",
+      "boots_dex_int",
+      "shield_str_int",
       "focus"
     ],
     "tiers": [
@@ -4121,7 +2586,12 @@
       "attack"
     ],
     "applicableTo": [
-      "gloves",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
       "quiver",
       "ring"
     ],
@@ -4152,7 +2622,12 @@
       "attack"
     ],
     "applicableTo": [
-      "gloves",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
       "quiver",
       "ring"
     ],
@@ -4293,7 +2768,12 @@
       "attack"
     ],
     "applicableTo": [
-      "gloves",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
       "quiver",
       "ring"
     ],
@@ -4325,7 +2805,12 @@
       "attack"
     ],
     "applicableTo": [
-      "gloves",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
       "quiver",
       "ring"
     ],
@@ -4466,7 +2951,12 @@
       "attack"
     ],
     "applicableTo": [
-      "gloves",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
       "quiver",
       "ring"
     ],
@@ -4498,7 +2988,12 @@
       "attack"
     ],
     "applicableTo": [
-      "gloves",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
       "quiver",
       "ring"
     ],
@@ -4639,7 +3134,12 @@
       "attack"
     ],
     "applicableTo": [
-      "gloves",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
       "quiver",
       "ring"
     ],
@@ -4715,7 +3215,12 @@
       "attack"
     ],
     "applicableTo": [
-      "gloves",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
       "quiver",
       "ring"
     ],
@@ -4795,7 +3300,12 @@
       "attack"
     ],
     "applicableTo": [
-      "gloves",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
       "ring"
     ],
     "tiers": [
@@ -4869,7 +3379,12 @@
       "attack"
     ],
     "applicableTo": [
-      "gloves",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
       "ring"
     ],
     "tiers": [
@@ -4942,7 +3457,12 @@
       "attack"
     ],
     "applicableTo": [
-      "gloves"
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int"
     ],
     "tiers": [
       {
@@ -5003,7 +3523,12 @@
       "critical"
     ],
     "applicableTo": [
-      "gloves",
+      "gloves_str",
+      "gloves_dex",
+      "gloves_int",
+      "gloves_str_dex",
+      "gloves_str_int",
+      "gloves_dex_int",
       "amulet"
     ],
     "tiers": [
