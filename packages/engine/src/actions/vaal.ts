@@ -9,17 +9,17 @@ export interface VaalActionContext extends ActionContext {
 }
 
 /**
- * Vaal Orb: Corrupts an item with one of 4 outcomes (25% each):
- * 1. No change (just corrupts)
- * 2. Chaos-like reroll (reroll affixes)
- * 3. Add corrupted implicit
- * 4. Extra socket/quality (modeled as no change since we don't track sockets)
- *
- * Simplified to 3 distinct outcomes for the graph:
- * - 50%: No change (corrupts only)
- * - 25%: Reroll affixes
- * - 25%: Add corrupted implicit
+ * Vaal Orb corruption outcomes (PoE2):
+ * - NO_CHANGE_PROB (50%): No effect / extra socket (combined, sockets not tracked)
+ * - REROLL_PROB (25%): Chaos-like reroll of all affixes
+ * - IMPLICIT_PROB (25%): Add corrupted implicit modifier
  */
+const VAAL_PROBABILITIES = {
+  NO_CHANGE: 0.5,
+  REROLL: 0.25,
+  IMPLICIT: 0.25,
+} as const;
+
 export class VaalOrb extends BaseCurrencyAction {
   private readonly corruptedImplicits: CorruptedImplicit[];
 
@@ -38,36 +38,33 @@ export class VaalOrb extends BaseCurrencyAction {
 
     const outcomes: CraftingOutcome[] = [];
 
-    // Outcome 1 & 4 combined: No change / extra socket (50%)
+    // No change / extra socket outcome
     outcomes.push({
       state: state.withCorrupted(),
-      probability: 0.5,
+      probability: VAAL_PROBABILITIES.NO_CHANGE,
     });
 
-    // Outcome 2: Chaos-like reroll (25%)
-    // For rare items, reroll all affixes
-    // For magic items, reroll affixes
-    // For normal items, just corrupt
+    // Reroll affixes outcome
     if (state.rarity !== "normal" && state.prefixCount + state.suffixCount > 0) {
       const rerollOutcomes = this.getRerollOutcomes(state);
       for (const outcome of rerollOutcomes) {
         outcomes.push({
           state: outcome.state,
-          probability: 0.25 * outcome.probability,
+          probability: VAAL_PROBABILITIES.REROLL * outcome.probability,
         });
       }
     } else {
       // No affixes to reroll, same as no change
       outcomes.push({
         state: state.withCorrupted(),
-        probability: 0.25,
+        probability: VAAL_PROBABILITIES.REROLL,
       });
     }
 
-    // Outcome 3: Add corrupted implicit (25%)
+    // Corrupted implicit outcome
     const applicableImplicits = this.getApplicableImplicits(state);
     if (applicableImplicits.length > 0) {
-      const implicitProb = 0.25 / applicableImplicits.length;
+      const implicitProb = VAAL_PROBABILITIES.IMPLICIT / applicableImplicits.length;
       for (const implicit of applicableImplicits) {
         const rolledImplicit = this.rollCorruptedImplicit(implicit);
         outcomes.push({
@@ -79,7 +76,7 @@ export class VaalOrb extends BaseCurrencyAction {
       // No applicable implicits, same as no change
       outcomes.push({
         state: state.withCorrupted(),
-        probability: 0.25,
+        probability: VAAL_PROBABILITIES.IMPLICIT,
       });
     }
 
@@ -91,15 +88,15 @@ export class VaalOrb extends BaseCurrencyAction {
       throw new Error("Cannot apply Vaal: item is already corrupted");
     }
 
-    // Determine which outcome based on random value
-    if (random < 0.5) {
-      // No change / extra socket
+    // Determine outcome based on random value and probability thresholds
+    const noChangeThreshold = VAAL_PROBABILITIES.NO_CHANGE;
+    const rerollThreshold = noChangeThreshold + VAAL_PROBABILITIES.REROLL;
+
+    if (random < noChangeThreshold) {
       return state.withCorrupted();
-    } else if (random < 0.75) {
-      // Reroll affixes
+    } else if (random < rerollThreshold) {
       return this.applyReroll(state);
     } else {
-      // Add corrupted implicit
       return this.applyCorruptedImplicit(state);
     }
   }
@@ -196,6 +193,7 @@ export class VaalOrb extends BaseCurrencyAction {
     }
 
     const cleared = state.clearAffixes();
+    // Magic: 1-2 affixes, Rare: 3-6 affixes (PoE2 reroll rules)
     const numAffixes = state.rarity === "magic" ? Math.floor(Math.random() * 2) + 1 : Math.floor(Math.random() * 4) + 3;
 
     let newState = cleared;
