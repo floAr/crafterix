@@ -427,7 +427,7 @@ export function useGameData(): GameData;
 - [x] Task 9: Move outcome calculation to engine
 - [x] Task 10: Extract CurrencyButton
 - [x] Task 11: Extract OmenToggle
-- [ ] Task 12: Add engine tests - core
+- [x] Task 12: Add engine tests - core
 - [ ] Task 13: Add engine tests - actions
 - [ ] Task 14: Simplify VaalOrb
 - [ ] Task 15: Create data provider pattern
