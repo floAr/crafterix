@@ -1,5 +1,13 @@
 # 01 — Synthesis (bottom line)
 
+> **Update (network-open session):** the user's actual PoB is decoded and analyzed in
+> `07-user-build-analysis.md`; the staged upgrade plan + shopping thresholds are in
+> `08-staged-plan-and-shopping.md`. Two corrections propagate from primary sources:
+> **(a) Hrimsorrow is 100% phys→cold** (not 50% — conversion is already solved, so Watcher's
+> Eye is a pen pick), and **(b) Phantasmal Might stacks per phantasm scaled by each phantasm's
+> level** — so the "near-quadratic socketed-support double-dip" below is overstated; **phantasm
+> COUNT is the real lever.** Read priority #1 through that lens.
+
 **Chassis (locked by the user):** Scion Reliquarian · Soulwrest (2H) · The Dark Monarch ·
 mid-ES.
 

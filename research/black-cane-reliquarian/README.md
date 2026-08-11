@@ -19,6 +19,8 @@ sustained by **Soulwrest** (corpse-consume → Summon Phantasm) + **The Dark Mon
 | `04-open-questions.md` | Things to verify in PoB 3.29 / once network is unblocked. The next session's to-do list. |
 | `05-research-log.md` | Condensed loop-by-loop findings with sources. |
 | `06-user-build.md` | The user's character links + the local-decode problem, for retrieval next session. |
+| `07-user-build-analysis.md` | **Network-open session.** The decoded PoB analyzed against the framework; the `HANDOVER` step-4 answers; closed open questions. |
+| `08-staged-plan-and-shopping.md` | **Network-open session.** Review of the user's staged upgrade plan (Queen's Hunger + Leash, Guardian's Blessing, phantasm-survival), buy/skip thresholds, and the live-price limitation + workaround. |
 
 ## One-paragraph TL;DR
 

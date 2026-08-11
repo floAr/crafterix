@@ -34,9 +34,17 @@ network-blocked; see sourcing caveat in `README.md`.
 
 - VD is **added-damage-driven** (~150–210% effectiveness of added damage), **not**
   corpse-max-life %. So the flat physical **is added to VD's hit**, then the meta
-  **converts 100% phys→cold** (Hrimsorrow/rare gloves + Watcher's Eye Hatred) and scales
-  cold + Cold Pen + crit. Confirmed: *"~2,976–4,588 added physical to every Volatile Dead
-  ball… converted to cold."* [H/M]
+  **converts 100% phys→cold** (Hrimsorrow alone — see below) and scales cold + Cold Pen +
+  crit. Confirmed: *"~2,976–4,588 added physical to every Volatile Dead ball… converted to
+  cold."* [H/M]
+- **[VERIFIED, network-open session] Best packet vehicle = Volatile Dead of Seething:** poedb
+  gives it **210% effectiveness of added damage** (vs regular VD 170%) plus "orb explosions
+  25% more damage." Effectiveness is the multiplier on the Phantasmal Might flat → Seething is
+  strictly the best flat-packet carrier. Use it over regular VD.
+- **[CORRECTION, verified] Hrimsorrow = 100% phys→cold**, not 50% (poedb `/us/Hrimsorrow`,
+  corroborated by the user's PoB item text). Conversion is fully solved by the gloves alone; a
+  second conversion source is redundant. Watcher's Eye Hatred is therefore a **cold-pen / added
+  cold** pick, not a conversion pick.
 - **Correction:** an earlier audit claimed VD "ignores the flat phys because it's fire" —
   **false.** Added phys applies before conversion; VD is *the* meta precisely because it
   cashes the packet.

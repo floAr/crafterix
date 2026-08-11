@@ -1,5 +1,21 @@
 # HANDOVER — read first
 
+> ## ✅ DONE (network-open session, 2026-08)
+> Network allowlist worked. The user's PoB was fetched (`curl` — WebFetch is Cloudflare-UA
+> blocked) and decoded locally, and primary sources (poedb) confirmed the mechanics.
+> - **`07-user-build-analysis.md`** — the user's real character, mapped to the framework, with
+>   the `HANDOVER` step-4 answers.
+> - **`08-staged-plan-and-shopping.md`** — review of the user's staged plan (Queen's Hunger +
+>   Leash, Guardian's Blessing, phantasm-survival cluster), buy/skip thresholds, prototype math.
+> - Closed open questions **Q1 / Q5 / Q6** in `04`; corrected Hrimsorrow (100%) + added VD of
+>   Seething in `01`/`02`.
+> **Still not doable here:** live trade prices — `cf_clearance` is IP+UA-bound (403 from this
+> IP even with the user's cookies); poe.ninja economy API is 404. Pricing is threshold-based +
+> user-run trade filters (`08`). The character is Plan A already; work is now *upgrades*, not a
+> rebuild. The rest of this file is the original pre-unblock handover, kept for context.
+
+---
+
 ## Where we are
 
 We spent several research loops theorycrafting a **PoE1 3.29 Scion Reliquarian "Black
